@@ -1,0 +1,644 @@
+*{margin:0;padding:0;}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%
+}
+
+ul,ol,li {
+  list-style: none
+}
+
+em,i {
+  font-style: normal
+}
+body{font-family:"Microsoft Yahei",Arial,sans-serif,Arial,STHeiti;}
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  content: "."
+}
+
+.clearfix {
+  display: inline-block
+}
+
+* html .clearfix {
+  height: 1%
+}
+.clearfix {
+  display: block
+}
+body{
+  background-color: #F4F4F4;
+}
+.uhide{display: none;}
+.delay11{ -moz-animation-delay: 1.1s; -webkit-animation-delay: 1.1s;  -o-animation-delay: 1.1s; animation-delay: 1.1s;}
+.delay12{ -moz-animation-delay: 1.2s; -webkit-animation-delay: 1.2s;  -o-animation-delay: 1.2s; animation-delay: 1.2s;}
+.delay13{-moz-animation-delay: 1.3s; -webkit-animation-delay: 1.3s;  -o-animation-delay: 1.3s;  animation-delay: 1.3s;}
+.delay14{-moz-animation-delay: 1.4s; -webkit-animation-delay: 1.4s;  -o-animation-delay: 1.4s;  animation-delay: 1.4s;}
+.delay15{-moz-animation-delay: 1.5s; -webkit-animation-delay: 1.5s;  -o-animation-delay: 1.5s;  animation-delay: 1.5s;}
+.delay16{-moz-animation-delay: 1.6s; -webkit-animation-delay: 1.6s;  -o-animation-delay: 1.6s;  animation-delay: 1.6s;}
+.delay17{-moz-animation-delay: 1.7s; -webkit-animation-delay: 1.7s;  -o-animation-delay: 1.7s;  animation-delay: 1.7s;}
+.delay18{-moz-animation-delay: 1.8s; -webkit-animation-delay: 1.8s;  -o-animation-delay: 1.8s;  animation-delay: 1.8s;}
+.delay19{-moz-animation-delay: 1.9s; -webkit-animation-delay: 1.9s;  -o-animation-delay: 1.9s;  animation-delay: 1.9s;}
+.delay21{-moz-animation-delay: 2.1s; -webkit-animation-delay: 2.1s;  -o-animation-delay: 2.1s;  animation-delay: 2.1s;}
+.delay22{-moz-animation-delay: 2.2s; -webkit-animation-delay: 2.2s;  -o-animation-delay: 2.2s;  animation-delay: 2.2s;}
+.delay23{-moz-animation-delay: 2.3s; -webkit-animation-delay: 2.3s;  -o-animation-delay: 2.3s;  animation-delay: 2.3s;}
+.delay24{-moz-animation-delay: 2.4s; -webkit-animation-delay: 2.4s;  -o-animation-delay: 2.4s;  animation-delay: 2.4s;}
+/*p,span{
+	word-spacing:8px;
+	letter-spacing:2px;	
+}*/
+.logo{background:url(../images/logo.png) no-repeat left center; width:240px; float: left; height: 100px;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#00FFFFFF, endColorStr=#00FFFFFF);}
+a{
+  color:#FFF;
+  text-decoration: none;
+}
+.middle{
+  width:1200px;
+  margin:0 auto;
+}
+body{
+  position: relative;
+}
+header{
+  width:100%;
+  min-width:1200px;
+  height:121px;
+  background-color: #FFF;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 10;
+}
+header>div{
+  position: relative;
+}
+header img{
+  position: absolute;
+  top:31px;left:0;
+}
+header ul{padding: 37px 0 0 400px;}
+header ul li{
+  width:200px;
+  float:left;
+  position: relative;
+  cursor:pointer;
+}
+header ul li.list:after{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 2px;
+  height:46px;
+  content: '';
+  -webkit-transform: scaleY(.6);
+  transform: scaleY(.6);
+  background-color: #444;
+
+}
+header ul input[type="radio"] + li p{
+  color:#666;
+}
+/*header ul input[type="radio"]:checked + li p{
+  color:#FFA000;
+}*/
+header ul li p{
+  text-align: center;
+  color:#666;
+}
+header ul li p.zn{
+  font-size: 20px;
+}
+header ul li p.en{
+  font-size: 14px;
+}
+.banner{
+  width:100%;
+  min-width:1200px;
+  height:510px;
+  background: url('../images/cbd/banner.jpg') center no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 121px;
+}
+.banner .middle{
+  height:100%;
+}
+.banner ul{
+  height: 146px;
+  border:3px solid #F9CA79;
+  background-color: rgba(0,0,0,.35);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+  padding:24px 40px;
+  color:#FFF;
+  position: absolute;
+  top:50%;
+  margin-top: -97px;
+}
+.banner ul li{
+  word-spacing:8px;
+  letter-spacing:2px; 
+}
+.banner ul .name{
+  font-size: 36px;
+}
+.banner ul .address{
+  font-size: 24px;
+  color:#DDD;
+}
+.banner ul .tip{
+  display:inline-block;
+  background-color: #F9CA79;
+  margin-top: 20px;
+  font-size: 24px;
+  position: relative;
+  padding: 5px 24px 5px 58px;
+}
+.banner ul .tip img{
+  position: absolute;
+  top:5px;
+  left:18px;
+  width:30px;
+}
+.room{
+  padding-top: 40px;
+  padding-bottom: 79px;
+}
+.room .peizhi dt div{
+  width:33.3333%;
+  text-align: center;
+  float:left;
+  border-bottom: 1px solid #DDD;
+  color:#999;
+  cursor:pointer;
+}
+.room .peizhi dt div span{
+  display: inline-block;
+  height:60px;
+  line-height: 60px;
+  font-size: 24px;
+  border-bottom: 2px solid #F4F4F4;
+}
+.room .peizhi dt div span i{
+  font-size: 16px;
+  margin-left: 10px;
+}
+.room .peizhi dt div.active span{
+  color:#444;
+  border-bottom: 2px solid #FFA000;
+}
+.room .peizhi dd ul{
+  width:814px;
+  height:458px;
+  float: left;
+  margin-top: 40px;
+  background-color: #FFF;
+  overflow: hidden;
+  position:relative;
+}
+.room .peizhi dd ul.tupian li{
+  -webkit-transition: opacity .5s ease-in;
+  -moz-transition: opacity .5s ease-in;
+  -o-transition: opacity .5s ease-in;
+  transition: opacity .5s ease-in;
+  opacity:0;
+  /*filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);*/
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  display:none\9;
+}
+.room .peizhi dd ul.tupian li .qrcode{
+  position: absolute;
+  right: 150px;
+  top: 50%;
+  margin-top: -80px;
+}
+.room .peizhi dd ul.tupian li.noHide{
+  -webkit-transition: opacity .5s ease-out;
+  -moz-transition: opacity .5s ease-out;
+  -o-transition: opacity .5s ease-out;
+  transition: opacity .5s ease-out;
+  opacity:1!important;
+  /*filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100)!important;*/
+  display:block\9;
+}
+.room .peizhi dd ul.tupian li .lunboTxt{
+  width:734px;
+  position: absolute;
+  bottom:0;
+  left:0;
+  color:#FFF;
+  padding: 20px 30px 20px 50px;
+  background-color: rgba(0,0,0,.5);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7F000000);
+}
+.room .peizhi dd ul.tupian li .lunbo6{
+  //position: relative;
+}
+.room .peizhi dd ul.tupian li .lunbo6 img{
+  position: absolute;
+  top:22px;
+  left:500px;
+}
+.room .peizhi dd ul.tupian li .lunboTxt h3{
+  font-size: 28px;
+  margin-bottom: 20px;
+  word-spacing:8px;
+  letter-spacing:3px; 
+}
+.room .peizhi dd ul.tupian li .lunboTxt p{
+  font-size: 18px;
+  line-height: 26px;
+  word-spacing:8px;
+  letter-spacing:1px; 
+}
+.room .peizhi dd ul.tupian a{
+  position: absolute;
+  top:50%;
+  margin-top: -20px;
+}
+.room .peizhi dd ul.tupian a.leftArrow:focus{
+  outline:none;
+}
+.room .peizhi dd ul.tupian a.leftArrow{
+  left:30px;
+}
+.room .peizhi dd ul.tupian a.leftArrow img{
+  border:0
+}
+.room .peizhi dd ul.tupian a.rightArrow:focus{
+  outline:none;
+}
+.room .peizhi dd ul.tupian a.rightArrow{
+  right:30px;
+}
+.room .peizhi dd ul.tupian a.rightArrow img{
+  border:0;
+}
+.room .peizhi dd ul.tab{
+  width:164px;
+  font-size: 16px;
+  padding:0 111px;
+}
+.room .peizhi dd ul.tab li.cbd{
+  margin-top: 46px;
+}
+.room .peizhi dd ul.tab .icon{
+  width:40px;height:40px;
+  position: absolute;
+  top:10px;
+  left:0;
+}
+.room .peizhi dd ul.tab li{
+  height:60px;
+  line-height: 60px;
+  position: relative;
+  padding-left: 70px;
+  color:#999;
+  cursor: pointer;
+}
+.room .peizhi dd ul.tab li.active{
+  color:#FFA000;
+  border-bottom: 1px solid #FFA000;
+}
+.room .peizhi dd ul.tab li .cbdIcon{background: url('../images/icons.png') 2px 5px no-repeat;}
+.room .peizhi dd ul.tab li.active .cbdIcon{background: url('../images/icons.png') -39px 5px no-repeat;}
+.room .peizhi dd ul.tab li .friend{background: url('../images/icons.png') 2px -38px no-repeat;}
+.room .peizhi dd ul.tab li.active .friend{background: url('../images/icons.png') -39px -38px no-repeat;}
+.room .peizhi dd ul.tab li .sleep{background: url('../images/icons.png') 2px -78px no-repeat;}
+.room .peizhi dd ul.tab li.active .sleep{background: url('../images/icons.png') -39px -78px no-repeat;}
+.room .peizhi dd ul.tab li .weiyu{background: url('../images/icons.png') 2px -118px no-repeat;}
+.room .peizhi dd ul.tab li.active .weiyu{background: url('../images/icons.png') -39px -118px no-repeat;}
+.room .peizhi dd ul.tab li .mensuo{background: url('../images/icons.png') 2px -162px no-repeat;}
+.room .peizhi dd ul.tab li.active .mensuo{background: url('../images/icons.png') -39px -162px no-repeat;}
+.room .peizhi dd ul.tab li .jizhi{background: url('../images/icons.png') 2px -202px no-repeat;}
+.room .peizhi dd ul.tab li.active .jizhi{background: url('../images/icons.png') -39px -202px no-repeat;}
+
+.room .fangxing{
+  margin-top: 40px;
+}
+.room .fangxing dt{
+  position: relative;
+  font-size: 20px;
+  color:#444;
+  padding-left: 10px;
+}
+.room .fangxing dt:before{
+  position: absolute;
+  right: 0;
+  bottom: -2px;
+  left: 0;
+  width: 2px;
+  height:29px;
+  content: '';
+  -webkit-transform: scaleY(.6);
+  transform: scaleY(.6);
+  background-color: #F29700;
+}
+
+.room .fangxing dt span{
+  font-size: 14px;
+  color:#999;
+}
+.room .fangxing dt span i{
+  margin:0 10px;
+}
+.room .fangxing dd ul{
+  margin-top: 20px;
+}
+.room .fangxing dd ul li{
+  width:536px;
+  padding:27px;
+  float:left;
+  background-color: #FFF;
+}
+.room .fangxing dd ul li img{
+  vertical-align: middle;
+  float: left;
+}
+.room .fangxing dd ul li>div{
+  float: left;
+}
+.room .fangxing dd .xq{
+  margin-left: 60px;
+}
+.room .fangxing dd .xq h3{
+  font-size: 24px;
+  color:#666;
+  text-align: left;
+  position: relative;
+}
+.room .fangxing dd .xq .btn{
+  width:132px;
+  height:30px;
+  line-height: 30px;
+  text-align: center;
+  
+  background-color: #FFA000;
+  border-radius: 5px;
+  font-size:16px;
+  margin-top: 5px;
+}
+.room .fangxing dd .xq .btn a{
+  color: #FFF;
+  text-decoration: none;
+}
+/*.room .fangxing dd .room01 h3:after{
+  position: absolute;
+  right: 1px;
+  bottom: -14px;
+  width: 50px;
+  height:6px;
+  content: '';
+  -webkit-transform: scaleY(.6);
+  transform: scaleY(.6);
+  background-color: #FED903;
+}
+.room .fangxing dd .room02 h3:after{
+  position: absolute;
+  right: 1px;
+  bottom: -14px;
+  width: 50px;
+  height:6px;
+  content: '';
+  -webkit-transform: scaleY(.6);
+  transform: scaleY(.6);
+  background-color: #34B496;
+}*/
+.room .fangxing dd .xq p{
+  font-size: 14px;
+  color:#666;
+}
+.room .fangxing dd .xq .price{
+  font-size: 30px;
+  color:#FFA000;
+  margin: 28px 0 10px;
+}
+.room .fangxing dd .xq p{
+  height:23px;
+  line-height: 23px;
+}
+.fuwu{
+  width:100%;
+  min-width:1200px;
+  height:459px;
+  background: url('../images/fuwu.jpg') center no-repeat;
+  background-size: cover;
+  padding-top: 41px;
+  color:#FFF;
+}
+.fuwu dl dt{
+  position: relative;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.fuwu dl dt:before{
+  position: absolute;
+  right: 0;
+  bottom: -2px;
+  left: 0;
+  width: 2px;
+  height:29px;
+  content: '';
+  -webkit-transform: scaleY(.6);
+  transform: scaleY(.6);
+  background-color: #F29700;
+}
+.fuwu dl dt span{
+  font-size: 14px;
+}
+.fuwu dl dt span i{
+  margin:10px;
+}
+.fuwu dl dd ul{
+  margin-top: 110px;
+}
+.fuwu dl dd ul li{
+  width:125px;
+  float: left;
+  text-align: center;
+  margin:0 37px;
+}
+.fuwu dl dd ul li p{
+  font-size: 24px;
+  margin-top: 5px;
+}
+.activity{
+  margin-top: 71px;
+}
+.activity dl dt{
+  position: relative;
+  font-size: 20px;
+  color:#444;
+  padding-left: 10px;
+}
+.activity dl dt:before{
+  position: absolute;
+  right: 0;
+  bottom: -2px;
+  left: 0;
+  width: 2px;
+  height:29px;
+  content: '';
+  -webkit-transform: scaleY(.6);
+  transform: scaleY(.6);
+  background-color: #F29700;
+}
+.activity dl dt span{
+  font-size: 14px;
+  color:#999;
+}
+.activity dl dt span i{
+  margin:10px;
+}
+.activity dl dd ul{
+  margin-top: 20px;
+}
+.activity dl dd ul li{
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+.activity dl dd ul li.left{
+  margin-right: 14px;
+}
+.activity dl dd ul li .shougongBlock,.activity dl dd ul li .dushuBlock{
+  position: relative;
+  overflow: hidden;
+}
+.activity dl dd ul li .dushuBlock{
+  margin-top: 15px;
+}
+.activity dl dd ul li .zhezhao{
+  color:#FFF;
+  text-align: center;
+  position: absolute;
+  left:0;
+  background-color: rgba(249,202,121,.8);
+  -webkit-transition:all .5s linear 0s;
+  -moz-transition:all .5s linear 0s;
+  -o-transition:all .5s linear 0s;
+  transition:all .5s linear 0s;
+  cursor:pointer;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#C8f9ca7a, endColorStr=#C8f9ca7a);
+}
+.activity dl dd ul li .hua{
+  width:798px;
+  height:521px;
+  /*line-height: 521px;*/
+  font-size: 36px;
+  top:521px;
+  
+}
+.activity dl dd ul li .shougong{
+  width:388px;
+  height:253px;
+  line-height: 253px;
+  top:253px;
+}
+.activity dl dd ul li .dushu{
+  width:388px;
+  height:253px;
+  line-height: 253px;
+  top:253px;
+}
+.activity dl dd ul li>div:hover .hua{
+  top:0;
+}
+.activity dl dd ul li>div:hover .shougong{
+  top:0;
+}
+.activity dl dd ul li>div:hover .dushu{
+  top:0;
+}
+.activity dl dd ul li .huaBg{
+  width:798px;
+  height:521px;
+  background: url('../images/activity1.jpg?20170419') center no-repeat;
+  background-size: cover;
+}
+.activity dl dd ul li .shougongBg{
+  width:388px;
+  height:253px;
+  background: url('../images/activity2.jpg') center no-repeat;
+  background-size: cover;
+}
+.activity dl dd ul li .dushuBg{
+  width:388px;
+  height:253px;
+  background: url('../images/activity3.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.foot{
+  width:100%;
+  min-width:1200px;
+  background-color: #FFF;
+  margin-top: 82px;
+}
+.foot .contact{
+  padding-top: 113px; 
+  padding-bottom: 93px;
+  position: relative;
+}
+.foot .contact h3{
+  font-size: 18px;
+  color:#444;
+}
+.foot .contact p{
+  height:28px;
+  line-height: 28px;
+  font-size: 14px;
+  color:#999;
+}
+.foot .contact p.p1{
+  margin-top: 20px;
+}
+.foot .qrcodeApp,.foot .qrcodeWechat,.foot .qrcodeWeibo{
+  width:120px;
+  position: absolute;
+  text-align: center;
+}
+.foot .qrcodeApp{
+  top:75px;
+  right:300px;
+}
+.foot .qrcodeWechat{
+  top:75px;
+  right:150px;
+}
+.foot .qrcodeWeibo{
+  top:75px;
+  right:0;
+}
+.foot .qrcodeApp img,.foot .qrcodeWechat img,.foot .qrcodeWeibo img{
+  width:120px;
+}
+.foot .qrcodeApp p,.foot .qrcodeWechat p,.foot .qrcodeWeibo p{
+  font-size: 14px;
+  color:#666;
+}
+.zhuanti{
+  height:600px;
+  background-color: #FFF;
+}
+
+
+
+
+
+
+
+

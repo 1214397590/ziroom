@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* 登陆弹框begin */
+/*.tt_tanbox{ position:fixed;_position:absolute; width:450px; min-height:290px;background:#ccc;opacity: 0.6; filter: "alpha(opacity=60)"; filter: alpha(opacity=60); zoom: 1; z-index:100; display:none;}
+*/.tt_tanbox{display:none;}
+.tt_tanboxin{ position:fixed;_position:absolute; width:430px; min-height:270px; background:#fff;z-index:101; display:none; border:solid 5px #ccc;  padding:5px;}
+.tt_tanboxin_h{ height:36px; background:#ff6600 url(t_myfix01-1.png)/*tpa=http://www.ziroom.com/static/v2.0/images/login/t_myfix01-1.png*/ 0px 0px no-repeat; position:relative;}
+.tt_tanboxin_h a{ width:20px; height:36px; position:absolute; right:10px; top:0px; display:block;}
+.tt_tanboxin_c{ text-align:center }
+.tt_tanboxin_c p{ color:#b26b3b; line-height:50px; text-align:center; font-size:14px;} 
+
+.t_myzhezhao{ position:absolute; left:0px; top:0px; width:100%; height:100%; background:#333;opacity: 0.4; filter: "alpha(opacity=40)"; filter: alpha(opacity=40); zoom: 1; z-index:99; display:none; }
+.tt_tanboxin .mac{ margin:0px auto;}
+.tt_tanboxin .pt10{ padding-top:10px;}
+.tt_tanboxin .pt20{ padding-top:20px;}
+.tt_tanboxin .mt55{ margin-top:7px; margin-bottom:20px;}
+.tt_tanboxin .tl{ text-align:left; padding-top:10px;}
+.tt_tanboxin .text{ border:1px solid #ccc; height:34px; line-height:34px; width:240px;}
+.tt_tanboxin .fs14{ font-size:14px;}
+.tt_tanboxin .lh30{ line-height:23px;}
+.tt_tanboxin .c777{ color:#777;}
+.tt_tanboxin .frr{ float:right;font-size: 12px;}
+.tt_tanboxin .frr a{ color:#0099cc; text-decoration:none;} 
+.tt_tanboxin .t_mybtn01{ width:107px; height:40px; background:url(t_myfix01-1.png)/*tpa=http://www.ziroom.com/static/v2.0/images/login/t_myfix01-1.png*/ 0px -190px no-repeat; cursor:pointer; border:none;}
+.tt_tanboxin .t_mybtn02{ width:110px; height:35px; background:url(t_myfix01-1.png)/*tpa=http://www.ziroom.com/static/v2.0/images/login/t_myfix01-1.png*/ 0px -112px no-repeat; cursor:pointer;}
+.tt_tanboxin .t_mybtn03{ width:200px; height:35px;background:url(t_myfix01-1.png)/*tpa=http://www.ziroom.com/static/v2.0/images/login/t_myfix01-1.png*/ 0px -42px no-repeat; cursor:pointer;}
+.tt_tanboxin .t_mybtn04{ width:107px; height:40px;background:url(t_myfix01-1.png)/*tpa=http://www.ziroom.com/static/v2.0/images/login/t_myfix01-1.png*/ -133px -190px no-repeat; cursor:pointer; display:block; text-indent:-999999px;}
+.tt_tanboxin .t_mybtn01:hover,.tt_tanboxin .t_mybtn02:hover,.tt_tanboxin .t_mybtn03:hover,.tt_tanboxin .t_mybtn04:hover{opacity: 0.8; filter: "alpha(opacity=80)"; filter: alpha(opacity=80);}
+
+#captcha_img{ position: absolute;right: 4px;top: 4px;}
+.yzm{position: relative;}
+.login_lk{ position:absolute; right:10px; bottom:10px; font-size:12px;}
+.login_lk a{ color:#0099cc;text-decoration:none;}
+
+.tt_tanboxin_c .y_box{ position:relative; height:24px;}
+.y_box .tips{background:url(tips.png)/*tpa=http://www.ziroom.com/static/v2.0/images/login/tips.png*/ no-repeat scroll right -26px transparent;display: none;position: absolute;right: 0;top: -7px;}
+.y_box .tips em{background:url(tips.png)/*tpa=http://www.ziroom.com/static/v2.0/images/login/tips.png*/ no-repeat scroll 0 0 transparent;color: #0099CC;display: block;font-size: 12px;height: 26px;line-height: 26px;padding: 0 10px 0 25px; font-style:normal}
+.y_box .tips i{background:url(tips.png)/*tpa=http://www.ziroom.com/static/v2.0/images/login/tips.png*/ no-repeat 0px -52px;width: 9px;height: 5px;
+position: absolute;margin-left: 50%;left: -5px;top: 25px;}
+.login_btn_load{background:url(t_myfix01-1.png)/*tpa=http://www.ziroom.com/static/v2.0/images/login/t_myfix01-1.png*/ 0px -230px no-repeat; width:107px; cursor:wait;height: 40px;display: none;}
+/* 登陆弹框end */
+
+
+
+@media screen and (min-width:320px) and (max-width:640px) {
+
+.tt_tanboxin{width:280px;}
+.tt_tanboxin_h a{ background:url(t_myfix01-1.png)/*tpa=http://www.ziroom.com/static/v2.0/images/login/t_myfix01-1.png*/ no-repeat -397px 0px; width:20px; height:36px;}
+
+}

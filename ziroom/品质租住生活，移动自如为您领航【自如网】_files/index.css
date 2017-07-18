@@ -1,0 +1,100 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+html{background:none repeat scroll 0 0 #fff;color:#000;}
+body,button,input,select,textarea,pre{font-family:"Microsoft Yahei",Arial,sans-serif,Arial,STHeiti;font-size:12px; line-height:150%;}
+ul,ol{list-style:none outside none;}
+li{vertical-align:top;}
+img{vertical-align:top;border:0;}
+html,body,.content{width:100%}
+
+.rel{position: relative;}
+.abs{position: absolute;}
+.fix{position: fixed;}
+
+.banner{height: 820px;}
+.banner .area{position: relative; height: 820px;}
+.banner .area .phones{ position: absolute; left: 40px; top:130px; }
+.banner .area .txt{ position:absolute; right: 0; top: 157px; }
+.banner .area .ews{position:absolute; right: -4px; top: 400px;}
+
+.main{
+	width:100%;background:#fff url(../img/bg.jpg) no-repeat center top; height:1487px;
+}
+.main .area{
+	width:1200px;text-align: center;
+}
+.phone{
+	width:264px;height:547px;background: url("../img/phone/phone_bg_06.png") top center no-repeat;
+	top:80px;left:120px;
+}
+.phone_bor{
+	width:218px;height:388px;top:71px;left:25px;
+	overflow: hidden;
+}
+.phone_img{width:880px;}
+.phone_img li{width:218px;height:388px;float:left;}
+.main_r{
+	width:760px;float:right;
+}
+.part{
+	width:100%;text-align:left;
+	top:50px;left:0;
+}
+.main-t{
+	top:150px;left:0;
+}
+.main_tt{
+	top:230px;left:0;
+}
+.img_list{
+	top:300px;left:0;
+}
+.img_list li{
+	float:left;padding-right:10px;
+}
+.icons{
+	width:150px;height:24px;line-height:24px;
+	top:560px;left:460px;
+	
+}
+.icons li{
+	float:left;margin:5px;cursor:pointer;
+	display: block;width:22px;height:4px; background: #dadada;
+}
+.icons li.current_btn{background:#444;}
+
+.main_r .abs{padding-top: 60px;}
+
+/*for animate*/
+.btn,
+.banner_logo,
+.text01,
+.text02,
+.part1,
+.part2,
+.part3,
+.part0{
+	display: none;
+}
+.index{
+	z-index: 2;
+}
+.move{
+	left:-220px;
+	transition: left 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

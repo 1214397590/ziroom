@@ -1,0 +1,496 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('font_1409294767_1491423.eot')/*tpa=http://at.alicdn.com/t/font_1409294767_1491423.eot*/; /* IE9*/
+  src: url('font_1409294767_1491423.eot-#iefix')/*tpa=http://at.alicdn.com/t/font_1409294767_1491423.eot?#iefix*/ format('embedded-opentype'), /* IE6-IE8 */
+  url('font_1409294767_1491423.woff')/*tpa=http://at.alicdn.com/t/font_1409294767_1491423.woff*/ format('woff'), /* chrome、firefox */
+  url('font_1409294767_1491423.ttf')/*tpa=http://at.alicdn.com/t/font_1409294767_1491423.ttf*/ format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('font_1409294767_1491423.svg#iconfont')/*tpa=http://at.alicdn.com/t/font_1409294767_1491423.svg#iconfont*/ format('svg'); /* iOS 4.1- */
+}
+.iconfont{ font-family: 'iconfont';}
+
+body{font-weight:500; font-family:'Microsoft Yahei';}
+
+.area{width: 1000px;}
+
+.new_tip {position: absolute; right: 3px;top: 10px;}
+.new_tip a {color:#FA804C; text-decoration:underline;}
+
+.t_sercen_banner{margin-top:20px;}
+
+.title{ background:url(title.png)/*tpa=http://www.ziroom.com/static/201401/images/service/title.png*/ no-repeat 0 0; height:50px; line-height:50px; padding:0 20px 0 50px; margin:20px 0;}
+.title h2{float:left; font-size:25px;}
+
+.search_ser{float:right; padding-top:10px;}
+.search_ser .t_text{border:solid 1px #e6e6e6; height:30px; width:270px; padding-left:10px; float:left; *margin-left:428px;}
+.search_ser .t_btn{background:url(orgbtn.png)/*tpa=http://www.ziroom.com/static/201401/images/service/orgbtn.png*/ repeat-x left bottom; color:#fff; height:32px; width:60px; text-align:center; border-radius:3px; margin-left:10px; float:right; line-height:32px;}
+
+.helpTop{background:url(help.jpg)/*tpa=http://www.ziroom.com/static/201401/images/service/help.jpg*/ no-repeat left top; height:116px; width:955px; margin:20px auto;}
+.helpTop li{float:left;width:190px; border-right:solid 1px #fff;}
+.helpTop li a{ display:block; width:190px; height:116px; position:relative; z-index:1; text-align:center; color:#fff;}
+.helpTop li a .bg{position:absolute; z-index:1; opacity:.5; filter:alpha(opacity=50); background:#000; width:100%; height:100%; *left:0;}
+.helpTop li a:hover .bg{opacity:1; filter:alpha(opacity=100);}
+.helpTop li a .txt{position:absolute; z-index:2; width:100%; height:100%; *left:0;}
+.helpTop li a .txt .num{background-image:url(helpicon.png)/*tpa=http://www.ziroom.com/static/201401/images/service/helpicon.png*/; width:35px; height:35px; text-align:center; line-height:35px; font-size:20px; font-family:Arial, Helvetica, sans-serif; margin:15px auto;}
+
+.helpTop li a .txt .cn{font-size:18px; line-height:20px;}
+.helpTop li a .txt .en{font-size:12px; line-height:20px;}
+
+.helpTop li.li1 .num{background-position:0 0;}
+.helpTop li.li2 .num{background-position:-40px 0;}
+.helpTop li.li3 .num{background-position:-80px 0;}
+.helpTop li.li4 .num{background-position:-120px 0;}
+.helpTop li.li5 .num{background-position:-160px 0;}
+
+.helpTop li.li1 a:hover .bg{ background:#bebaf0;}
+.helpTop li.li2 a:hover .bg{ background:#89cef1;}
+.helpTop li.li3 a:hover .bg{ background:#a0cc73;}
+.helpTop li.li4 a:hover .bg{ background:#f6d05a;}
+.helpTop li.li5 a:hover .bg{ background:#fea043;}
+
+.helpTop li a:hover .num{background-position:-200px 0;}
+
+.helpTop li.li1 a:hover .num{ color:#bebaf0;}
+.helpTop li.li2 a:hover .num{ color:#89cef1;}
+.helpTop li.li3 a:hover .num{ color:#a0cc73;}
+.helpTop li.li4 a:hover .num{ color:#f6d05a;}
+.helpTop li.li5 a:hover .num{ color:#fea043;}
+
+
+.helpList{width:955px; margin:20px auto;}
+.helpList li{float:left; width:190px; margin-right:1;}
+.helpList li a{display:block; width:180px;text-overflow:ellipsis; white-space:nowrap; overflow:hidden; height:25px; line-height:25px;}
+
+
+.s_box { padding-left:50px;}
+.s_box .tit{ border-left:solid 5px #FD8145; height:25px; padding-left:10px; font-size:16px; line-height:25px; float:left; margin-top:10px;}
+.s_box .r_box{ float:right; width:820px;}
+
+.s_box_bor{border-bottom:solid 1px #ddd; margin-bottom:20px;}
+
+
+.iconLi{}
+.iconLi li{float:left; text-align:center; width:160px; font-size:16px; margin-bottom:20px; cursor:pointer;}
+.iconLi .bg{ background-image:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/; background-repeat:no-repeat; width:92px; height:92px; display:block; margin:0 auto;}
+
+.iconLi .li1 .bg{background-position:-100px 0;}
+.iconLi .li2 .bg{background-position:0 -600px;}
+.iconLi .li3 .bg{background-position:-200px 0;}
+.iconLi .li4 .bg{background-position:-300px 0;}
+.iconLi .li5 .bg{background-position:-400px 0;}
+.iconLi .li6 .bg{background-position:-500px 0;}
+.iconLi .li7 .bg{background-position:-600px 0;}
+.iconLi .li7-1 .bg{background-position:-700px 0;}
+
+.iconLi .li1:hover .bg,.iconLi .li1:hover .active{background-position:-100px -100px;}
+.iconLi .li2:hover .bg,.iconLi .li2:hover .active{background-position:0 -700px;}
+.iconLi .li3:hover .bg,.iconLi .li3:hover .active{background-position:-200px -100px;}
+.iconLi .li4:hover .bg,.iconLi .li4:hover .active{background-position:-300px -100px;}
+.iconLi .li5:hover .bg,.iconLi .li5:hover .active{background-position:-400px -100px;}
+.iconLi .li6:hover .bg,.iconLi .li6:hover .active{background-position:-500px -100px;}
+.iconLi .li7:hover .bg,.iconLi .li7:hover .active{background-position:-600px -100px;}
+.iconLi .li7-1:hover .bg,.iconLi .li7-1:hover .active{background-position:-700px -100px;}
+
+.iconLi .li8 .bg{background-position:-100px -600px;}
+.iconLi .li9 .bg{background-position:-200px -600px;}
+.iconLi .li10 .bg{background-position:-300px -600px;}
+.iconLi .li11 .bg{background-position:0 0;}
+
+.iconLi .li8:hover .bg,.iconLi .li8:hover .active{background-position:-100px -700px;}
+.iconLi .li9:hover .bg,.iconLi .li9:hover .active{background-position:-200px -700px;}
+.iconLi .li10:hover .bg,.iconLi .li10:hover .active{background-position:-300px -700px;}
+.iconLi .li11:hover .bg,.iconLi .li11:hover .active{background-position:0 -100px;}
+
+.iconLi .li12 .bg{background-position:-400px -200px;}
+.iconLi .li13 .bg{background-position:0 -400px;}
+.iconLi .li14 .bg{background-position:-100px -400px;}
+.iconLi .li15 .bg{background-position:-100px -200px;}
+.iconLi .li16 .bg{background-position:-400px -600px;}
+.iconLi .li17 .bg{background-position:-500px -600px;}
+.iconLi .li18 .bg{background-position:-600px -600px;}
+.iconLi .li19 .bg{background-position:-500px -200px;}
+.iconLi .li20 .bg{background-position:0 -200px;}
+
+.iconLi .li12:hover .bg,.iconLi .li12:hover .active{background-position:-400px -300px;}
+.iconLi .li13:hover .bg,.iconLi .li13:hover .active{background-position:0 -500px;}
+.iconLi .li14:hover .bg,.iconLi .li14:hover .active{background-position:-100px -500px;}
+.iconLi .li15:hover .bg,.iconLi .li15:hover .active{background-position:-100px -300px;}
+.iconLi .li16:hover .bg,.iconLi .li16:hover .active{background-position:-400px -700px;}
+.iconLi .li17:hover .bg,.iconLi .li17:hover .active{background-position:-500px -700px;}
+.iconLi .li18:hover .bg,.iconLi .li18:hover .active{background-position:-600px -700px;}
+.iconLi .li19:hover .bg,.iconLi .li19:hover .active{background-position:-500px -300px;}
+.iconLi .li20:hover .bg,.iconLi .li20:hover .active{background-position:0 -300px;}
+
+.serviceBox .number{display:inline-block;position:absolute;top:5px;left:104px;width:25px;height:25px;background:url(number.png)/*tpa=http://www.ziroom.com/static/201401/images/service/number.png*/ no-repeat;font-size:20px;line-height:25px;color:#fff;text-indent:7px;}
+
+.search_ser ul{display:none;position:absolute;top:41px;left:0;z-index:9999;border:1px solid #e6e6e6;}
+.search_ser ul li a{display:block;width:280px;height:30px;background:#fff;line-height:30px;text-indent:9px;}
+.search_ser ul li a:hover{background:#f6f6f6;}
+
+/* 点击高亮 */
+.highlight_font{color:#f60;}
+
+.li1-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat -100px -100px;}
+.li2-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat 0 -700px;}
+.li3-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat -200px -100px;}
+.li4-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat -300px -100px;}
+.li5-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat -400px -100px;}
+.li6-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat -500px -100px;}
+.li7-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat -600px -100px;}
+.li7-1-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat -700px -100px;}
+.li8-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat -100px -700px;}
+.li9-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat -200px -700px;}
+.li10-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat -300px -700px;}
+.li11-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat 0 -100px;}
+.li12-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat -400px -300px;}
+.li13-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat 0 -500px;}
+.li14-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat -100px -500px;}
+.li15-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat -100px -300px;}
+.li16-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat -400px -700px;}
+.li17-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat -500px -700px;}
+.li18-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat -600px -700px;}
+.li19-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat -500px -300px;}
+.li20-highlight{display:block;width:92px;height:92px;margin:0 auto;background:url(icon-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/icon.png*/ no-repeat 0 -300px;}
+
+/* 水暖疏通-common */
+.repair_plumbing{position:relative;width:100%;*margin-top:20px;margin-bottom:20px;border-top:2px solid #aaa;border-bottom:2px solid #aaa;font-size:12px;}
+
+.plumbing_menu{height:34px;border-bottom:2px solid #e1e1e1;background:#f5f5f5;font-size:14px;}
+.plumbing_menu ul li{float:left;margin-top:5px;}
+.plumbing_menu ul li a{display:inline-block;width:64px;height:24px;margin:0 10px;line-height:24px;text-align:center;}
+.plumbing_menu ul li a:hover{background:#c5c5c5;color:#fff;}
+
+.plumbing_content{overflow:hidden;padding-right:21px;}
+
+.plumbing_left{width:178px;height:9999px;border-right:1px solid #ddd;text-align:left; height:480px; overflow:auto; background:#fafafa;}
+.plumbing_left li{ border-bottom:solid 1px #e1e1e1;}
+.plumbing_left a{display:block;}
+
+.plumbing_left .plumbing_firstMenu{width:178px;height:30px;background:#fafafa;line-height:30px;font-weight:bold;text-indent:13px;*overflow:hidden;}
+.plumbing_left .plumbing_firstMenu span{display:inline-block;width:12px;height:12px;margin-right:2px;background:url(triangle-1.png)/*tpa=http://www.ziroom.com/static/201401/images/service/triangle-1.png*/ no-repeat;vertical-align:-1px;*vertical-align:3px;}
+
+.plumbing_left .plumbing_secondMenu{width:178px;height:24px;line-height:24px;text-indent:25px;}
+.plumbing_left .plumbing_secondMenu span{display:inline-block;width:12px;height:12px;margin-right:2px;background:url(triangle-3.png)/*tpa=http://www.ziroom.com/static/201401/images/service/triangle-3.png*/ no-repeat;vertical-align:-1px;*vertical-align:3px;}
+.plumbing_left .plumbing_secondMenu:hover {background:#c5c5c5;color:#fff;}
+.plumbing_left .plumbing_secondMenu_click {background:#c5c5c5;color:#fff;}
+
+.plumbing_left .second{ display:none; border-top:solid 1px #e1e1e1;}
+.plumbing_left .second li{background:#fff; border:none;}
+
+.drop-down{display:block;overflow:hidden;position:absolute;bottom:0;width:178px;height:6px;background:#c5c5c5;}
+.drop-down span{border:3px solid #c5c5c5;border-top:3px solid #fff;margin:0 89px;}
+
+.plumbing_right{width:591px;padding-left:20px;}
+
+.plumbing_title{font-size:14px;line-height:24px;}
+
+.plumbing_right-1{border-bottom:1px dashed #ddd;}
+.plumbing_right-1 p{font-size:18px;line-height:50px;}
+.plumbing_right-1 a{display:inline-block;width:80px;height:30px;margin-top:10px;line-height:30px;background:#fd8145;color:#fff;text-align:center;}
+.plumbing_right-1 .hide{display:none;}
+
+.plumbing_right-2{border-bottom:1px dashed #ddd;}
+
+/* 水暖疏通-1 */
+/* .repair_plumbing-1{height:414px;} */
+.repair_plumbing-1 .triangle{display:block;position:absolute;top:-8px;width:14px;height:7px;background:url(triangle.png)/*tpa=http://www.ziroom.com/static/201401/images/service/triangle.png*/ no-repeat;}
+
+.repair_plumbing-1 .plumbing_content{height:378px;}
+
+.plumbing_suggest{text-align:center;}
+.plumbing_suggest p{margin-top:11px; height: 220px; overflow:auto; text-align:left;}
+.plumbing_suggest a{display:inline-block;width:auto;height:41px; margin:10px auto; padding:0 30px; background:url(orgbtn.png)/*tpa=http://www.ziroom.com/static/201401/images/service/orgbtn.png*/;font-size:20px;line-height:40px;color:#fff;text-align:center;}
+
+.plumbing_right-3{height:105px;}
+.plumbing_right-3 p{margin:18px 0 12px;}
+.plumbing_right-3 a{display:inline-block;float:left;width:138px;height:28px;margin-right:25px;border:1px solid #ddd;border-radius:3px;background:#f8f8f8;line-height:28px;text-align:center;}
+.plumbing_right-3 .yes span{display:inline-block;width:13px;height:10px;margin-right:11px;background:url(yes-no.png)/*tpa=http://www.ziroom.com/static/201401/images/service/yes-no.png*/ no-repeat;}
+.plumbing_right-3 .no span{display:inline-block;width:13px;height:10px;margin-right:11px;background:url(yes-no.png)/*tpa=http://www.ziroom.com/static/201401/images/service/yes-no.png*/ no-repeat 0 -10px;}
+
+/* 水暖疏通-2 */
+/* .repair_plumbing-2{height:486px;} */
+.repair_plumbing-2 .triangle{display:block;position:absolute;top:-8px;width:14px;height:7px;background:url(triangle.png)/*tpa=http://www.ziroom.com/static/201401/images/service/triangle.png*/ no-repeat;}
+
+.repair_plumbing-2 .plumbing_content{height:451px;}
+.repair_plumbing-2 .plumbing_left{height:451px;height:100%;}
+
+.plumbing_adress{margin-top:5px;margin-bottom:37px;}
+.plumbing_adress ul li{float:left;width:195x;height:60px;margin-right:9px;border:1px solid #fff;background:#fafafa;cursor:pointer;}
+.plumbing_adress ul li.adress_3{margin-right:0;}
+/*.plumbing_adress ul li:hover{border:1px solid #ff813c;}
+.plumbing_adress ul li:hover .plumbing_adress_border{background:url(../images/service/adress_border.png) no-repeat 0 -60px;}*/
+.plumbing_adress ul .li-click{border:1px solid #ff813c;}
+.plumbing_adress_border{width:6px;height:60px;background:url(adress_border.png)/*tpa=http://www.ziroom.com/static/201401/images/service/adress_border.png*/ no-repeat;}
+.plumbing_adress ul li .plumbing_adress_border_2{background-position:0 -60px;}
+
+.plumbing_adress_content{width:158px;height:60px;padding:0 12px 0 10px;}
+.plumbing_adress_content_top{height:30px;border-bottom:1px dashed #ddd;line-height:30px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.plumbing_adress_content_top a span{margin-left:11px;}
+.plumbing_adress_content_top a span.iconfont{font-size:12px;}
+.plumbing_adress_content_bottom{height:29px;line-height:29px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+.plumbing_problem{margin-bottom:29px;}
+.plumbing_problem table th,.plumbing_problem table td{border:1px solid #e1e1e1;text-align:center;}
+.plumbing_problem table th{height:28px;background:#f5f5f5;font-weight:bold;}
+.plumbing_problem .problem_th1{width:204px;border-left:none;}
+.plumbing_problem .problem_th2{width:161px;}
+.plumbing_problem .problem_th3{width:246px;border-right:none;}
+.problem_content td{height:59px;}
+.plumbing_problem .problem_td1{border-left:none;font-size:14px;}
+.problem_td1 span{color:#f60;font-size:12px;}
+.problem_td2 select{border:1px solid #ddd;}
+.plumbing_problem .problem_td3{border-right:none;padding-top:8px;padding-bottom:9px;}
+.problem_td3 input{width:228px;height:40px;border:1px solid #ddd;}
+.problem_td3 p{color:#ccc;}
+
+.plumbing_onSiteService{margin-bottom:20px;}
+.onSiteService_content{background:#f3f3f3;border-top:1px solid #ddd;border-bottom:1px solid #ddd;line-height:28px;}
+.onSiteService_content .onSiteService_time{width:50%;border-right:1px solid #ddd; text-indent:15px;}
+.onSiteService_content .onSiteService_woker{text-indent:15px;}
+.onSiteService_content div a{display:inline-block;width:30px;height:28px;}
+.onSiteService_content span.color{color:#198fff;}
+
+.plumbing_submit{width:100%; text-align: center;}
+.plumbing_submit a{display:inline-block;width:110px;height:41px;margin:8px 251px 10px 252px;background:url(orgbtn.png)/*tpa=http://www.ziroom.com/static/201401/images/service/orgbtn.png*/;font-size:20px;line-height:40px;color:#fff;text-align:center;}
+
+/* 水暖疏通-3 */
+/* .repair_plumbing-1 .plumbing_content{height:378px;} */
+.repair_plumbing-3 .triangle{display:block;position:absolute;top:-8px;left:395px;width:14px;height:7px;background:url(triangle.png)/*tpa=http://www.ziroom.com/static/201401/images/service/triangle.png*/ no-repeat;}
+
+.repair_plumbing-1 .plumbing_content{height:480px;}
+
+.repair_plumbing-3 .plumbing_content{padding-right:0;}
+.repair_plumbing-3 .plumbing_right{padding-left:0;}
+
+.plumbing_success{text-align:center;}
+.plumbing_success p{font-size:12px;line-height:12px;margin-bottom:35px;}
+.plumbing_success .p_success{margin-top:101px;margin-bottom:16px;font-size:24px;line-height:24px;}
+.plumbing_success div{position:absolute;/*left:50%;*/left:65%;margin-left:-175px;}/* 两个按钮要改变注释 left */
+.plumbing_success a{display:block;width:170px;height:37px;margin-right:19px;background:url(orgbtn.png)/*tpa=http://www.ziroom.com/static/201401/images/service/orgbtn.png*/ repeat-x;font-size:20px;line-height:37px;color:#fff;text-align:center;}
+
+/* 服务进度查询-common */
+.schedule{width:100%;margin-bottom:20px;border-top:2px solid #aaa;border-bottom:1px solid #aaa; position: relative; z-index: 0}
+.time_data{ position:absolute; width: 818px; height:451px; bottom: 0; left:0; z-index: 1}
+.time_data ul li{ width: 116px; height: 52px; float: left; padding-top:23px}
+.time_data ul li a{ display: block; width:100%; height: 16px; float:left}
+#schedule-1{ position: relative; z-index: 0}
+/* 服务进度查询-1 */
+.schedule-1 p{position:absolute;top:7px;left:30px;font-size:14px;}
+
+/* 服务进度查询-2 */
+.schedule-2_title{height:34px;background:#c5c5c5;color:#fff;}
+.schedule-2_title p{height:34px;padding-left:8px;font-size:14px;line-height:34px;}
+.schedule-2_title p span{display:inline-block;width:13px;height:13px;padding-right:6px;background:url(schedule-2.png)/*tpa=http://www.ziroom.com/static/201401/images/service/schedule-2.png*/ no-repeat;cursor: pointer;}
+
+.order-form .table_left{border-left:none;}
+.order-form .table_right{border-right:none;}
+
+.schedule-2 table{width:100%;}
+.schedule-2 table th{font-weight:bold;}
+
+.order-form{width:100%;}
+.order-form tr:hover{background:#acd06e;color:#fff;cursor:pointer;}
+.order-form th,.order-form td{border:1px solid #ddd;}
+.order-form th{height:29px;background:#fff;color:#333;text-align:center;}
+.order-form td{text-align:center;}
+.order-form .order-form_th1{width:100px;}
+.order-form .order-form_th2{width:79px;}
+.order-form .order-form_th3{width:139px;}
+.order-form .order-form_th4{width:226px;}
+.order-form .order-form_th5{width:248px;}
+
+.flowchart{position:relative;padding:20px 0 24px 63px;line-height:12px;text-align:center;}
+.flowchart_box{float:left;margin-right:70px;}
+.flowchart_box_last{margin-right:0;}
+.flowchart_box div{width:67px;height:39px;margin:0 auto;*margin:0 0;margin-bottom:11px;padding-top:28px;background:url(handling-time.png)/*tpa=http://www.ziroom.com/static/201401/images/service/handling-time.png*/ no-repeat;color:#fff;}
+.flowchart_box .div_style{background:url(handling-time.png)/*tpa=http://www.ziroom.com/static/201401/images/service/handling-time.png*/ no-repeat 0 -67px;}
+.flowchart span{display:block;position:absolute;top:54px;left:100px;z-index:-9999;width:550px;height:1px;border-top:1px solid #bbb;}
+
+.handling—time{width:100%;}
+.handling—time .table_left{border-left:none;text-indent:10px;}
+.handling—time .table_center{text-indent:13px;}
+.handling—time .table_right{border-right:none;text-align:center;}
+.handling—time tr:hover td a{display:inline-block;}
+.handling—time th,.handling—time td{border:1px solid #ddd;text-align:left;}
+.handling—time th{height:28px;background:#f3f3f3;}
+.handling—time_th1{width:150px;}
+.handling—time_th2{width:560px;}
+.handling—time_th3{width:120px;}
+.handling—time td{height:29px;line-height:29px;}
+.handling—time td a{display:none;width:55px;height:23px;margin-left:10px;background:#acd06e;font-size:14px;line-height:23px;color:#fff;}
+.handling—time td a:hover{color:#fff;}
+
+/* 三角 */
+.triangle{display:block;position:absolute;top:-8px;width:14px;height:7px;background:url(triangle.png)/*tpa=http://www.ziroom.com/static/201401/images/service/triangle.png*/ no-repeat;}
+.triangle-1{left:74px;}
+.triangle-2{left:235px;}
+.triangle-3{left:396px;}
+.triangle-4{left:554px;}
+.triangle-5{left:715px;}
+
+/* 改-1 */
+._change ._change-height{height:550px;}
+._change ._change-left{height:550px;}
+
+.vas ul{/*font-size:14px;*/text-align:center;}
+.vas ul li{width:189px;height:60px;margin-right:9px;border:1px solid #fafafa;background:#fafafa;}
+.vas ul li:hover{/*border:1px solid #ff813c;*/cursor:pointer;}
+.vas ._pay{width:100%;height:62px;font-size:14px;line-height:60px;font-weight:bold;text-align:center;}
+.vas ul li p{line-height:30px;}
+.vas ul li .fontBig{font-size:24px;line-height:24px;*line-height:30px;}
+.vas ul .show-border{border:1px solid #ff813c;}
+.vas ul li .show-icon{display:block;}
+
+.vas ul li a{position:absolute;}
+._icon-1{top:10px;left:10px;display:none;width:21px;height:15px;background:url(checked.png)/*tpa=http://www.ziroom.com/static/201401/images/change/checked.png*/ no-repeat;}
+._icon-2{top:10px;right:10px;display:block;width:15px;height:15px;background:url(help.png)/*tpa=http://www.ziroom.com/static/201401/images/change/help.png*/ no-repeat;}
+
+._change-button a{margin:3px 0 10px 0;}
+
+._change-border{margin-bottom:5px;padding-bottom:18px;border-bottom:1px dashed #ddd;}
+._change-border-2{border-bottom:none;}
+
+._change-info{width:100%;background:#f3f3f3;line-height:28px;text-align:center;}
+._change-info td{border:1px solid #ddd;border-right:none;}
+
+._change-info ._change-td-1{border-left:none;}
+._change-info ._change-td-1 input{line-height:20px;}
+._change-info ._change-td-1 select{height:22px;border:1px solid #999;}
+
+._change-info ._change-td-2{width:30%;}
+._change-info span{color:#198fff;}
+._change-info ._change-td-3{width:15%;border-right:none;}
+._change-info ._change-td-3 a{display:block;width:100%;height:100%;color:#198fff;}
+
+/* 修改地址 */
+/*._change-adress{width:100%;}
+._change-adress li{width:48.9%;}
+._change-adress-content{width:90.3%;}*/
+
+/* 改-2 */
+._change-table-2{width:100%;text-align:center;}
+._change-table-2 th{background:#f5f5f5;}
+._change-table-2 input{width:394px;height:40px;}
+._change-table-2-padding{padding:9px 5px;}
+
+/* 弹框 */
+/*._change-pop-up-bg{display:block;position:absolute;top:0;left:0;z-index:9999;width:100%;height:100%;background:#000;opacity:0.5;filter:alpha(opacity=50);}*/
+._change-pop-up-wrap{/*display:block;position:absolute;top:50%;left:50%;z-index:9999;*/width:522px;/*height:302px;margin-top:-263px;margin-left:-153px;*/padding-top:30px;/*border:1px solid #f9f9f9;*/}
+._change-pop-up{/*border:1px solid #eee;padding:10px 10px;background:#fff;*/font-size:14px;line-height:30px;}
+/*.pop-up-close{display:block;width:21px;height:21px;background:url(../images/change/pop-up-close.png) no-repeat;}*/
+/*.pop-up-title{font-size:20px;line-height:48px;color:#f60;text-indent:26px;}*/
+
+#time-pop-up{/*width:900px;*/}
+#time-pop-up table{width:100%;font-size:14px;text-align:center;}
+#time-pop-up table div{margin-bottom:10px;}
+#time-pop-up table input{width:184px;height:30px;}
+#time-pop-up table select{width:186px;height:30px;border:1px solid #999;}
+#time-pop-up table a{margin:30px 0;}
+
+.pop-up-content{width:70%;margin:0 auto;}
+.pop-up-content div{margin-bottom:10px;}
+.pop-up-content .pop-up-li-3{margin-bottom:0;}
+.pop-up-content div input{width:248px;height:30px;padding:0 10px;border:1px solid #c4c5bf;}
+
+.pop-up-btn{display:block;width:112px;height:41px;margin:30px auto;background:url(orgbtn.png)/*tpa=http://www.ziroom.com/static/201401/images/service/orgbtn.png*/ repeat-x;font-size:20px;color:#fff;text-align:center;line-height:41px;}
+.pop-up-btn:hover{color:#fff;}
+
+._change-score{margin-bottom:40px;}
+._change-pop-up-2 p{font-size:20px;line-height:41px;color:#f60;text-indent:36px;}
+._change-pop-up-2 ul{margin-right:38px;padding-top:8px;}
+
+._change-pop-up-2 ul li{display:block;float:left;width:21px;height:20px;margin-right:14px;background:url(score.png)/*tpa=http://www.ziroom.com/static/201401/images/change/score.png*/ no-repeat;cursor:pointer;}
+._change-pop-up-2 ul li.star-on{background:url(score.png)/*tpa=http://www.ziroom.com/static/201401/images/change/score.png*/ no-repeat 0 -20px;}
+._change-pop-up-2 .pop-up-btn{margin-top:0;margin-bottom:0;}
+
+/* 保洁 */
+._change-5-table{width:100%;text-align:center;}
+._change-5-table tr:hover a{/*color:#fff;*/}
+
+/* 邻里沟通 */
+._change-flowchart{padding-left:185px;}
+._change-flowchart span{left:260px;width:300px;}
+
+/* 租务两个按钮 */
+.two-btn{padding:2px 2px;}
+.two-btn a{display:block;width:48%;}
+.two-btn a:hover{color:#fff;}
+.time-a{margin-right:4px;background:#fd8145;color:#fff;}
+.score-a{background:#acd06e;color:#fff;}
+
+/* 评分星星 */
+.star-off{background:url(score.png)/*tpa=http://www.ziroom.com/static/201401/images/change/score.png*/ no-repeat 0 0;}
+
+/* 读取中 */
+#loading{position:absolute;top:0;left:0;width:100%;height:100%;background:#000;opacity:0.2;filter:alpha(opacity=20);}
+#loading div{position:absolute;top:50%;left:50%;margin-top:-16px;margin-left:-16px;width:36px;height:36px;background:url(loading156.gif)/*tpa=http://www.ziroom.com/static/201401/images/service/loading156.gif*/ no-repeat;background-size:32px 32px;}
+
+/* 新增模块 */
+.green{margin-bottom:15px;font-size:14px;color:#a0cc73;}
+.set-font{font-size:18px;line-height:18px;}
+.new-1 ul li .hide-border{border:none;}
+
+.new-1 ul li .orange-font{color:#ff7300;}
+.new-1 ul .orange-border{border-bottom:1px solid #ff7300;}
+.new-1 ul li .orange-img-bg{background-position:0 -33px;}
+.new-1 .box-show{display:block;}
+
+.new-1{width:955px; margin:20px auto;}
+.new-1 p{lin-height:18px;}
+.new-1 ul{width:100%;}
+.new-1 ul li{width:25%;padding-top:10px;padding-bottom:10px;border-bottom:1px solid #ccc;cursor:pointer;}
+.li-content-wrap{padding-left:20px;padding-right:20px;border-right:1px solid #ccc;}
+.img-bg{position:absolute;top:0;right:20px;display:block;width:74px;height:33px;background:url(talk.png.jpg)/*tpa=http://www.ziroom.com/static/201401/images/service/talk.png*/ 0 0 no-repeat;line-height:33px;color:#fff;text-align:center;}
+
+.new-1-content{display:none;height:184px;padding:15px 15px 15px 12px;background:#fafafa;overflow:hidden;}
+
+/* 新增模块-2 */
+.t_servfwlc{height:390px;margin:20px auto;margin-top:0;padding-top:0;background:none}
+.t_servfwlcbody01intext{top:45px;}
+.t_servfwlcbody02intext{top:45px;line-height:16px;}
+.t_servfwlcbody03intext{padding-left:0;top:38px;}
+.t_servfwlcbody04intext{top:45px;line-height:16px;}
+.t_servfwlcbody07intext{top:31px;line-height:16px;}
+.t_servfwlcbody09intext{top:35px;padding-left:8px;}
+
+/* 服务中心主体下移 */
+.move-down{position: absolute;}
+
+/* 新增版块 */
+.green{margin-bottom:15px;font-size:14px;color:#a0cc73;}
+.set-font{font-size:18px;line-height:18px;}
+.new-1 ul li .hide-border{border:none;}
+
+.new-1 ul li .orange-font{color:#ff7300;}
+.new-1 ul .orange-border{border-bottom:1px solid #ff7300;}
+.new-1 ul li .orange-img-bg{background-position:0 -33px;}
+.new-1 .box-show{display:block;}
+
+.new-1{width:955px; margin:20px auto;}
+.new-1 p{lin-height:18px;}
+.new-1 ul{width:100%;}
+.new-1 ul li{width:25%;padding-top:10px;padding-bottom:10px;border-bottom:1px solid #ccc;cursor:pointer;}
+.li-content-wrap{padding-left:20px;padding-right:20px;border-right:1px solid #ccc;}
+.img-bg{position:absolute;top:0;right:20px;display:block;width:74px;height:33px;background:url(talk.png.jpg)/*tpa=http://www.ziroom.com/static/201401/images/service/talk.png*/ 0 0 no-repeat;line-height:33px;color:#fff;text-align:center;}
+
+.new-1-content{display:none;height:184px;padding:15px 15px 15px 12px;background:#fafafa;overflow:hidden;}
+
+/* 新增版块-2 */
+.t_servfwlc{height:390px;margin:20px auto;margin-top:0;padding-top:0;background:none}
+.t_servfwlcbody01intext{top:45px;}
+.t_servfwlcbody02intext{top:45px;line-height:16px;}
+.t_servfwlcbody03intext{padding-left:0;top:38px;}
+.t_servfwlcbody04intext{top:45px;line-height:16px;}
+.t_servfwlcbody07intext{top:31px;line-height:16px;}
+.t_servfwlcbody09intext{top:35px;padding-left:8px;}
+
+/* 新改版块 */
+.helpList-change li{width:191px;}
+.helpList-change li .cursor-auto:hover{cursor:auto;}
+.cursor-auto{cursor:auto;}
+
+/* 二维码 */
+.ren_service{float:right;display:block;margin:8px 30px 0 0;padding:0 10px;background:#ff7300;font-size:14px;line-height:34px;color:#fff;}
+.ren_service:hover{color:#fff;}
+.qr_code_wrap{top:42px;right:0;width:200px;height:200px;border:1px solid #ccc;background:#fff;text-align:center;z-index:1;}
+.qr_code_wrap p{font-size:16px;line-height:30px;text-align:center;}
+/* 二维码 */

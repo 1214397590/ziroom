@@ -1,0 +1,446 @@
+//生成唯一标识
+var uid="";
+var uid_num="";
+function uidFun(){
+	uid="";
+	for(var i=0;i<6;i++) 
+	{ 
+		uid+=Math.floor(Math.random()*10); 
+	} 
+}
+
+//渠道来源
+var from_id='';
+
+//从网页地址里获取参数
+function getUrlParam(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+    var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+    if (r != null) return decodeURI(r[2]); return null; //返回参数值
+}
+
+//加盟委托提交函数
+function jiamengSubFn() {
+	
+	$("#msgInfo").html("");
+	$("#jiameng_form .input").focus(function() {
+        $("#msgInfo").html(" ");
+	});
+	
+	var clientName=$("#clientName").val(),
+		clientTel=$("#clientTel").val(),
+//		clientYzm=$("#clientYzm").val(),
+		clientCity="110000",
+		resblock=$("#clientShequ").val(),
+		house_id=$("#clientShequ").attr("name"),
+		clientQita=$("#clientQita").val(),
+		i=3;
+		
+	if(from_id){
+		i=from_id;
+	}
+	
+	clientCity=$("#clientCity").attr("data-id");
+	
+	if(clientName==''){
+		$("#msgInfo").html("请输入姓名！");
+		return false;
+	}
+	if(!checkMobile(clientTel)){
+		$("#msgInfo").html("请输入正确的手机号！");
+		return false;
+	}
+//	if(clientYzm==''){
+//		$("#msgInfo").html("请输入验证码！");
+//		return false;
+//	}
+	if(resblock==''){
+		$("#msgInfo").html("请输入小区！");
+		return false;
+	}
+	
+	$("#jiameng_subbtn").attr("disabled","disabled");
+	
+	var clientTime=Date.parse(new Date());
+	uidFun();
+		
+	uid_num=clientTime+uid;
+	
+	$.ajax({
+        type:'GET',
+        dataType: "json",
+        data:{
+        		ownerName: clientName,
+        		ownerPhone: clientTel, 
+//      		authCode:clientYzm, 
+        		cityCode: clientCity, 
+        		villageId:house_id, 
+        		villageName: resblock, 
+        		ownerRemark: clientQita, 
+        		clewSource: i,
+        		uid:uid_num
+        },
+//      url:"http://yezhu.ziroom.com/index.php",
+        url:"/index.php",
+        success: function(data)
+        {
+        		if(data.status=='success'){
+        			$("#jiameng_box").hide();
+        			$("#jiameng_box input.input").val("");
+                $("#jiameng_box #clientShequ").attr("name","");
+                $("#jiameng_box textarea#clientQita").val("");
+                $("#jiameng_box #clientCity").text("北京").attr("data-id", "110000");
+//	            $("#jiameng_box .yzm_check_box").removeClass("right wrong");
+        			$("#jiameng_success").show();
+        			$("#jiameng_success .second").text(5)
+        			var d, f;
+        			d = setInterval(function() {
+                		var b = parseInt($("#jiameng_success .second").text());
+                		$("#jiameng_success .second").text(b - 1);
+	            }, 1000);
+	            f = setInterval(function() {
+	                $("#jiameng_success").hide();
+	                document.body.style.overflow = "auto";
+	                document.body.onkeydown = "";
+	                $("#jiameng_subbtn").removeAttr("disabled");
+	                clearInterval(f);
+	                clearInterval(d);
+	            }, 5000);
+        		}
+        		if(data.status=='failure'){
+                alert(data.error_message);
+        			$("#jiameng_subbtn").removeAttr("disabled");
+        		}
+        		
+        },
+        error:function(){
+        		console.log("加盟接口调用失败");
+        		$("#jiameng_subbtn").removeAttr("disabled");
+        }
+	});
+}
+
+//图片验证码
+function yzm_img(othis){
+	$(othis).parents(".yzm_box").next(".yzm_check_box").removeClass("wrong right");
+	$("#clientYzm").val("");
+	
+	var clientTime=Date.parse(new Date());
+	uidFun();
+		
+	uid_num=clientTime+uid;
+	
+	var src="http://s.ziroom.com/crm/contractInfo/captcha?uid="+uid_num;
+	
+	$(othis).html('<img src="'+ src +'" style=" width:100%; height:100%"/>');
+}
+
+function lxFun2(f, e) {
+    var h = $(f).val(), g = $(e).attr("data-id");
+    h ? $("#lx_box2").css({
+        display: "block"
+    }) : $("#lx_box2").css({
+        display: "none"
+    }), "" != h && $.ajax({
+        type: "GET",
+        data: {
+            resblock: h,
+            city_code: g
+        },
+        url: "http://interfaces.ziroom.com/index.php?_p=ownerpc&_a=selectBuildingApi",
+        dataType: "jsonp",
+        jsonp: "callback",
+        success: function(a) {
+            var l, k, j, i;
+            if ("success" == a.status && "" != a.data) {
+                for (l = "", k = a.data.length, j = 0; k > j && 5 > j; j++) {
+                    l += "<a href='javascript:void(0)' id='" + a.data[j].resblock_id + "'>" + a.data[j].resblock_name + "</a>";
+                }
+                i = "<div  class='con'>" + l + "</div>", $(f).next(".lx_box").empty().append(i);
+            } else {
+                $(f).next(".lx_box").empty();
+            }
+        },
+        error: function() {}
+    });
+}
+
+function webChange2() {
+    lxFun2("#clientShequ", "#clientCity");
+}
+
+//首页轮播图加载
+function bannerFun(){
+	var banner_html='';
+	
+	var city_code=$("#clientCity").attr("data-id");
+	
+	var timestamp=new Date().getTime();
+	var uid='20113377';
+	var id='';
+	if(city_code=="110000"){
+		//北京
+		id='3600';
+	}
+	else if(city_code=="310000"){
+		//上海
+		id='3601';
+	}
+	else if(city_code=="440300"){
+		//深圳
+		id='3602';
+	}
+	else if(city_code=="330100"){
+		//杭州
+		id='5015';
+	}
+	
+	var sign=hex_md5(uid+timestamp+'7srzT88FcNiRQA3n');
+	var h=$(window).width()*412/1920;
+	$.ajax({
+        type:'GET',
+        dataType: "jsonp",
+    		jsonp: "callback", 
+		data:{timestamp:timestamp,uid:uid,id:id,sign:sign,city_code:city_code},
+//      url:"http://interfaces.t.ziroom.com/?_p=api_mobile&_a=getLunBoDatasjp",
+//		url:"http://interfaces.q.ziroom.com/?_p=api_mobile&_a=getLunBoDatasjp",
+		url:"http://interfaces.ziroom.com/?_p=api_mobile&_a=getLunBoDatasjp",
+        success: function(data)
+        {
+        		if(data.status=='success'){
+        			for(var i=0; i<data.data.length; i++){
+        				banner_html+='<a href="'+data.data[i].url+'" target="_blank"><img src="'+data.data[i].pic+'" alt="'+data.data[i].subtitle+'" style="width:100%; height:'+h+'px"/></a>';
+        			}
+        			$("#yz_banner").html(banner_html);
+        			//轮播
+        			$('#yz_banner').slick({
+			        dots: true,
+			        infinite: true,
+			        autoplay: true,
+					autoplaySpeed: 4000,
+			        speed: 300,
+			        slidesToShow: 1,
+			        slidesToScroll: 1
+			    });
+        		}
+        		if(data.status=='failure'){
+        			$("#yz_banner").html('<img src="common2016/images/banner_bg.jpg"/>');
+        			console.log("首页轮播图error_code:"+data.error_code);
+        			console.log("首页轮播图error_message:"+data.error_message);
+        		}
+        	},
+        error:function(){
+        		console.log("首页轮播图接口调用失败");
+        }
+	});
+}
+
+
+
+//二维码拖拽
+var params = {
+	left: 0,
+	top: 0,
+	currentX: 0,
+	currentY: 0,
+	flag: false
+};
+
+var getCss = function(o,key){
+	return o.currentStyle? o.currentStyle[key] : document.defaultView.getComputedStyle(o,false)[key]; 	
+};
+
+var startDrag = function(bar, target, callback){
+	if(getCss(target, "left") !== "auto"){
+		params.left = getCss(target, "left");
+	}
+	if(getCss(target, "top") !== "auto"){
+		params.top = getCss(target, "top");
+	}
+	
+	bar.onmousedown = function(event){
+		params.flag = true;
+		if(!event){
+			event = window.event;
+			bar.onselectstart = function(){
+				return false;
+			}  
+		}
+		var e = event;
+		params.currentX = e.clientX;
+		params.currentY = e.clientY;
+	};
+	document.onmouseup = function(){
+		params.flag = false;	
+		if(getCss(target, "left") !== "auto"){
+			params.left = getCss(target, "left");
+		}
+		if(getCss(target, "top") !== "auto"){
+			params.top = getCss(target, "top");
+		}
+	};
+	document.onmousemove = function(event){
+		var e = event ? event: window.event;
+		if(params.flag){
+			var nowX = e.clientX, nowY = e.clientY;
+			var disX = nowX - params.currentX, disY = nowY - params.currentY;
+			target.style.left = ewm_left;//parseInt(params.left) + disX + "px";
+			if(parseInt(params.top) + disY<0){
+				target.style.top=0+ "px";
+			}
+			else if(parseInt(params.top) + disY>w_height-ewm_height){
+				target.style.top=w_height-ewm_height+ "px";
+			}
+			else{
+				target.style.top = parseInt(params.top) + disY + "px";
+			}
+			
+		}
+		
+		if (typeof callback == "function") {
+			callback(parseInt(params.left) + disX, parseInt(params.top) + disY);
+		}
+	}	
+};
+
+var w_height;
+var ewm_left;
+var ewm_height;
+
+$(window).resize(function(){
+	var w_width=Number($(window).width());
+	w_height=Number($(window).height());
+	var ewm_width=Number($(".ewm").width());
+	ewm_height=Number($(".ewm").height());
+	ewm_left=w_width-ewm_width;
+	$(".ewm").css({"left":ewm_left+"px"});
+});
+
+$(function(){
+	var w_width=Number($(window).width());
+	w_height=Number($(window).height());
+	var ewm_width=Number($(".ewm").width());
+	ewm_height=Number($(".ewm").height());
+	ewm_left=w_width-ewm_width;
+	var ewm_top=(w_height-ewm_height)/2;
+	$(".ewm").css({"left":ewm_left+"px","top":ewm_top+"px"});
+	
+    var oBox = document.getElementById("ewm_box");
+    var oBar = document.getElementById("ewm");
+    startDrag(oBar, oBox);
+	
+	
+	if(getUrlParam('from_id')){
+		from_id=getUrlParam('from_id');
+		$("a").each(function(){
+			var url=$(this).attr("href");
+			$(this).attr("href",url+"?from_id="+from_id);
+		})
+	}
+	
+	$(".lx_input2").focus(function() {
+        $("#lx_box2").css({
+            display: "block"
+        });
+    });
+    
+    $(document).click(function() {
+        $("#lx_box").css({
+            display: "none"
+        });
+        $("#lx_box2").css({
+            display: "none"
+        });
+    });
+    
+    $("#lx_box2").delegate("a", "click", function() {
+        var b = $(this).text();
+        var c = $(this).attr("id");
+        $(this).parents(".lx_box").siblings(".input").attr("value", b);
+        $(this).parents(".lx_box").siblings(".input").attr("name", c);
+        $(this).parents(".lx_box").hide();
+    })
+	
+	if(document.getElementById("clientShequ")){
+      var resblock2 = document.getElementById("clientShequ");
+      if(window.ActiveXObject) {
+
+        resblock2.onpropertychange = webChange2;
+
+      }else{
+      	
+        resblock2.addEventListener("input",webChange2,false);
+
+      }
+    }
+	
+	$("#gujia .form .select_box").click(function(b) {
+        b.stopPropagation();
+   	});
+	
+	$("#gujia .form .input_box").click(function(b) {
+        b.stopPropagation();
+   	});
+   	
+   	$("#jiameng_box .input_box").click(function(b) {
+        b.stopPropagation();
+   	});
+	
+//	yzm_img($(".hq_yzm"));
+	
+//	$(".jiameng_btn").click(function() {
+//      yzm_img($(".hq_yzm"));
+// 	});
+   	
+   	//监控验证码输入
+// 	if(document.getElementById("clientYzm")){
+//    var yzm = document.getElementById("clientYzm");
+//    if(window.ActiveXObject) {
+//
+//      yzm.onpropertychange = yzmFun;
+//
+//    }else{
+//    	
+//      yzm.addEventListener("input",yzmFun,false);
+//
+//    }
+//  }
+	
+	//直接展开委托碳层
+	if(getUrlParam('weituo')=='true'){
+		$("#jiameng_box").show();
+	}
+	
+})
+
+function yzmFun(){
+	var i=3;
+	
+	if(from_id){
+		i=from_id;
+	}
+	
+	var yzm=String($("#clientYzm").val());
+//	console.log(yzm.length)
+	if(yzm.length>3){
+		$.ajax({
+	        type:'GET',
+	        dataType: "jsonp",
+        		jsonp: "callback", 
+	        data:{clewSource:i,authCode: yzm,uid:uid_num},
+	        url:"http://s.ziroom.com/crm/clew/checkAuthCodeSuccess",
+	        success: function(data)
+	        {
+	        		if(data.status=='success'){
+	        			$("#jiameng_box .yzm_check_box").removeClass("wrong").addClass("right");
+	        		}
+	        		if(data.status=='failure'){
+	        			$("#jiameng_box .yzm_check_box").removeClass("right").addClass("wrong");
+	        		}
+	        	},
+	        error:function(){
+	        		alert("验证验证码正确接口调用失败");
+	        }
+		});
+	}
+}

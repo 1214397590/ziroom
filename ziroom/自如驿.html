@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://z-inn.com/zhuanti/2016/zinn/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>自如驿</title>
+	<link rel="stylesheet" href="./自如驿_files/style.css">
+	<meta name="keywords" content="青旅、自如驿、客栈、hostel、日租房、酒店、CBD">
+	<meta name="description" content="自如驿是自如旗下的世界青年欢乐旅行驿栈，旨在为全世界年轻人提供打破国界、亲密交流的旅行居住空间。独创3Q睡眠系统、五星级卫浴及娱乐公区。">
+	<!--[if lt IE9]>
+		<script>
+		   (function() {
+			 if (!
+			 /*@cc_on!@*/
+			 0) return;
+			 var e = "abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(', ');
+			 var i= e.length;
+			 while (i--){
+				 document.createElement(e[i])
+			 }
+		})()
+		</script>
+	<![endif]-->
+	<style>
+		.hide{display: none;}
+		.boxy-wrapper-box{height:100%; overflow:auto; position:fixed; left:0px; top:0px; width:100%}
+		.boxy-wrapper{ margin:0px auto;}
+		.boxy-wrapper.fixed{position:absolute;}
+		.boxy-modal-blackout{position:absolute; background:#000; left:0; top:0; opacity:.5; filter:alpha(opacity=50); background:rgba(0,0,0,.5); width:100%; height:100%;}
+		.boxy-wrapper{empty-cells:show;}
+		.boxy-wrapper .top-left,.boxy-wrapper .top-right,.boxy-wrapper .bottom-right,.boxy-wrapper .bottom-left{padding:0; height:5px; width:5px; background-image: url(images/boxy.png);}
+		.boxy-wrapper .top-right{background-position: -5px 0}
+		.boxy-wrapper .bottom-right{background-position: -5px -5px}
+		.boxy-wrapper .bottom-left{background-position:0 -5px}
+		.boxy-wrapper .top,.boxy-wrapper .bottom{height:5px; background:#fff;}
+		.boxy-wrapper .left,.boxy-wrapper .right{width:5px; background:#fff;}
+
+
+
+		.boxy-wrapper .title-bar{ position:relative;}
+		.boxy-wrapper .title-bar.dragging{cursor:move;}
+		.boxy-wrapper .title-bar h2{font-size:20px; color:#4c4c4c; font-weight:bold; line-height:20px; padding:15px 0 20px 0; font-weight: normal; text-align:center;}
+		.boxy-wrapper .title-bar .close{color:white; position:absolute; top:10px; right:10px; color:#f90; width:15px; height:15px; font-size:1px; text-indent:-9999px; background-position:-140px 0;}
+		.boxy-wrapper .title-bar .close:hover{background-position:-140px -15px;}
+		.boxy-inner{background-color:white; padding:0;}
+
+		.boxy-wrapper .org_btn{background: #ffa000; height: 45px; line-height: 45px; color: #fff; width: 100%; border-radius: 5px;}
+		.boxy-wrapper .loading_btn{background: #ffa000; height: 45px; line-height: 45px; color: #fff; width: 100%; border-radius: 5px;}
+		.boxy-wrapper .loading_btn{background:#ccc;}
+		.boxy-wrapper .loading_btn:hover{background:#ccc; cursor:wait;}
+		.boxy-wrapper .title-bar .close{background-image: url(images/icons1.png?20160126); background-repeat: no-repeat;}
+
+	</style>
+<link rel="stylesheet" href="./自如驿_files/layer.css" id="layui_layer_skinlayercss"></head>
+<body>
+	<header>
+		<div class="middle">
+			<img src="./自如驿_files/logo.jpg" width="240px" alt="">
+			<ul class="clearfix">
+				<input type="radio" name="menu" class="uhide" checked="">
+				<li class="home" onclick="target(&#39;home&#39;);">
+					<p class="zn">首页</p>
+					<p class="en">Home</p>
+				</li>
+				<input type="radio" name="menu" class="uhide">
+				<li class="list" onclick="target(&#39;room&#39;);">
+					<p class="zn">房间</p>
+					<p class="en">Room</p>
+				</li>
+				<input type="radio" name="menu" class="uhide">
+				<li class="list" onclick="target(&#39;activity&#39;);">
+					<p class="zn">活动</p>
+					<p class="en">Activity</p>
+				</li>
+				<input type="radio" name="menu" class="uhide">
+				<li class="list" onclick="target(&#39;about&#39;);">
+					<p class="zn">关于我们</p>
+					<p class="en">About us</p>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<div class="banner">
+		<div class="middle">
+			<ul>
+				<li class="name">北京CBD自如驿</li>
+				<li class="address">北京朝阳区十里堡甲3号都会国际A座10层</li>
+				<li class="tip"><img src="./自如驿_files/phone.png" alt=""><span>电话：400-100-1111转771111</span></li>
+			</ul>
+		</div>
+	</div>
+	<div class="room middle">
+		<dl class="peizhi">
+			<dt class="clearfix" style="border-bottom:1px solid #DDD">
+				<div style="border:0;" id="cbd" class="active" onclick="switchw(this,&#39;cbd&#39;)"><span>北京CBD自如驿</span></div>
+			</dt>
+			<dd class="clearfix">
+				<div class="cbdLunbo">
+					<ul class="tupian">
+						<li class="">
+							<img src="./自如驿_files/cbdImg.jpg" width="814px" alt="">
+							<div class="lunbo1 lunboTxt">
+								<h3>自如驿代表一种<br>全新的青年旅居体验</h3>
+								<p>精选每个城市代表性区域，将人文元素融入空间设计</p>
+								<p>同时又像住进朋友家里，舒适、周到</p> 
+							</div>
+						</li>
+						<li class="">
+							<img src="./自如驿_files/friendImg.jpg" width="814px" alt="">
+							<div class="lunbo2 lunboTxt">
+								<h3>睡哪儿不重要,跟谁睡很重要</h3>
+								<p>与来自全世界224个国家和地区的青年</p> 
+								<p>从诗词歌赋聊到人生哲学</p>
+								<p>定制活动,从路人到知己</p> 
+							</div>
+						</li>
+						<li class="">
+							<img src="./自如驿_files/sleepImg.jpg" width="814px" alt="">
+							<div class="lunbo3 lunboTxt">
+								<h3>3Q睡眠系统,三分钟入眠</h3>
+								<p>- Quiet · Quality · Quick -</p> 
+								<p>独创3Q睡眠系统,严格把控隔音设施及床品材质,最大程度满足舒适性与私密性</p>
+								<p>软硬双面床垫及枕头,满足不同睡眠习惯</p>
+							</div>
+						</li>
+						<li class="">
+							<img src="./自如驿_files/weiyuImg.jpg" width="814px" alt="">
+							<div class="lunbo4 lunboTxt">
+								<h3>五星级卫浴系统,身心放松</h3>
+								<p>采用五星级酒店标准卫浴系统</p> 
+								<p>配有洗衣房、烘干机</p>
+							</div>
+						</li>
+						<li class="">
+							<img src="./自如驿_files/mensuoImg.jpg" width="814px" alt="">
+							<div class="lunbo5 lunboTxt">
+								<h3>三重安全系统,安心守护</h3>
+								<p>全密码门锁设计,短信发送密码</p> 
+								<p>24小时前台及保安</p>
+								<p>加密储物柜</p> 
+							</div>
+						</li>
+						<li class="noHide">
+							<img src="./自如驿_files/jizhiImg.jpg" width="814px" alt="">
+							<img src="./自如驿_files/qrcodeApp.jpg" class="qrcode" width="160px;" alt="">
+							<div class="lunbo6 lunboTxt">
+								<h3>快速,极致</h3>
+								<p>30秒自如APP下单,1分钟自助办理入住和退房</p>
+								
+							</div>
+						</li>
+						<a class="leftArrow" href="javascript:;"><img src="./自如驿_files/left.png" alt=""></a>
+						<a class="rightArrow" href="javascript:;"><img src="./自如驿_files/right.png" alt=""></a>
+					</ul>
+					<ul class="tab">
+						<li class="cbd" onclick="lunbo(this,1)"><div class="icon cbdIcon"></div>CBD商圈</li>
+						<li onclick="lunbo(this,2)" class=""><div class="icon friend"></div>呼朋唤友</li>
+						<li onclick="lunbo(this,3)" class=""><div class="icon sleep"></div>3Q睡眠系统</li>
+						<li onclick="lunbo(this,4)" class=""><div class="icon weiyu"></div>五星级卫浴</li>
+						<li onclick="lunbo(this,5)" class=""><div class="icon mensuo"></div>安全门锁</li>
+						<li onclick="lunbo(this,6)" class="active"><div class="icon jizhi"></div>快速极致</li>
+					</ul>
+				</div>
+				<div class="hlgLunbo uhide">
+					<ul class="tupian">
+						<li class="">
+							<img src="./自如驿_files/hlgjq.jpg" width="814px" alt="">
+							<div class="lunbo1 lunboTxt">
+								<h3>自如驿代表一种<br>全新的青年旅居体验</h3>
+								<p>精选每个城市代表性区域，将人文元素融入空间设计</p>
+								<p>同时又像住进朋友家里，舒适、周到</p> 
+							</div>
+						</li>
+						<li class="">
+							<img src="./自如驿_files/yskj.jpg" width="814px" alt="">
+							<div class="lunbo2 lunboTxt">
+								<h3>艺术空间<br>点亮生活灵感</h3>
+								<p>多彩灵动的房间设计，全套品质床品，点亮你的旅行</p>
+							</div>
+						</li>
+						<li class="">
+							<img src="./自如驿_files/ZSpace.jpg" width="814px" alt="">
+							<div class="lunbo3 lunboTxt">
+								<h3>超大Z Space公区<br>延续欢乐旅行</h3>
+								<p>700平米超大Z Space公区免费使用，Wi-Fi覆盖、影音区、台球吧、健身房，欢乐旅行玩个够</p>
+							</div>
+						</li>
+						<li class="">
+							<img src="./自如驿_files/sxsh.jpg" width="814px" alt="">
+							<div class="lunbo4 lunboTxt">
+								<h3>全套生活设施<br>享受舒心生活</h3>
+								<p>洗衣机、热水器、空调、微波炉一应俱全，最大程度满足生活所需，舒心生活不将就</p> 
+							</div>
+						</li>
+						<li class="">
+							<img src="./自如驿_files/mensuoImg.jpg" width="814px" alt="">
+							<div class="lunbo5 lunboTxt">
+								<h3>三重安全系统,安心守护</h3>
+								<p>全密码门锁设计,短信发送密码</p> 
+								<p>24小时前台及保安</p>
+								<p>加密储物柜</p> 
+							</div>
+						</li>
+						<li class="noHide">
+							<img src="./自如驿_files/jizhiImg.jpg" width="814px" alt="">
+							<img src="./自如驿_files/qrcodeApp.jpg" class="qrcode" width="160px;" alt="">
+							<div class="lunbo6 lunboTxt">
+								<h3>快速,极致</h3>
+								<p>30秒自如APP下单,1分钟自助办理入住和退房</p>
+								
+							</div>
+						</li>
+						<a class="leftArrow" href="javascript:;"><img src="./自如驿_files/left.png" alt=""></a>
+						<a class="rightArrow" href="javascript:;"><img src="./自如驿_files/right.png" alt=""></a>
+					</ul>
+					<ul class="tab">
+						<input type="radio" class="uhide" name="tablist1" checked="">
+						<li class="cbd" onclick="lunbo(this,1)"><div class="icon cbdIcon"></div>欢乐谷景区</li>
+						<input type="radio" class="uhide" name="tablist1">
+						<li onclick="lunbo(this,2)" class=""><div class="icon friend"></div>艺术空间</li>
+						<input type="radio" class="uhide" name="tablist1">
+						<li onclick="lunbo(this,3)" class=""><div class="icon sleep"></div>超大Z Space</li>
+						<input type="radio" class="uhide" name="tablist1">
+						<li onclick="lunbo(this,4)" class=""><div class="icon weiyu"></div>舒心生活</li>
+						<input type="radio" class="uhide" name="tablist1">
+						<li onclick="lunbo(this,5)" class=""><div class="icon mensuo"></div>安全门锁</li>
+						<input type="radio" class="uhide" name="tablist1">
+						<li onclick="lunbo(this,6)" class="active"><div class="icon jizhi"></div>快速极致</li>
+					</ul>
+				</div>
+			</dd>
+		</dl>
+		<dl class="fangxing">
+			<dt>驿·房型<span><i>|</i>Facilities</span></dt>
+			<dd>
+				<ul class="clearfix">
+					<li class="clearfix" style="margin-right:20px;">
+						<img src="./自如驿_files/room1.jpg" width="328px" alt="">
+						<div class="xq room01">
+							<h3>8人间</h3>
+							<a href="javascript:;" onclick="showTip(&#39;qrcode&#39;)"><div class="btn">立即预订</div></a>
+							<p class="price">￥99</p>
+							<p>面积：25平米</p>
+							<p>床位数：8位</p>
+							<p>床型：1.2m*2m</p>
+							<p>卫浴：公共</p>
+						</div>
+					</li>
+					<li class="clearfix">
+						<img src="./自如驿_files/room2.jpg" width="328px" alt="">
+						<div class="xq room02">
+							<h3>12人间</h3>
+							<a href="javascript:;" onclick="showTip(&#39;qrcode&#39;)"><div class="btn">立即预订</div></a>
+							<p class="price">￥99</p>
+							<p>面积：25平米</p>
+							<p>床位数：12位</p>
+							<p>床型：1.2m*2m</p>
+							<p>卫浴：公共</p>
+						</div>
+					</li>
+				</ul>
+			</dd>
+		</dl>
+	</div>
+	<div class="fuwu">
+		<div class="middle">
+			<dl>
+				<dt>驿·服务<span><i>|</i>Service</span></dt>
+				<dd>
+					<ul class="clearfix">
+						<li>
+							<div><img src="./自如驿_files/qiantai.png" alt=""></div>
+							<div><p>24小时前台</p></div>
+						</li>
+						<li>
+							<div><img src="./自如驿_files/luxian.png" alt=""></div>
+							<div><p>路线问询</p></div>
+						</li>
+						<li>
+							<div><img src="./自如驿_files/yikeyihuan.png" alt=""></div>
+							<div><p>一客一换</p></div>
+						</li>
+						<li>
+							<div><img src="./自如驿_files/jicun.png" alt=""></div>
+							<div><p>行李寄存</p></div>
+						</li>
+						<li>
+							<div><img src="./自如驿_files/yueche.png" alt=""></div>
+							<div><p>约车服务</p></div>
+						</li>
+						<li>
+							<div><img src="./自如驿_files/kuaidi.png" alt=""></div>
+							<div><p>代收快递</p></div>
+						</li>
+					</ul>
+				</dd>
+			</dl>
+			
+		</div>
+	</div>
+	<div class="middle activity">
+		<dl>
+			<dt>驿·活动<span><i>|</i>Activity</span></dt>
+			<dd>
+				<ul class="clearfix">
+					<li class="left">
+						<div class="huaBlock">
+							<div class="huaBg" style="background: url(&#39;images/activity1.jpg?20170419&#39;) center no-repeat;">
+							</div>
+							<a href="javascript:;" onclick="playVideo();">
+								<div class="hua" style="line-height: normal;background-color:transparent;position: absolute;top:0;text-align: center;">
+									<img src="./自如驿_files/icon.png" alt="" style="margin-top: 222px;border:0;">
+								</div>
+							</a>
+						</div>
+						
+					</li>
+					<li class="right">
+						<div class="shougongBlock" onclick="tipMore(2);">
+							<div class="shougongBg"></div>
+							<div class="shougong zhezhao">30秒读懂自如驿</div>
+						</div>
+						<div class="dushuBlock">
+							<div class="dushuBg"></div>
+							<!--<div class="dushu zhezhao"></div>-->
+						</div>
+					</li>
+				</ul>
+			</dd>
+		</dl>
+	</div>
+	<div class="foot">
+			<div class="middle contact">
+				<h3>关于我们</h3>
+				<p class="p1">北京市朝阳区将台路普天实业创新园5号院16栋</p>
+				<p>电话：400-100-1111</p>
+				<div class="qrcodeApp">
+					<img src="./自如驿_files/qrcodeApp.jpg" alt="">
+					<p>客户端下载</p>
+				</div>
+				<div class="qrcodeWechat">
+					<img src="./自如驿_files/qrcodeWechat.jpg" alt="">
+					<p>自如驿微信公众号</p>
+				</div>
+				<div class="qrcodeWeibo">
+					<img src="./自如驿_files/qrcodeWeibo.jpg" alt="">
+					<p>自如驿微博公众号</p>
+				</div>
+			</div>
+
+	</div>
+	<span style="display:none">
+
+	<div class="hide">
+		<div id="videoBox"><embed src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&amp;v=20161117&amp;vid=g03966s1e1n&amp;auto=0" allowfullscreen="true" quality="high" width="600" height="320" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">
+		</div>
+	</div>
+	<script type="text/javascript" async="" src="./自如驿_files/vds.js.下载"></script><script type="text/javascript">
+      var _vds = _vds || [];
+      window._vds = _vds;
+      (function(){
+        _vds.push(['setAccountId', '8da2730aaedd7628']);
+        (function() {
+          var vds = document.createElement('script');
+          vds.type='text/javascript';
+          vds.async = true;
+          vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(vds, s);
+        })();
+      })();
+  </script>
+	</span>
+	<script src="./自如驿_files/jquery-1.8.3.min.js.下载" type="text/javascript"></script>
+	<script src="./自如驿_files/index.js.下载"></script>
+	<script src="./自如驿_files/layer.js.下载"></script>
+	<script type="text/javascript" src="./自如驿_files/z-common.js.下载"></script>
+	<script>
+		$(function(){
+			function switchw(obj,type) {
+				$(obj).addClass('active').siblings().removeClass('active');
+				tab(type);
+			}
+			var t = next();
+			function tab(type){
+				clearInterval(t);
+				t = next();
+				if(type=='cbd'){
+					$('.peizhi').find('dd div.cbdLunbo').show();
+					$('.peizhi').find('dd div.hlgLunbo').hide();
+					$('.cbdLunbo .tab').find('li').eq(0).click();
+				}else if(type=='hlg'){
+					$('.peizhi').find('dd div.hlgLunbo').show();
+					$('.peizhi').find('dd div.cbdLunbo').hide();
+					$('.hlgLunbo .tab').find('li').eq(0).click();
+				}
+			}
+			function next(){
+				return setInterval(function(){
+					$('.rightArrow').click();
+				},3000)
+			}
+		});
+		function target(type){
+			var one = $('header').outerHeight();
+			var two = $('.banner').outerHeight();
+			var three = $('.room').outerHeight();
+			var four = $('.fuwu').outerHeight();
+			var five = $('.activity').outerHeight();
+			if(type=='home'){
+			$('html, body').animate({
+					scrollTop: 0
+				}, 300);
+			}else if(type=='room'){
+				$('html, body').animate({
+					scrollTop: Number(two)
+				}, 300);
+			}else if(type=='activity'){
+				$('html, body').animate({
+					scrollTop: Number(two)+Number(three)+Number(four)
+				}, 300);
+			}else if(type=='about'){
+				$('html, body').animate({
+					scrollTop: Number(two)+Number(three)+Number(four)+Number(five)
+				}, 300);
+			}
+		}
+		function showTip(type){
+			if(type=='qrcode'){
+				//页面层
+				layer.open({
+				type: 1,
+				title: '请扫描二维码下载自如APP预订',
+				skin: 'layui-layer-rim', //加上边框
+				area: ['300px', '350px'], //宽高
+				content: '<div style="height:300px;"><img src="http://www.z-inn.com/zhuanti/2016/zinn/images/qrcodeApp.jpg" alt="" /></div>',
+				success:function(){
+					$('body').css('overflow-y','hidden');
+				},
+				cancel:function(){
+					$('body').css('overflow-y','auto');
+				}
+				});
+			}
+		}
+		function tipMore(n){
+			var src="";
+			var titles="";
+			if(n==2){
+				src = 'http://www.ziroom.com/zhuanti/30szry/m/index.html';
+				titles="30s读懂自如驿";
+			}else if(n==3){
+				src='http://www.ziroom.com/zhuanti/zr_inn/';
+				titles="北京CBD自如驿";
+			}else if(n==1){
+				src='http://www.ziroom.com/zhuanti/2016/qfbt/index.html';
+				titles="自如抢房补贴计划";
+			}
+			layer.open({
+			type: 2,
+			title: titles,
+			shadeClose: true,
+			shade: 0.8,
+			area: ['720px', '90%'],
+			content: src, //iframe的url
+			success:function(){
+				$('body').css('overflow-y','hidden');
+			},
+			cancel:function(){
+				$('body').css('overflow-y','auto');
+			}
+			});
+		}
+		function playVideo(){
+            new Boxy('#videoBox',{'title':'枕头大战视频'})
+		}
+
+		
+	</script>
+
+</body></html>

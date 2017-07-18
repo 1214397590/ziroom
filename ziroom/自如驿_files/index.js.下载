@@ -1,0 +1,33 @@
+
+function lunbo(obj,index){
+  $(obj).addClass('active').siblings().removeClass('active');
+  $(obj).parent().siblings().find('li').eq(index-1).addClass('noHide').siblings().removeClass('noHide');
+}
+$(function(){
+  var n = 1;
+  $('.leftArrow').click(function(){
+    var index = $(this).parent().find('li.noHide').index();
+    if(index!=0){
+      $(this).parent().find('li.noHide').prev().addClass('noHide').siblings().removeClass('noHide');
+      $(this).parent().siblings().find('li').eq(index-1).addClass('active');
+      $(this).parent().siblings().find('li').eq(index-1).siblings().removeClass('active');
+    }else{
+      $(this).parent().find('li').eq(5).addClass('noHide').siblings().removeClass('noHide');
+      $(this).parent().siblings().find('li').eq(5).addClass('active');
+      $(this).parent().siblings().find('li').eq(5).siblings().removeClass('active');
+    }
+  });
+  $('.rightArrow').click(function(){
+    var index = $(this).parent().find('li.noHide').index();
+    // console.log(index);
+    if(index!=5){
+      $(this).parent().find('li.noHide').next().addClass('noHide').siblings().removeClass('noHide');
+      $(this).parent().siblings().find('li').eq(index+1).addClass('active');
+      $(this).parent().siblings().find('li').eq(index+1).siblings().removeClass('active');
+    }else{
+      $(this).parent().find('li').eq(0).addClass('noHide').siblings().removeClass('noHide');
+      $(this).parent().siblings().find('li').eq(0).addClass('active');
+      $(this).parent().siblings().find('li').eq(0).siblings().removeClass('active');
+    }
+  });
+});

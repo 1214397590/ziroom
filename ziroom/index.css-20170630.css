@@ -1,0 +1,155 @@
+body{
+	background-color: #2e28b7;
+	position: relative;
+}
+.qrcode{
+	width: 165px;
+	position: fixed;
+	right:5%;
+	bottom: 90px;
+	z-index:99;
+}
+ul li{
+	list-style: none;
+}
+.uhide{display: none;}
+.area{
+	position: relative;
+	width:1200px!important; height: 100%; margin: 0 auto;text-align: center!important;
+}
+.fl{float: left;}
+.fr{float: right;}
+.overflow{overflow: hidden;}
+.tit{text-align: center;}
+.tit span{font-size: 28px;line-height: 160px;letter-spacing:2px;}
+.tit .line{display: inline-block;width: 92px;height: 1px;margin: 10px 10px;}
+
+
+.banner{
+	padding-top: 144px;
+}
+.part2{padding-top: 160px;}
+.part2 .area{text-align: center;}
+.part2 .area .box{
+	width:715px;
+	height:405px;
+	margin:10px auto 0;
+	background: url('box.png')/*tpa=http://pic.ziroom.com/zhuanti/2017/haiyan/pc/img/box.png*/ center no-repeat;
+	color:#2e28b7;
+}
+.part2 .area .box>div{
+	padding-top: 59px;
+}
+.part2 .area .box h3{
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 38px;
+}
+.part2 .area .box p.boldP{
+	font-weight: bold;
+	margin-top: 40px;
+}
+.part2 .area .box p{
+	font-size: 24px;
+	line-height: 30px;
+}
+.part3,.part4{padding-top: 160px;}
+.part3 .area,.part4 .area{text-align: center;}
+.part3 .area>img,.part4 .area>img{
+	margin-right: 447px;
+}
+.part3 .area .box{
+	width:824px;
+	margin:65px auto 59px;
+	background: url('box2.jpg')/*tpa=http://pic.ziroom.com/zhuanti/2017/haiyan/pc/img/box2.jpg*/ center repeat-y;
+	color:#2e28b7;
+	position: relative;
+}
+.part3 .area .box .box2_top{
+	top:-65px;
+	left:0;
+	position: absolute;
+}
+.part3 .area .box .box2_bottom{
+	bottom:-59px;
+	left:0;
+	position: absolute;
+}
+.part4 .area .box{
+	width:824px;
+	margin:102px auto 86px;
+	background: url('box3.jpg')/*tpa=http://pic.ziroom.com/zhuanti/2017/haiyan/pc/img/box3.jpg*/ center repeat-y;
+	color:#2e28b7;
+	position: relative;
+}
+.part4 .area .box .box3_top{
+	top:-102px;
+	left:0;
+	position: absolute;
+}
+.part4 .area .box .box3_bottom{
+	bottom:-86px;
+	left:0;
+	position: absolute;
+}
+
+.part3 .area .box>div{
+	padding-top: 8px;
+	padding-bottom: 60px;
+}
+.part3 .area .box p{
+	width:665px;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: left;
+	margin: 10px auto 0;
+}
+.part4 .area .box>div{
+	padding: 2px 90px 85px 66px;
+}
+.part4 .area .box ul li.lBlue>div{
+	float: left;
+}
+.part4 .area .box ul li.rYellow>div{
+	float: right;
+}
+
+.part4 .area .box ul li.lBlue .dialog{
+	background-color: #2e28b7;
+	color: #fded35;
+	position: relative;
+	padding: 15px;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+.part4 .area .box ul li.rYellow .dialog{
+	background-color: #fded35;
+	color: #2e28b7;
+	position: relative;
+	padding: 15px;
+	margin-right: 30px;
+}
+.part4 .area .box ul li.lBlue .sj{
+	position: absolute;
+	left: -9px;
+	top: 15px;
+}
+.part4 .area .box ul li.rYellow .sj{
+	position: absolute;
+	right: -9px;
+	top: 15px;
+}
+.part4 .area .box ul li p{
+	width: 320px;
+	text-align: left;
+	font-size: 16px;
+}
+.part4 .area .box ul li{
+	margin-top: 40px;
+}
+.part5{
+	text-align: center;
+	color: #FFF;
+	margin: 131px auto;
+	font-size: 16px;
+}

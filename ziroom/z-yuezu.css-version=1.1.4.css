@@ -1,0 +1,205 @@
+.mt15{margin-top:15px;}
+.ml5{margin-left:1px;}
+.mr5{margin-right:5px;}
+.mr2{margin-right:2px;}
+body{background:#eaeaea;}
+.yuezu_banner{height:495px;background: #ffa917 url('yuezubanner01.jpg')/*tpa=http://www.ziroom.com/static/201401/images/yuezu/yuezubanner01.jpg*/ no-repeat center;position:relative;overflow:hidden;}
+.yuezu_banner .area{position:relative;width:1000px;height:495px; margin:0 auto;}
+.smoke1,.smoke2,.smoke3{position:absolute;top:30px;left:637px;width:25px;height:20px;border-radius:50px;background:#fff;transform:rotate(7deg); display:none}
+
+.animated {
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.spaceOutUp{
+  -webkit-animation-name: spaceOutUp;
+  animation-name: spaceOutUp;
+}
+@-webkit-keyframes spaceOutUp {
+  0% {
+   opacity:1;
+   width:20px;height:15px;
+   -webkit-transform: translate3d(0,5px,0) scale3d(1, 1, 1);
+    transform: translate3d(0,5px,0) scale3d(1, 1, 1);
+  }
+
+  100% {
+   opacity:0;
+   width:50px;height:50px;
+    -webkit-transform: translate3d(80px,-100px,0) scale3d(2, 2, 2);
+    transform: translate3d(80px,-100px,0) scale3d(2, 2, 2);
+  }
+}
+@keyframes spaceOutUp {
+  0% {
+   opacity:1;
+   -webkit-transform: translate3d(0,0,0) scale3d(1, 1, 1);
+    -ms-transform: translate3d(0,0,0) scale3d(1, 1, 1);
+    transform: translate3d(0,0,0) scale3d(1, 1, 1);
+  }
+
+  100% {
+     opacity:0;
+     -webkit-transform: translate3d(80px,-100px,0) scale3d(2, 2, 2);
+    -ms-transform:translate3d(80px,-100px,0) scale3d(2, 2, 2);
+    transform: translate3d(80px,-100px,0) scale3d(2, 2, 2);
+  }
+}
+
+.yuezu_shuom{width:960px;margin:0 auto;background:none;}
+.yuezu_shuom .shuom{float:left;}
+.yuezu_shuom .shuom h2{background:url('huodongshuom.png')/*tpa=http://www.ziroom.com/static/201401/images/yuezu/huodongshuom.png*/ no-repeat;height:23px;margin-bottom:10px;width:160px;}
+.yuezu_shuom .shuom p{font-size:12px;}
+.yuezu_shuom .shuom p.t1{padding-left:20px;}
+.yuezu_shuom .weixcode{float:right;margin-right:100px;}
+.yuezu_shuom .weixcode i,.yuezu_shuom .left .weixcode span{float:left;}
+.yuezu_shuom .weixcode span{margin:40px 0 0 20px;}
+.yuezu_shuom .weixcode i{background:url('weibcode.png')/*tpa=http://www.ziroom.com/static/201401/images/yuezu/weibcode.png*/ no-repeat;height:106px;width:316px;}
+
+.shaixuan{background:#eaeaea;padding-top:22px;} 
+.xuanz{width:980px;margin:0 auto;background:#fff;padding:10px;}
+.xuanz dl.dif dt,.xuanz dl dd{float:left; width:910px;}
+.xuanz dl.dif dt{color:black;font-weight:bold;float: left; width: 65px; text-align: right;}
+.xuanz dl.dif dd a{margin-right:2px;font-size:12px;height:22px;padding:0 4px;line-height:22px;display: inline-block; float:left;}
+.xuanz dl.dif dd a.active{color:#f60;background: url(toparrow.png)/*tpa=http://sz.pic.ziroom.com/static/2014/images/list/toparrow.png*/ no-repeat center bottom ;
+    bottom: -1px;
+    color: #f60;
+    height: 30px;
+    line-height: 23px;
+    position: relative;}
+.xuanz dl.dif dd a.active2{color:#f60;}    
+.ditei{width:910px;}
+.tips{width:960px;margin:0 auto;background:#fef9e9;padding:10px 20px;font-size:16px;color:#f60;position:relative;}
+.tips a{margin:0px;padding:0px;background:url('closetips.png')/*tpa=http://www.ziroom.com/static/201401/images/duanzu/closetips.png*/ no-repeat center;position:absolute;top:16px;right:8px;width:11px;height:11px;filter:alpha(opacity:50);opacity:0.5;}
+.tips a:hover{filter:alpha(opacity:100);opacity:1;}
+.yixuantiaoj{border-top:1px dotted #a7a7a7;height:30px;width:960px;}
+.yixuantiaoj dl{margin:10px 0;}
+.yixuantiaoj dt,.xuanz .yixuantiaoj dd{float:left; width: auto;}
+
+.yixuantiaoj dt{padding:0px 0px;}
+.yixuantiaoj dd{cursor:default;color:#a7a7a7;border:1px solid #a7a7a7;padding:0px 25px 0px 10px;position:relative;margin-left:14px;font-weight:bold;}
+.yixuantiaoj dd:hover a{filter:alpha(opacity:100);opacity:1;}
+.yixuantiaoj dd a{margin:0px;padding:0px;background:url('close.png')/*tpa=http://www.ziroom.com/static/201401/images/duanzu/close.png*/ no-repeat center;position:absolute;top:6px;right:8px;width:11px;height:11px;filter:alpha(opacity:50);opacity:0.5;}
+.yixuantiaoj dd a:hover{filter:alpha(opacity:100);opacity:1;}
+.xuanPic{width:1010px;margin:20px auto 0}
+.xuanPic li{float:left;cursor:pointer;margin:10px 5px; width:242px;}
+.xuanPic .xuanPicbox{padding:8px 8px 15px;background:#f9f9f9;border:1px solid #EAEAEA;-moz-transition:background-color 0.3s linear 0s,border-color 0.3s linear 0s;transition:background-color 0.3s linear 0s,border-color 0.3s linear 0s;}
+/*-------已出租mask-------*/
+/*-------已出租mask-------*/
+.xuanPic .xuanPicbox i,.xuanPic .xuanPicbox b{color:#e70e0e;}
+.xuanPic .xuanPicbox strong{color:#ff6d01;font-weight:bold; font-family: arial; font-size: 12px;}
+.xuanPic .xuanPicbox b{font-size:24px;}
+.xuanPic .xuanPicbox i{font-size:14px;}
+.xuanPic .xuanPicbox del{color:#999;}
+.xuanPic .xuanPicbox .t1{margin-top:8px;width:100%; display:block; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.xuanPic .xuanPicbox .t2{margin-top:8px;}
+.xuanPic .xuanPicbox .t3{margin:8px 0 8px;}
+.xuanPic .xuanPicbox .t4 a{width:70%;height:30px;text-align:center; display:inline-block; margin:0 auto;font-family:Microsoft Yahei;line-height:30px;font-size:16px;float:none;background:#fff1e4;;border:1px solid #ff7200;color:#ff7200;}
+.xuanPic li .xuanPicbox{cursor:default;}
+.xuanPic li .xuanPicbox:hover{color:black;}
+.xuanPic li .xuanPicbox:hover{border:1px solid #f60;background:#fef9e9;}
+.xuanPic li p{position:absolute;bottom:0px;left:0px;line-height:25px;height:25px;text-align:center;color:white;background:black;filter:alpha(opacity:50);opacity:0.5;width:224px;}
+.xuanPic li div span{font-size:12px;position:absolute;bottom:0px;left:0px;line-height:25px;height:25px;text-align:center;color:white;z-index:22;width:220px;}
+.xiangq{color:#666666;border:1px solid #EAEAEA;background:#f9f9f9;}
+.xiangq:hover{border:1px solid #999;color:black;}
+.yud{background:#fff1e4;;border:1px solid #ff7200;color:#ff7200;}
+.yud:hover{border:1px solid #e70e0e;color:#e70e0e;}
+.yud.nonumber{background:#ccc;border:1px solid #ccc;color:#999;}
+.pages a{border:1px solid #bbb;}
+.hide{display:none;}
+.cantfind{width:1000px;padding:15px 0;background:#F9F9F9;margin:20px auto 0;text-align:center;}
+
+
+.short_tiyan{background:#eaeaea;}
+.short_tiyan .tiyancenter{width:1010px;margin:0 auto;}
+.short_tiyan .tiyancenter .tiyanTip{background:url('tiyan.png')/*tpa=http://www.ziroom.com/static/201401/images/duanzu/tiyan.png*/ no-repeat center;width:70px;height:138px;}
+.short_tiyan .tiyancenter .tiyanright{margin:25px 0 25px 20px ;}
+.short_tiyan .tiyancenter .tiyanRbg{background:url('leftborder.png')/*tpa=http://www.ziroom.com/static/201401/images/duanzu/leftborder.png*/ no-repeat center;width:22px;height:165px;}
+.short_tiyan .tiyancenter .tiyanneir{background:#f9f9f9;padding:20px 15px 17px 20px;margin-left:10px;}
+.short_tiyan .tiyancenter .tiyanneir p{font-size:20px;color:#333;margin-bottom:10px;}
+.short_tiyan .tiyancenter .tiyanneir .counttime{width:526px;color:#ff7200;}
+.short_tiyan .tiyancenter .tiyanneir .counttime a{color:#3ea8d9;text-decoration:underline;}
+.short_tiyan .tiyancenter .tiyanneir .counttime a:hover{color:#f60;}
+.short_tiyan .tiyancenter .tiyanneir .pic{margin-top:20px;}
+.short_tiyan .tiyancenter .tiyanneir .pic b{color:#e60012;font-size:50px;height:52px;line-height:52px;font-weight:normal;}
+.short_tiyan .tiyancenter .tiyanneir .pic b.tian{color:#e60012;font-size:30px;height:32px;line-height:32px;margin-top:15px;}
+.short_tiyan .tiyancenter .tiyanneir .pic s{margin-top:26px;padding-left:36px;font-size:20px;color:#949494;}
+.short_tiyan .tiyancenter .tiyanneir .pic a{width:160px;height:45px;font-size:25px;color:white;background:#b50210;line-height:45px;text-align:center;margin:0px 0 0 80px;}
+.short_tiyan .tiyancenter .tiyanneir .pic a:hover{background:#e60012;}
+
+
+.form{position:fixed;bottom:0px;width:100%;z-index:100;overflow:hidden;}
+#form_mask{background:black;filter:alpha(opacity:60);opacity:0.6;width:100%;position: absolute;height:200px;left:0px;top:0px;}
+.form .t1{width:1000px;position:relative;z-index:100;margin:0 auto 10px;}
+.form .t1 .buttomS,.form table{float:left;}
+.form .t1 .buttomS{margin-top:-4px;}
+.form .t1 .buttomS .submit{background:#f60;color:white;width:64px;height:34px;border:none;text-align:center;font-size:18px;}
+.form p{font-size:14px;padding:5px 0 0;color:white;text-align:center;}
+.form p span{font-size:16px;margin-right:20px;font-weight:bold;}
+.form table td{text-align:right;font-size:14px;width:250px; padding:5px 0px;} 
+.form table td.tr1{width:260px;}
+.form table td.tr2{width:235px;}
+.form table td.tr3{width:205px;}
+.form table td.tr4{width:220px;}
+.form table span{color:white;}
+.form table td i{color:red;margin-right:4px;}
+.form table td input{height:24px;line-height:24px;width:100px;padding:0 5px;border:1px solid #959595;float:left;}
+.form table td input.time{}
+.form table td div{background:url('t_pingfen.png')/*tpa=http://www.ziroom.com/static/201401/images/monthlyrentprojectshow/t_pingfen.png*/ no-repeat;height:20px;width:20px;display:none;margin:4px 0 0 5px;}
+.form table td div.error{background-position:left bottom;}
+
+
+/*pop*/
+
+.pop_question{padding:20px;color:#666666;font-size:18px;width:310px;}
+.tips_pop h3{text-align:center;font-size:25px;color:#f00;font-weight:bold;}
+.tips_pop h4{text-align:left;font-size:18px;color:#333333;font-weight:bold;padding:0 20px;}
+
+/*selectѧУ*/
+
+.tab1,.tab3{width: 541px;height:250px;position: relative;overflow:hidden;}
+.tab1 li,.tab3 li{width:96px;}
+.tab3{width:448px;height:100px;}
+
+.tab2 li{width:130px;}
+.tab4 li{width:84px;}
+.title-bar{z-index:999;}
+.tab1 li, .tab2 li,.tab3 li,.tab4 li{float: left;padding: 0px 10px;cursor: pointer;list-style:none;}
+.tab1 a,.tab3 a{position: absolute;width: 50px;height: 21px;background:white;text-indent: -9999;right: 1px;top: 0;}
+.tab2,.tab4{width: 540px;height:236px;background:white;position: relative;}
+.tab4{height:216px;width:448px;}
+.tab1 ul,.tab3 ul{width: 521px;margin-left: 14px;position: absolute;top: 10px;left:0px;}
+.tab2 ul,.tab4 ul{width: 520px;height: 228px;margin-left: 14px;}
+.tab4 ul{width: 435px;}
+.tab2 ul{height:}
+.tab1 li.active, .tab2 li.active,.tab3 li.active,.tab4 li.active{font-weight: bold;color:#F60;}
+.tab2.active,.tab4.active{position:absolute;top:14px;left:0px;}
+.tab2.active .gobacklist,.tab2.active .onelist,.tab4.active .gobacklist,.tab4.active .onelist{padding:0 10px;height:26px;background:#F60;position: absolute;z-index:1000;top:-28px;left:22px;line-height:26px;text-align:center;color:white;cursor:pointer;filter:alpha(opacity:80);opacity:0.8;}
+.tab2.active .onelist,.tab4.active .onelist{left:80px;filter:alpha(opacity:100);opacity:1;cursor:default;}
+.tab2.active .gobacklist:hover,.tab4.active .gobacklist:hover{filter:alpha(opacity:100);opacity:1;}
+
+
+/*-------bottom介绍----------*/
+.bottomjs{background:#dfdbd1;width:100%;height:224px;}
+.bottomjs .box{width:1000px;margin:0 auto;}
+.bottomjs .title{text-align:center;color:#4c4b4b;font-size:16px;padding-top:20px;}
+.bottomjs ul{width:1000px;margin:25px auto 0;}
+.bottomjs ul li{float:left;text-align:center;width:200px;}
+.bottomjs ul li p{margin-top:10px;color:#616161;font-size:12px;}
+
+
+.t_areaboxcontent {
+    background:#fafafa;
+    border: 1px solid #ddd;
+    line-height: 21px;
+    padding: 8px 8px 2px;
+}
+
+
+

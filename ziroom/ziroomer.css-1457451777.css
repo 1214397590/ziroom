@@ -1,0 +1,375 @@
+@charset "utf-8";
+.t_container{ width:1200px; margin:0px auto; text-align:left;}
+
+/*－－－－－－－－－－－－－页面宽度调整－－－－－－－－－－－－－*/
+.area{width:1200px;}
+.photo{}
+
+input{border:0}
+.t_mainbox{}
+/*-----------------------------自如客 css begin-----------------------*/
+.t_zrnav{ height:38px; border-bottom:1px solid #ccc; background:#f6f6f6; border-top:solid 1px #fff;}
+.t_zrnavcen{ width:1200px; margin:0px auto;}
+.t_zrnavcen ul{}
+.t_zrnavcen ul li{ float:left; line-height:22px; height:38px; padding:0px 8px 0px 6px;  background:url(subbor.png)/*tpa=http://www.ziroom.com/static/201401/images/subcommon/subbor.png*/ no-repeat right center;}
+.t_zrnavcen ul li a{ display:block; color:#333; height:22px; line-height:22px; padding:0px 10px; margin-top:8px;}
+.t_zrnavcen ul li a:hover{ display:block; background:#FF7300; color:#fff;}
+.t_zrnavcen ul li.active a{ display:block; background:#FF7300; color:#fff;}
+/*banner begin*/
+.t_zrbannerbox{ width:1200px; height:300px; margin:15px auto; text-align:left;}
+.t_zrbannerbox #inner { width: 1200px; height:300px; margin: 0 auto; border:0px solid #f00; background:#f9f5f2; }
+.t_zrbannerbox .hot-event { margin-top:7px;*+margin-top:0px;margin-left:7px;height:250px;  position: relative; border:0px solid #f00; }
+.t_zrbannerbox .hot-event .switch-tab { text-align: center; padding: 3px 0; position:absolute; right:10px; width:280px; text-align:center; bottom:5px;z-index: 2; }
+.t_zrbannerbox .hot-event .switch-tab a, .t_zrbannerbox.hot-event .switch-tab .current {  display: inline-block; width: 15px; height: 15px; background-image: url(bg.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/bg.png*/; background-position: -161px 0; font: 0/0 arial; color: transparent; overflow: hidden; vertical-align: top; }
+.t_zrbannerbox .hot-event .switch-tab .current { background-image: url(bg.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/bg.png*/; background-position: -195px 0; }
+.t_zrbannerbox .hot-event .switch-nav { position: absolute; right: 12px; top: 254px; z-index: 2; display:none; }
+.t_zrbannerbox .hot-event .switch-nav .i-prev { background-image: url(bg.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/bg.png*/; background-position: -127px 0; }
+.t_zrbannerbox .hot-event .switch-nav .prev { border-radius: 3px 0 0 3px; border-width: 1px; }
+.t_zrbannerbox .hot-event .switch-nav .next { border-radius: 0 3px 3px 0; border-width: 1px 1px 1px 0; }
+.t_zrbannerbox .hot-event .switch-nav .i-next { background-image: url(bg.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/bg.png*/; background-position: -144px 0; }
+.t_zrbannerbox .hot-event .switch-nav a { display: inline-block; padding: 7px 16px; background: rgba(0,0,0,.3); border-style: solid; border-color: rgba(255,255,255,.6); }
+.t_zrbannerbox .hot-event .switch-nav a:hover { background: rgba(0,0,0,.2); }
+.t_zrbannerbox .hot-event .event-item { height:300px; width:1186px; position: absolute; z-index: 1; left: 0; top:7px; }
+.t_zrbannerbox .t_zrbannerbox.hot-event .event-item table{ border:0px; border-collapse:collapse;}
+.t_zrbannerbox .hot-event .event-item table td{ border:0px;}
+.t_zrbannerbox .hot-event .event-item .banner { display: block; }
+.t_zrbannerbox .hot-event .event-item img {  border: 0; height:280px; width:830px; }/*height:230px; width:690px;*/
+
+.t_zrbannerbox .hide-clip { position: absolute!important; clip: rect(1px 1px 1px 1px); clip: rect(1px,1px,1px,1px); padding: 0!important; border: 0!important; height: 1px!important; line-height: 0!important; width: 1px!important; overflow: hidden; }
+.t_zrbannerbox a { color: #4385a7; }
+.t_zrbannerbox a { text-decoration: none; }
+.t_zrbannerbox a .ico { cursor: pointer; }
+.t_zrbannerbox .ico { display: inline-block; width: 16px; height: 16px; vertical-align: middle; overflow: hidden; }
+.t_zrbannerbox .t_bantextbox{ width:336px; height:230px; border:1px solid #ccc; background:#fff; float:right; margin-top:-1px;}/*width:280px;*/
+
+.t_zrbannerbox .t_bantextbox h3{ border-bottom:1px dotted #dbdbdb; line-height:20px; font-weight:normal; color:#333; padding:10px; padding-left:20px; font-size:16px; font-family:"Microsoft YaHei",Simsun,sans-serif; margin:0px 10px; margin-bottom:10px;}
+.t_zrbannerbox .t_bantextbox .p01{  line-height:20px; font-size:12px;  color:#929292; margin:0px 15px;}
+/*banner end*/
+/* index main content begin*/
+.t_mainbox{ width:1200px; margin:0px auto; text-align:left;}
+/* t_mainbox_left main content begin*/
+.t_mainbox_left{ width:872px; float:left; border:0px solid #f00;}/*width:674px;*/
+.t_mainbox_hbox{ height:25px; overflow:hidden; padding-top:10px; }
+.t_mainbox_hbox h3{ line-height:25px; height:25px; font-size:22px; padding-left:30px; float:left; background:url(t_zrerfixed01.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixed01.png*/ 3px -8px no-repeat;font-family:"Microsoft YaHei",Simsun,sans-serif; color:#333; margin-right:15px;}
+.t_mainbox_hbox .span01{ font-size:12px; color:#999; padding-top:10px; line-height:15px; float:left;}
+
+/*-----------------------------主页 css更改begin-----------------------*/
+.t_box01{ margin-bottom:16px;}
+.showImg{width:100%;height:290px;padding:0px 0 20px 0;}
+.t_box01 h4{line-height:20px; height:20px; overflow:hidden; font-weight:400; font-size:20px; padding:15px 0}
+.text{ line-height:20px;}
+.showImg{}
+.more a{ line-height:20px;float:right;overflow: hidden;}
+/*-----------------------------自如拍 css更改-----------------------*/
+.t_box02{ width:872px; overflow:hidden; margin-top:20px}
+.t_box02 ul{ width:872px;}
+.t_box02 ul li{ width:258px; height:auto; padding:10px; border:1px solid #ccc; float:left; _display:inline; margin-right:10px; margin-bottom:32px;}
+.t_box02 ul li .picbox,.t_box02 ul li .picbox a{ width:258px; height:164px; position: relative; display: block;}
+.t_box02 ul li .picbox .icon{background:url(icon-1.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/video/icon.png*/; width: 77px; height: 77px; position: absolute; left: 50%; top: 50%; margin: -47px 0px 0px -37px; z-index: 2;}
+.t_box02 ul li .picbox img{  width:258px; height:164px;}
+.t_box02 ul li .picbox span.bg{width:100%; height:30px; position:absolute; z-index:1; left:0px; bottom:0px;background:#000; opacity:0.5; filter:alpha(opacity=50); }
+.t_box02 ul li .picbox span.txt{position: absolute; z-index:2;text-shadow: 1px 1px 0 #000; width:100%; height:30px; overflow:hidden; display:block;text-align:center; margin:0px auto; color:#fff; font-size:14px; line-height:30px; left:0; bottom:0;}
+.t_likeboxbtnbox{width:120px;}
+
+.z_shop{ width:872px; overflow:hidden; margin-top:20px}
+.z_shop ul{ width:872px;}
+.z_shop ul li{ width:258px; height:auto; padding:10px; border:1px solid #ccc; float:left; _display:inline; margin-right:10px; margin-bottom:32px;}
+.z_shop ul li .picbox,.t_box02 ul li .picbox a{ width:258px; height:164px; position: relative; display: block;}
+.z_shop ul li .picbox .icon{background:url(icon-1.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/video/icon.png*/; width: 77px; height: 77px; position: absolute; left: 50%; top: 50%; margin: -47px 0px 0px -37px; z-index: 2;}
+.z_shop ul li .picbox img{  width:258px; height:164px;}
+.z_shop ul li .picbox .bg{width:100%; height:30px; position:absolute; z-index:1; left:0px; bottom:0px;background:#000; opacity:0.5; filter:alpha(opacity=50); }
+.z_shop ul li .picbox .txt{position: absolute; z-index:2;text-shadow: 1px 1px 0 #000; width:100%; height:30px; overflow:hidden; display:block;text-align:center; margin:0px auto; color:#fff; font-size:14px; line-height:30px; left:0; bottom:0;}
+.z_shop ul li .picbox .txt span{float: left; width: 168px; padding-left: 5px; text-align: left;}
+.z_shop ul li .picbox .txt b{float: right; padding-right: 5px; width:80px; text-align: right}
+
+
+/*-----------------------------自如客转租 css更改-----------------------*/
+.t_box03 {overflow: hidden;  width: 872px;}
+.t_box03 ul { padding-bottom:50px; padding-top:10px;  position: relative; width: 872px;}
+.t_box03 li {color: #999;    float: left;    line-height: 25px;    margin-right:50px;   width: 250px;}
+.t_box03 .t, .t_box03 .p, .t_box03 .z_ziroomer_tel, .t_box03 .z_ruzhu { height: 25px;    margin: 5px 0;    overflow: hidden;    padding: 0 10px;}
+.t_box03 .p { background:#f7f7f7;}
+.t_box03 .z_ziroomer_tel .z_tel b {background: url("t_zrerfixed01.png")/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixed01.png*/ no-repeat scroll -200px -340px #fff; display: block;float: left; height: 9px; margin: 7px 5px 0 0; width: 7px;}
+.t_box03 li.lastLi{margin-right:15px;}
+
+/*-----------------------------主页 css更改end-----------------------*/
+.t_rwzbox{}
+
+.t_likebox{ text-align:right; }
+.t_likeboxbtnbox{ background:#333; float:right; border-radius:12px; padding-left:10px; width:110px;}
+.t_likebox table{ border:0px; float:right;  border-collapse:collapse;}
+.t_likebox table td{ border:0px;  text-align:left; }
+.t_likebox .t_like_btn{margin:3px 0;  width:17px; height:17px; background:#333 url(t_myicon04.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_myicon04.png*/ no-repeat 0px 2px;cursor:pointer;}
+.t_likebox .t_like_btnactive,.t_likebox .t_like_btn:hover{  width:17px; height:17px; background:#333 url(t_myicon05.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_myicon05.png*/ no-repeat 0px 2px; cursor:pointer;}
+.t_likebox .t_like_text{ color:#fff; line-height:20px; text-align:left;}
+
+.t_llickebtn{ margin-top:5px; margin-right:5px; cursor:pointer; color:#fff; height:25px; padding:0px 10px; padding-left:25px; border-radius:12px; background:#333 url(t_myicon04.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_myicon04.png*/ no-repeat 7px 6px;}
+.t_llickebtnactive{ background:#333 url(t_myicon05.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_myicon05.png*/ no-repeat 7px 6px; cursor:pointer;}
+
+.t_goodword{ height:20px; width:674px; background:url(t_zrerfixed01.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixed01.png*/ 0px -53px repeat-x; text-align:center; margin:15px auto;}
+.t_goodword .span01{ background:#fff; color:#ccc; line-height:20px; padding-left:5px; padding-right:5px;}
+
+
+.mosaic-block {float:left;position:relative;overflow:hidden;background:#111 url(progress.gif)/*tpa=http://www.ziroom.com/static/ziroomer/images/progress.gif*/ no-repeat center center;border:0px solid #fff; text-align:left;}
+.mosaic-backdrop {display:none;position:absolute;top:0;height:100%;width:100%;background:#111;}
+.mosaic-overlay {display:none;z-index:5;position:absolute;width:100%;height:100%;background:#111;}
+.fade .mosaic-overlay {opacity:0;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";filter:alpha(opacity=00);background:url(bg-black.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/bg-black.png*/;}
+.details{ margin:15px 20px; }
+.t_widthstyle01{ width:320px; height:135px;}
+.t_widthstyle01 img{ width:320px; height:135px;}
+.t_widthstyle02{ width:155px; height:135px;}
+.t_widthstyle02 img{ width:155px; height:135px;}
+.t_widthstyle03{width:165px; height:280px;}
+.t_widthstyle03 img{width:165px; height:280px;}
+.t_widthstyle04{ width:240px; height:240px;}
+.t_widthstyle04 img{ width:240px; height:240px;}
+.mosaic-block h4{ font-size:28px; font-weight:bold; font-family:Georgia, "Times New Roman", Times, serif;  line-height:35px;  color:#fff; text-shadow:1px 1px 0 rgb(0,0,0); border-bottom:1px dotted #fff; padding-bottom:10px; }
+.mosaic-block p{  color:#fff; font-size:14px; line-height:20px; margin-top:2px; text-shadow:1px 1px 0 rgb(0,0,0);font-family:"Microsoft YaHei",Simsun,sans-serif; }
+.mosaic-block a{ text-decoration:none; }
+/*** End Animation Styles ***/
+
+/* t_mainbox_left main content end*/
+/* t_mainbox_right main content begin*/
+.t_mainbox_right{ width:290px; float:right; border:0px solid #f00;}
+
+
+.t_appbox{ width:290px;  margin-bottom:15px; }
+.t_servicebox{ border-top:1px solid #ddd; background:#f7f7f7; margin-top:20px; margin-bottom:15px;}
+.t_servicebox .t_iconbg{ height:36px; width:170px; margin:10px auto; background:url(t_zrerfixed01.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixed01.png*/ 0px -88px no-repeat;}
+.t_biaoyangbox{ padding:10px;}
+.t_biaoyangbox h3{ background:url(t_zrerfixed01.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixed01.png*/ 10px -466px; height:20px; margin-top:5px; margin-bottom:10px; color:#333; padding-left:35px; font-size:14px; font-weight:bold;}
+.t_biaoyangbox .t_biaoyangbox_c{ height:140px; line-height:20px; color:#666;}
+
+.t_sertabbox{ border:0px solid #f00; height:165px; margin:10px;}
+.t_sertabbox table{ border:0px; width:240px; margin:0px auto;   border-collapse:collapse; text-align:center;}
+.t_sertabbox table td{ border:0px; }
+.t_sertabbox table td .divtabbtn01{ width:40px; height:40px; background:url(t_aad1.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_aad1.png*/ 0px 0px no-repeat; margin:0px auto; cursor:pointer;}
+.t_sertabbox table td .divtabbtn01active,.t_sertabbox table td .divtabbtn01:hover{background:url(t_aad1.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_aad1.png*/ 0px -40px no-repeat;}
+.t_sertabbox table td .divtabbtn02{ width:40px; height:40px; background:url(t_aad2.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_aad2.png*/ 0px 0px no-repeat;margin:0px auto;cursor:pointer;}
+.t_sertabbox table td .divtabbtn02active,.t_sertabbox table td .divtabbtn02:hover{background:url(t_aad2.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_aad2.png*/ 0px -40px no-repeat;}
+.t_sertabbox table td .divtabbtn03{ width:40px; height:40px; background:url(t_aad3.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_aad3.png*/ 0px 0px no-repeat;margin:0px auto;cursor:pointer;}
+.t_sertabbox table td .divtabbtn03active,.t_sertabbox table td .divtabbtn03:hover{background:url(t_aad3.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_aad3.png*/ 0px -40px no-repeat;}
+.t_sertabbox table td .divtabbtn04{ width:40px; height:40px; background:url(t_aad4.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_aad4.png*/ 0px 0px no-repeat;margin:0px auto;cursor:pointer;}
+.t_sertabbox table td .divtabbtn04active,.t_sertabbox table td .divtabbtn04:hover{background:url(t_aad4.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_aad4.png*/ 0px -40px no-repeat;}
+.t_sertabbox_box{ width:270px; height:110px; margin: 10px;}
+.t_sertabbox_box h4{ font-size:14px; font-weight:bold; color:#333; height:25px; line-height:25px; padding-left:15px; border-bottom:1px dotted #ccc; margin:10px; margin-bottom:0px;}
+.t_sertabbox_box p{ margin:10px; color:#666; height:25px; line-height:25px;margin-top:25px; text-align:center; }
+.t_sertabbox_box p .corg1:hover{color:#f60;}
+.t_sertabbox_box .divtabshow01{ height:110px; border:1px solid #ccc; background:#fff; display:none;}
+.t_sertabbox_box .divtabshow02{ height:110px; border:1px solid #ccc; background:#fff;display:none;}
+.t_sertabbox_box .divtabshow03{ height:110px; border:1px solid #ccc; background:#fff;display:none;}
+.t_sertabbox_box .divtabshow04{ height:110px; border:1px solid #ccc; background:#fff;display:none;}
+/* 表扬信开始*/
+#con {height: 140px;margin: 0px auto;position: relative;overflow: hidden;}
+#con .bottomcover {position: absolute;bottom: 0;background: url("halftransp.png")/*tpa=http://www.ziroom.com/static/ziroomer/images/halftransp.png*/ no-repeat 0 -5px;height: 35px;width: 394px;_background: none;
+  _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://img.t.sinajs.cn/t35/style/images/tlogin/halftransp.png?id=1341302813656', sizingMethod='crop');pointer-events: none;}
+img {border: none;}
+#con ul {position: relative;margin: 0px 10px 0px 10px;top: 0;left: 0;padding: 0;}
+#con ul li {width: 100%; height:119px; overflow:hidden;border-bottom: 1px dotted #d6d6d6;padding: 10px 0;_padding: 8px 0;overflow: hidden; line-height:1.5;}
+/* 表扬信结束*/
+
+/* 视频*/
+.t_shipinbox{ width:290px;  margin-bottom:15px; cursor:pointer; }
+.t_myzhezhao{ position:absolute; left:0px; top:0px; width:100%; height:100%; background:#333;opacity: 0.4; filter: "alpha(opacity=40)"; filter: alpha(opacity=40); zoom: 1; z-index:99; display:none; }
+#shipinbox{  }
+.t_prdt_mytanbox{ width:600px; height:420px;background:#fff; border:0px solid #ff6600; display:none;   z-index:100000;position:fixed;_position:absolute; }
+.t_prdt_mytanboxin{ position:relative;}
+.t_prdt_mytanboxin .t_title{ background:#eee; text-align:left; padding-left:5px; font-size:12px; height:20px; line-height:20px; font-weight:bold;font-family:"Microsoft YaHei",Simsun,sans-serif; color:#666;}
+.t_prdt_mytanboxin .t_mybtn04{ position:absolute; right:3px; top:3px; width:13px; height:13px;overflow:hidden;  color:#fff; cursor:pointer; background:url(t_tcclose.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_tcclose.png*/ 0px 0px no-repeat; }
+/* 微博*/
+.t_weibobox{ border-top:1px solid #ddd;height:500px;  background:#f7f7f7; margin-top:15px; margin-bottom:15px;}
+.t_weibobox .t_iconbg{ height:36px; width:116px; margin:10px auto; background:url(t_zrerfixedicon01.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixedicon01.png*/ 0px 0px no-repeat;}
+.t_weibobox .t_weibocontent{  border:0px solid #f00; height:450px; overflow:hidden;}
+/* t_mainbox_right main content end*/
+/* index main content end*/
+/* 自如选开始*/
+.t_zrxnav{ height:25px; margin-top:20px; margin-bottom:20px; padding-left:10px;}
+.t_zrxnav a{ display:block; float:left; height:24px; line-height:24px; width:36px; margin-right:20px; color:#fff; background:url(t_zrerfixed01.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixed01.png*/ 0px -161px no-repeat; padding-left:25px;}
+.t_zrxnav a:hover{  color:#fff; background:url(t_zrerfixed01.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixed01.png*/ 0px -137px no-repeat;}
+.t_zrxnav a.active{color:#fff; background:url(t_zrerfixed01.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixed01.png*/ 0px -137px no-repeat;}
+
+.t_zrxbox{ width:1200px; overflow:hidden; margin-top:10px;}
+.t_zrxbox ul{ width:1100px;}
+.t_zrxbox ul li{ width:300px; height:400px; padding:10px; border:1px solid #ccc; float:left; _display:inline; margin-right:17px; margin-bottom:17px;}
+.t_zrxbox ul li .picbox{ border:0px solid #ccc; width:300px; height:300px;}
+.t_zrxbox ul li .picbox img{  width:300px; height:300px;}
+.t_zrxbox ul li .pricebox{ height:20px; line-height:20px; padding-top:10px; padding-bottom:10px; color:#f60; overflow:hidden;font-size:20px; font-weight:bold; font-family:Georgia, "Times New Roman", Times, serif;}
+.t_zrxbox ul li .textbox{ color:#333; border-bottom:1px dotted #ddd; padding-bottom:5px;}
+.t_zrxbox ul li:hover{ border:1px solid #fd8145;}
+
+.t_zrxlistpage{ margin:20px auto; width:500px; text-align:center; font-family:Arial, Helvetica, sans-serif;}
+.t_zrxlistpage span a{padding:1px 6px; border:1px solid #e6e6e6;  display:inline-block;   margin-right:5px; }
+.t_zrxlistpage span a:hover{border:1px solid #ff6600; background:#ffe4d2;}
+.t_zrxlistpage span .textipt{ border:1px solid #e6e6e6;}
+.t_zrxlistpage span a.active{border:1px solid #ff6600; background:#ffe4d2;}
+.t_zrxlistpage span img{ cursor:pointer;}
+/* 自如选结束*/
+/* 自如选详情开始*/
+.t_zrxdetailbox{ margin-top:20px; margin-bottom:40px;}
+.t_zrxdetailbox_l{ width:460px; height:500px; float:left; background:#f7f7f7; padding:10px;}
+.t_zrxdetailbox_l img{ width:460px; height:460px; }
+.t_zrxdetailbox_r{width:490px; float:right;}
+.t_zrxdetailbox_r .t_zrxdetailbox_r_title{ line-height:30px; height:30px;font-family:"Microsoft YaHei",Simsun,sans-serif; color:#333; font-size:22px; margin-bottom:10px;  }
+.t_zrxdetailbox_r .t_zrxdetailbox_r_price{ line-height:30px; height:30px;font-family:"Microsoft YaHei",Simsun,sans-serif; color:#666; font-size:18px;  }
+.t_zrxdetailbox_r .t_zrxdetailbox_r_des{ line-height:20px;  color:#666; font-size:12px; margin-top:40px; }
+.t_zrxdetailbox_r .t_yuding_btmbox{ margin-top:15px;}
+.t_zrxdetailbox_r .t_yuding_btm{  width:200px; height:41px; cursor:pointer; background:url(t_zrerfixed01.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixed01.png*/ 0px -186px no-repeat;}
+.t_zrxdetailbox_r .t_yuding_btm:hover{opacity: 0.8; filter: alpha(opacity=80); zoom: 1;}
+.t_zrxdetailbox_r .t_zrxdetailbox_r_laiyuan{ line-height:30px; height:30px;color:#666; margin-top:50px;  }
+.t_zrxdetailbox_r .t_zrxdetailbox_r_biaoqian{ line-height:30px; height:30px;color:#666; margin-top:5px;  }
+.t_zrxdetailbox_r .t_zrxdetailbox_r_biaoqian span{ background:#ffbf95; color:#fff; padding:3px; margin-right:5px; border-radius:2px;}
+.t_zrxdetailbox_r .t_zrxdetailbox_r_share{ margin-top:10px; background:#f7f7f7; height:26px; width:200px; padding-left:10px;}
+
+.t_xiangsibox{ margin-top:20px; margin-bottom:20px;}
+.t_xiangsibox_h{ background:url(t_zrerfixed01.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixed01.png*/ 0px -230px no-repeat; padding-left:25px; font-size:20px; height:20px;font-family:"Microsoft YaHei",Simsun,sans-serif; padding-bottom:10px; border-bottom:1px dotted #cccccc; color:#333333;}
+.t_xiangsibox_c{ overflow:hidden; padding-top:14px;}
+.t_xiangsibox_c ul{ width:1100px;}
+.t_xiangsibox_c ul li{ width:240px; height:240px;  float:left; _display:inline; margin-right:14px; }
+.t_xiangsibox_c ul li img{width:240px; height:240px;}
+/* 自如选详情结束*/
+/* 自如选详情开始*/
+.t_zrksubmaincontent{}
+.t_zrksubmaincontent_l{ width:260px; padding-top:20px; float:left;}
+.t_zrksubmaincontent_l .t_zrksubmaincontent_l_title{line-height:30px;padding-left:30px; color:#fff; font-size:20px; height:30px; cursor:pointer; background:url(t_zrerfixed01.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixed01.png*/ 0px -262px no-repeat;font-family:"Microsoft YaHei",Simsun,sans-serif; margin-bottom:10px; }
+.t_zrksubmaincontent_l ul{ width:240px;}
+.t_zrksubmaincontent_l ul li{ height:29px; line-height:29px; border-bottom:1px dotted #ddd;  }
+.t_zrksubmaincontent_l ul li.active a{ color:#f60; }
+.t_zrksubmaincontent_l ul li a{ padding-left:20px;}
+.t_zrksubmaincontent_r{width:939px;  padding-top:20px; float:right;border-left:1px dotted #ddd; }
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock{ padding:20px; border-bottom:1px dotted #ddd; padding-bottom:10px; }
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock  .tablebox{ border:0px; border-collapse:collapse;}
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock  .tablebox td{ border:0px; vertical-align:top;}
+.t_zrksubmaincontent_r_articleblock h3{  line-height:30px;color:#333; font-size:20px;  cursor:pointer; font-family:"Microsoft YaHei",Simsun,sans-serif; margin-bottom:10px; }
+.t_zrksubmaincontent_r_articleblock_share{ width:810px; margin-bottom:10px;}
+.t_zrksubmaincontent_r_articleblock_pic{ width:810px; height:265px;}
+.t_zrksubmaincontent_r_articleblock_pic img{width:810px;}
+.t_zrksubmaincontent_r_articleblock_text{ color:#999; line-height:20px; width:810px; margin-top:10px; margin-bottom:10px;}
+.t_zrksubmaincontent_r_articleblock_atext{ text-align:right; line-height:20px; width:810px; margin-top:10px; margin-bottom:10px;}
+.t_zrksubmaincontent_r_articleblock_atext a{ color:#0099cc;}
+.t_zrksubmaincontent_r_articleblock_atext a:hover{color:#fd8145;}
+/* 自如选详情结束*/
+/* 自如选详情开始*/
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock .t_tcblock{ padding-left:30px; }
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock .t_tcblock .t_hht01{ height:235px; overflow:hidden;}
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock .nobortable td{ border:0px; border-collapse:collapse; }
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock .t_tcblock .t_biaoqian{ color:#ccc; line-height:18px; padding-bottom:20px;}
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock .t_tcblock .t_biaoqian span{ padding-right:5px;}
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock .t_tcblock .t_shijian{ color:#666;}
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock .t_tcblock .t_xingqu{ color:#f60; padding-top:5px; padding-bottom:5px;}
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock .t_tcblock .t_btn01{ margin-right:10px; float:left; _display:inline; width:56px; height:26px; padding-left:24px; line-height:26px; color:#fff; background:url(t_zrerfixed01.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixed01.png*/ 0px -340px; cursor:pointer; display:block;}
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock .t_tcblock .t_btn01active{ margin-right:10px; float:left; _display:inline; width:56px; height:26px; padding-left:24px; line-height:26px; color:#fff; background:url(blackheart.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/blackheart.png*/ no-repeat ; cursor:pointer; display:block;}
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock .t_tcblock .t_btn01:hover{opacity: 0.8; filter: alpha(opacity=80); zoom: 1 }
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock .t_tcblock .t_btn02{margin-right:10px;float:left; _display:inline; width:55px; height:26px; padding-left:30px; line-height:26px; color:#fff; background:url(t_zrerfixed01.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixed01.png*/ 0px -366px; cursor:pointer; display:block;}
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock .t_tcblock .t_btn02:hover{opacity: 0.8; filter: alpha(opacity=80); zoom: 1 }
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock .t_tcblock .t_btn03{ float:left; _display:inline; width:55px; height:26px; padding-left:30px; line-height:26px; color:#fff; background:url(t_zrerfixed01.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixed01.png*/ 0px -314px; cursor:pointer; display:block;}
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock .t_tcblock .t_t_btn04father{ height:30px;}
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock .t_tcblock .t_btn04{width:75px; height:26px; padding-left:10px; line-height:26px; color:#0099cc; background:url(t_zrerfixed01.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixed01.png*/ 70px -392px; cursor:pointer; display:block; float:right; }
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock .t_tcblock .t_btn04:hover{color:#fd8145;}
+
+
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock .t_tcblock .t_btn04_down{ background:url(t_zrerfixed01.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixed01.png*/ 70px -412px; }
+.t_zrksubmaincontent_r .t_zrksubmaincontent_r_articleblock .t_tcblock .t_hdxqbox{ color:#666; display:none;}
+/* 自如选详情结束*/
+/* 人物之详情开始*/
+.t_zrksubmaindetailcontent_l{ width:670px; float:left; padding-right:50px;border-right:1px dotted #ddd;   }
+.t_zrkdetailcntblock{ position:relative; padding-top:20px; padding-bottom:5px;border-bottom:1px dotted #ddd;}
+.t_zrkdetailcntblock h3{ line-height:30px;color:#333; font-size:20px; height:30px; cursor:default; font-family:"Microsoft YaHei",Simsun,sans-serif;}
+.t_zrkdetailcntblock_share{ position:absolute; right:0px; top:22px;}
+.t_zrkdetailcntblock_zhaiyao{ border-bottom:1px dotted #cccccc;color:#666; padding-bottom:10px;}
+.t_zrkdetailcntblock_bianji{ color:#666; float:left; line-height:25px;}
+.t_zrkdetailcntblock_zhaiyao img{ margin:5px auto;}
+.t_zrkdetailcntblock_like{ height:30px;}
+.t_zrkdetailcntblock_zhengwen{ color:#666; line-height:20px; padding-top:10px; }
+.t_zrkdetailcntblock_zhengwen p{ padding-bottom:10px;}
+.t_zrkdetailcntblock_zhengwen img{ margin:10px 0px;}
+.t_zrkdetailcntblock_nav{ line-height:30px;}
+.t_zrksubmaindetailcontent_r{ width:260px; float:right; padding-top:20px; padding-right:10px; }
+.t_zrksubmaindetailcontent_r h3{ height:20px; line-height:20px; margin-bottom:5px; padding-left:34px; background:url(t_zrerfixed01.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixed01.png*/ 15px -441px no-repeat; font-weight:bold; font-size:12px; color:#333;}
+.t_zrksubmaindetailcontent_r ul{ margin-left:10px; }
+.t_zrksubmaindetailcontent_r ul li{ height:29px;  padding-left:15px; overflow:hidden; line-height:29px; background:url(t_dotpic01.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/t_dotpic01.png*/ 6px 14px no-repeat; }
+.t_zrksubmaindetailcontent_r ul li a{ color:#666;}
+.t_zrksubmaindetailcontent_r ul li a:hover{ color:#f60;}
+.t_zrksubmaindetailcontent_r .addpic01{ background:#cccccc; height:100px; margin-left:10px; margin-top:10px;}
+
+.text_underline{ text-decoration:underline;}
+/* 自如选详情结束*/
+/* 头部 下拉框begin*/
+#header .top .menu_t_list { position:relative; width:58px;}
+#header .top .area li.bor a.menu_t,#header .top .area li.bor a.menu_y{ border-left:1px solid #ddd;border-top:1px solid #ddd;border-right:1px solid #ddd; background:#fff;z-index: 2;top: 0px;display: inline-block;width: 69px;height: 25px;line-height: 21px;padding-left: 10px;position: relative; left:-13px; color:#333;}
+#header .top .area li.bor a.menu_1 b,#header .top .area li.bor a.menu_2 b{ position:absolute; width:7px; height:4px; background:url(arrow_t.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/arrow_t.png*/ no-repeat 0 0; top:14px; left:64px;}
+#header .top .area li.bor a.menu_t b,#header .top .area li.bor a.menu_y b{ position:absolute; width:7px; height:4px; background:url(arrow_t.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/arrow_t.png*/ no-repeat 0 -4px; top:8px; left:64px;}
+.menu_t_list ul{position: absolute;right: 0px;top: 30px;background: #fff;border-left:1px solid #ddd;border-bottom:1px solid #ddd;border-right:1px solid #ddd;width: 80px;z-index: 1;  padding-bottom:5px; display:none;}
+#header .top .menu_t_list ul li{ height:20px; line-height:20px;}
+#header .top .area li.bor a.txt_t{ color:#333;}
+#header .top .area li.bor a.txt_t:hover{ color:#ff6600;}
+/* 头部 下拉框end*/
+/*-----------------------------自如客 css end-----------------------*/
+
+
+/*-----------------------------自如客转租 css -----------------------*/
+.z_left_box {    background: none repeat scroll 0 0 #F7F7F7;    border: 1px solid #E0E0E0;    margin: 5px 20px 20px 0;}
+.z_data {    padding: 10px 0;    text-align: center;}
+#cityList { padding: 5px 0;}
+.t_zrksubmaincontent_l .lisT {    height: 25px;    overflow: hidden;    padding: 0 0 0 10px;    position: relative;    width: 188px;    z-index: 2;}
+.lisT li {background:#fff;  float: left;line-height: 25px; position: static; width: 62px;}
+.t_zrksubmaincontent_l .lisT li { background: none;}
+.t_zrksubmaincontent_l .lisT li a {display: inline-block; padding: 0;}
+.lisT li a.i { height: 25px; line-height: 25px; position: relative; z-index: 2;}
+.lisT li a.active { background: url("citylist.png")/*tpa=http://www.ziroom.com/static/ziroomer/images/citylist.png*/ no-repeat scroll center bottom transparent; color: #f60;}
+.lisT li a.gray { color: #666;}
+.list_c { position: relative; top: -1px;z-index: 1;}
+.list_c p {background:#fff; border-bottom: 1px solid #ccc; border-top: 1px solid #ccc; display: none;  height: auto; line-height: 22px; overflow: hidden;  padding: 2px 10px;  width: 178px;}
+.list_c p a {display: inline-block;padding: 0 5px;}
+.list_c p a.active { background: none repeat scroll 0 0 transparent; color: #f60;}
+.subwayChoose .lisT li {width: 46px;}
+.subwayChoose { line-height: 22px; padding: 5px 0;}
+.subwayChoose a {color: #000; display: inline-block; float: left; padding: 0 3px; white-space: nowrap;}
+.subwayChoose a:hover, .addressShow a.active {color: #f60;}
+.zz_list {overflow: hidden;  width:935px; margin-bottom:40px;}
+.zz_list ul { width:288px; padding-left:17px; float:left;}
+.zz_list li {border: 1px solid #ddd;    box-shadow: 0 2px 4px #ccc;    color: #999;   line-height: 25px;    margin-right: 16px;    padding: 10px;    width: 264px; margin-bottom:20px;}
+.zz_list li:hover {border: 1px solid #f60;}
+.zz_list .t, .zz_list .p, .zz_list .z_ziroomer_tel, .zz_list .z_ruzhu { height: 25px;    margin: 5px 0;    overflow: hidden;    padding: 0 10px;}
+.zz_list .p { background:#f7f7f7;}
+.zz_list .z_ziroomer_tel .z_tel b {background: url("t_zrerfixed01.png")/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixed01.png*/ no-repeat scroll -200px -340px #fff; display: block;float: left; height: 9px; margin:8px 5px 0 0; width: 7px;}
+.zz_list .z_ruzhu { background: none repeat scroll 0 0 #f90; color: #fff; margin-top: 15px;}
+.zz_list .z_dianping {border-top: 1px dotted #ddd; line-height: 20px; margin-top: 5px;padding-top: 5px;}
+.fav, .loading_fav, .already_fav {background: url("t_zrerfixed01.png")/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixed01.png*/ no-repeat scroll -100px -340px #333; position:relative; color: #fff; display: inline-block; height: 25px; line-height: 24px; overflow: hidden; text-align: left; width:58px;padding-left:27px;}
+.fav b, .loading_fav b, .already_fav b {background-image: url("t_zrerfixed01.png")/*tpa=http://www.ziroom.com/static/ziroomer/images/t_zrerfixed01.png*/; display:block; float: left; height:14px; width:15px;-moz-transition:-moz-transform .3s ease-in;-o-transition:-o-transform .3s ease-in;transition:transform .3s ease-in; left:7px; top:5px; position:absolute;}
+.fav b {background-position: -109px -371px;}
+.already_fav b {background-position: -139px -371px;margin-right:5px;}
+.loading_fav b {background: url("loading.gif")/*tpa=http://www.ziroom.com/static/ziroomer/images/loading.gif*/ no-repeat scroll center center transparent; width:10px; height:10px; left:8px; top:8px;}
+.fav:hover, .loading_fav:hover, .already_fav:hover {color: #fff;}
+.fav:hover b, .loading_fav:hover b, .already_fav:hover b{-moz-transform:rotate(180deg);-webkit-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg);}
+#z_tips {color: #000; height: 0; left: 99999px;  line-height: 20px; overflow: hidden; position: absolute; top: 0; width: auto; z-index: 99999; }
+#z_tips p { background:#fff; border: 3px solid #f60;  border-radius: 6px 6px 6px 6px;padding: 0 5px;box-shadow: 0 0px 5px #ccc; margin:5px;}
+/*-----------------------------自如客转租 css end-----------------------*/
+/*-----------------------------首页添加转租快讯 css -----------------------*/
+
+/*-----------------------------首页添加转租快讯 css end-----------------------*/
+#loading_b{display:none; background:url(loading_b.gif)/*tpa=http://www.ziroom.com/static/ziroomer/images/loading_b.gif*/ no-repeat center center; height:60px;}
+/*---瀑布流--*/
+.t_weixinbox {background:url(weixin.png)/*tpa=http://www.ziroom.com/static/ziroomer/images/weixin.png*/ no-repeat;bottom: 310px;cursor: pointer;height: 89px;position: fixed;right: 3px;width: 60px; z-index:900;}
+
+.alreadyNum{ background:#FFF7F0; border:solid 1px #FFE3CC; text-align:center; padding:10px 0px; color:#666; width:198px;}
+
+/*-----------------------------news 页面移动端适配 start -----------------------*/
+
+@media screen and (max-device-width: 768px){
+  .top,#changeCityList,.mapHouse,.search,#nav,.subnav,#footer {display: none;}
+  .t_zrksubmaincontent_r,.t_zrksubmaincontent_l{float: none;width: 99.5%}
+  .t_mainbox,.area,.t_zrksubmaincontent_r_articleblock_share,.t_zrksubmaincontent_r_articleblock_pic,.t_zrksubmaincontent_r_articleblock_atext,.t_zrksubmaincontent_r_articleblock_text {width: 100% !important;}
+  .t_zrksubmaindetailcontent_l{width: 100% !important;  padding: 0px; border: 0;}
+  .t_zrkdetailcntblock_zhaiyao img{width: 100%}
+  .t_zrksubmaincontent_l div:last-child,.nav,.fr{display: none;}
+  .t_zrksubmaincontent_l_title{width: 90%;}
+  .t_zrksubmaincontent_r_articleblock_pic img{width: 100%;}
+  .t_zrksubmaincontent_r_articleblock_pic{height: 100%}
+  .t_zrksubmaincontent_r_articleblock_share table tr td:last-child{display: none;}
+  .logoBig img{width:70%}
+  .bb3{border-bottom: solid 3px;}
+  .t_zrxlistpage{width: auto;}
+  .t_zrkdetailcntblock_zhengwen img{margin: 0;width: 100%}
+}
+
+/*-----------------------------news 页面移动端适配 end -----------------------*/

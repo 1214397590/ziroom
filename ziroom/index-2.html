@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>2017自如海燕计划校园招聘</title>
+	<link rel="stylesheet" type="text/css" href="animate.css" tppabs="http://static8.ziroom.com/fecommon/library/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="index.css-20170630.css" tppabs="http://www.ziroom.com/zhuanti/2017/haiyan/pc/css/index.css?20170630">
+
+<![if !IE]>
+    <script type="text/javascript" src="createjs-2015.11.26.min.js" tppabs="http://code.createjs.com/createjs-2015.11.26.min.js"></script>
+    <script type="text/javascript" src="index.js" tppabs="http://www.ziroom.com/zhuanti/2017/haiyan/pc/js/index.js"></script>
+    <script>
+        var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+        function init() {
+            canvas = document.getElementById("canvas");
+            anim_container = document.getElementById("animation_container");
+            dom_overlay_container = document.getElementById("dom_overlay_container");
+            images = images||{};
+            var loader = new createjs.LoadQueue(false);
+            loader.addEventListener("fileload", handleFileLoad);
+            loader.addEventListener("complete", handleComplete);
+            loader.loadManifest(lib.properties.manifest);
+        }
+        function handleFileLoad(evt) {
+            if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+        }
+        function handleComplete(evt) {
+            //This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+            var queue = evt.target;
+            var ssMetadata = lib.ssMetadata;
+            for(i=0; i<ssMetadata.length; i++) {
+                ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+            }
+            exportRoot = new lib.index();
+            stage = new createjs.Stage(canvas);
+            stage.addChild(exportRoot);
+            //Registers the "tick" event listener.
+            fnStartAnimation = function() {
+                createjs.Ticker.setFPS(lib.properties.fps);
+                createjs.Ticker.addEventListener("tick", stage);
+            }
+            //Code to support hidpi screens and responsive scaling.
+            function makeResponsive(isResp, respDim, isScale, scaleType) {
+                var lastW, lastH, lastS=1;
+                window.addEventListener('resize', resizeCanvas);
+                resizeCanvas();
+                function resizeCanvas() {
+                    var w = lib.properties.width, h = lib.properties.height;
+                    var iw = window.innerWidth, ih=window.innerHeight;
+                    var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;
+                    if(isResp) {
+                        if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {
+                            sRatio = lastS;
+                        }
+                        else if(!isScale) {
+                            if(iw<w || ih<h)
+                                sRatio = Math.min(xRatio, yRatio);
+                        }
+                        else if(scaleType==1) {
+                            sRatio = Math.min(xRatio, yRatio);
+                        }
+                        else if(scaleType==2) {
+                            sRatio = Math.max(xRatio, yRatio);
+                        }
+                    }
+                    canvas.width = w*pRatio*sRatio;
+                    canvas.height = h*pRatio*sRatio;
+                    canvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  w*sRatio+'px';
+                    canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
+                    stage.scaleX = pRatio*sRatio;
+                    stage.scaleY = pRatio*sRatio;
+                    lastW = iw; lastH = ih; lastS = sRatio;
+                }
+            }
+            makeResponsive(false,'both',false,2);
+            fnStartAnimation();
+        }
+
+    </script>
+<![endif]>
+	
+</head>
+
+<body>
+    
+
+	<img class="qrcode" src="qrcode.png" tppabs="http://pic.ziroom.com/zhuanti/2017/haiyan/pc/img/qrcode.png" alt="">
+	<div class="banner">
+		<div class="area uhide">
+			<img src="banner1.png" tppabs="http://pic.ziroom.com/zhuanti/2017/haiyan/pc/img/banner1.png" alt="">
+		</div>
+		<div id="animation_container" class="uhide" style="background-color:rgba(46, 40, 183, 1.00); width:946px; height:471px; margin: 0 auto;">
+			<canvas id="canvas" width="946" height="471" style="position: absolute; display: block; background-color:rgba(46, 40, 183, 1.00);"></canvas>
+			<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:946px; height:471px; position: absolute; left: 0px; top: 0px; display: block;">
+			</div>
+		</div>
+	</div>
+	<div class="part2">
+		<div class="area">
+			<img src="hyjh.png" tppabs="http://pic.ziroom.com/zhuanti/2017/haiyan/pc/img/hyjh.png" alt="">
+			<div class="box">
+				<div>
+					<h3>月付0押金</h3>
+					<h3 style="margin-top: 6px;">1次免费换租</h3>
+					<p>（仅限2017.08.31日前使用）</p>
+					<h3 style="margin-top: 10px;">50元搬家券+600元民宿券</h3>
+					<p class="boldP" style="margin-top: 16px;">入职自如，更额外享有</p>
+					<p style="margin-top: 6px;">前三个月租金减半</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="data">
+		<div class="part3">
+			<div class="area">
+				<img src="hdgz.png" tppabs="http://pic.ziroom.com/zhuanti/2017/haiyan/pc/img/hdgz.png" alt="">
+				<div class="box">
+					<img class="box2_top" src="box2_top.png" tppabs="http://pic.ziroom.com/zhuanti/2017/haiyan/pc/img/box2_top.png" alt="">
+					<div id="hdgz"></div>
+					<img class="box2_bottom" src="box2_bottom.png" tppabs="http://pic.ziroom.com/zhuanti/2017/haiyan/pc/img/box2_bottom.png" alt="">
+				</div>
+			</div>
+		</div>
+
+		<div class="part4">
+			<div class="area">
+				<img src="hdxq.png" tppabs="http://pic.ziroom.com/zhuanti/2017/haiyan/pc/img/hdxq.png" alt="">
+				<div class="box">
+					<img class="box3_top" src="box3_top.png" tppabs="http://pic.ziroom.com/zhuanti/2017/haiyan/pc/img/box3_top.png" alt="">
+					<div>
+						<ul id="hdxq"></ul>
+					</div>
+					<img class="box3_bottom" src="box3_bottom.png" tppabs="http://pic.ziroom.com/zhuanti/2017/haiyan/pc/img/box3_bottom.png" alt="">
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+<!--统计代码-->
+<div style="display:none"> 
+    <script type='text/javascript'>
+      var _vds = _vds || [];
+      window._vds = _vds;
+      (function(){
+        _vds.push(['setAccountId', '8da2730aaedd7628']);
+        (function() {
+          var vds = document.createElement('script');
+          vds.type='text/javascript';
+          vds.async = true;
+          vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(vds, s);
+        })();
+      })();
+  </script>
+</div>	
+
+<script type="text/javascript" src="jquery-1.8.3.min.js" tppabs="http://static8.ziroom.com/fecommon/library/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="common2017.js" tppabs="http://zhuanti.ziroom.com/zhuanti/common/common2017.js"></script>
+<!--<script type="text/javascript" src="js/vue.min.js"></script>-->
+<script>
+    function isIE() { //ie?
+        if (!!window.ActiveXObject || "ActiveXObject" in window)
+            return true;
+        else
+            return false;
+    }
+    var loadScript = function(src, fun){
+        var script = null;
+        script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = src;
+        if(typeof fun === "function"){
+			script.onreadystatechange = function () {
+				var r = script.readyState;
+				if (r === 'loaded' || r === 'complete') {
+					script.onreadystatechange = null;
+					fun();
+				}
+			};
+			script.onload = function(){
+				if(fun){
+					fun();
+				}
+			};
+        }
+
+        document.getElementsByTagName("head")[0].appendChild(script);
+    };
+	function setPosition(){
+        if(document.body.clientWidth > 1400){
+            $('.qrcode').css('right','5%');
+        }else{
+            $('.qrcode').css('right','0');
+        }
+	}
+    $(window).resize(function() {
+        setPosition();
+    });
+	$(function(){
+        setPosition();
+	    if(isIE()){
+	        $('.banner .area').show();
+
+		}else{
+            $('.banner .area').siblings().show();
+            init();
+		}
+        var arr1,arr2;
+        //渲染活动规则
+        $.getScript(
+            '//contentful.ziroom.com/online/zuzhu/7f100b7b36092fb9b06dfb4fac360931.js?'+new Date().getTime(),
+            function(){
+                var data = JSON.parse(js271);
+                arr1=data.guize.split('#');
+                arr2=data.qa.split('#');
+
+                var arr1Html = '';
+                for(var i = 0; i< arr1.length; i++){
+                    arr1Html += '<p>'+ arr1[i] +'</p>';
+				}
+				$('#hdgz').html(arr1Html);
+
+                var arr2Html = '';
+                for(var j = 0; j < arr2.length; j++){
+                    if(arr2[j].indexOf('www.ziroom.com/vip/')!=-1){
+                        arr2[j] = arr2[j].replace('www.ziroom.com/vip/','<a href="index-3.htm"/*tpa=http://www.ziroom.com/vip/*/ style="color:#2e28b7;">www.ziroom.com/vip/</a>')
+                    }
+                    arr2Html += '<li class="clearfix lBlue">\n\
+                        <div class="icon"><img src="Q.png"/*tpa=http://pic.ziroom.com/zhuanti/2017/haiyan/pc/img/Q.png*/ alt=""></div>\n\
+                        <div class="dialog">\n\
+                        <img class="sj" src="sjBlue.png"/*tpa=http://pic.ziroom.com/zhuanti/2017/haiyan/pc/img/sjBlue.png*/ alt="">\n\
+                        <p>'+ arr2[j].split('|')[0] +'</p>\n\
+                    </div>\n\
+                    </li>\n\
+                    <li class="clearfix rYellow">\n\
+                        <div class="icon"><img src="A.png"/*tpa=http://pic.ziroom.com/zhuanti/2017/haiyan/pc/img/A.png*/ alt=""></div>\n\
+                        <div class="dialog">\n\
+                        <img class="sj" src="sjYellow.png"/*tpa=http://pic.ziroom.com/zhuanti/2017/haiyan/pc/img/sjYellow.png*/ alt="">';
+
+                    var desc = arr2[j].split('|')[1].split('&');
+
+                    if(desc.length>0){
+                        for(var i=0; i<desc.length ;  i++){
+                            arr2Html +=' <p>'+desc[i] +'</p>';
+                        }
+                    }else{
+                            arr2Html +='<p>'+ arr2[j].split('|')[1] +'</p>';
+                    }
+
+
+                    arr2Html +='</div></li>';
+				}
+                $('#hdxq').html(arr2Html);
+            }
+        );
+
+	});
+</script>
+</body>
+</html>

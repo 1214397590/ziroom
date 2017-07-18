@@ -1,0 +1,44 @@
+$(function() {
+	$(".btn").click(function() {
+		$(".pop").css({
+			display: "block"
+		}).click(function() {
+			$(".pop").css({
+				display: "none"
+			})
+		});
+	}).fadeIn();
+	$(".text01").fadeIn("slow");
+	$(".text02").fadeIn("slow");
+	$(".banner_logo").fadeIn("slow")
+
+	var index = 0;
+	change(0);
+	$('.icons li').hover(function() {
+		index = $(this).index();
+		change(index);
+		clearInterval(timer)
+	}, function() {
+		timer = setInterval(function() {
+			index++;
+			index = index % 4;
+			change(index);
+		}, 3000);
+	})
+
+	function change(index) {
+		$(".part").eq(index).stop(false,true).fadeIn().siblings().stop(false,true).hide();
+		$(".icon").eq(index).addClass("current_btn").siblings().removeClass("current_btn");
+		$(".phone_img").stop().animate({
+			"left": -index * 218 + "px"
+		}, 500)
+	}
+	var timer;
+	timer = setInterval(function() {
+		index++;
+		if (index > 3) {
+			index = 0;
+		}
+		change(index);
+	}, 3000);
+})

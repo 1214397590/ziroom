@@ -1,0 +1,613 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+html{background:none repeat scroll 0 0 #fff;color:#000;}
+body,button,input,select,textarea,pre{
+	font-family:"微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+font-size:14px; line-height:150%;}
+body{overflow-x:hidden;}
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight:500;}
+address,cite,dfn,em,var{font-style:normal;}
+small{font-size:12px;}
+ul,ol{list-style:none outside none;}
+li{vertical-align:top;}
+a{color:#666;text-decoration:none;}
+a:hover{color:#85acdb;cursor:pointer;/*transition:color 0.15s linear 0s,background-color 0.3s linear 0s;*/}
+a:focus{outline:0;-moz-outline:0;-webkit-outline:0}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+legend{color:#000000;}
+fieldset,img{border:0 none;}
+button,input,select,textarea{font-size:12px; vertical-align:middle; border:none;}
+table{border-collapse:collapse;border-spacing:0;}
+img{vertical-align:top;border:0;}
+textarea{resize:none;}
+:focus{outline:0 none;}
+.overflow{overflow:hidden;}
+.hide{display:none;}
+.disblock{display:block;}
+.inlineBlock{display:inline-block;}
+.block{display:block;}
+.inline{display:inline;}
+.error{color:#f00;font-size:12px;}
+button{cursor:pointer;}
+i{font-style:normal;}
+
+button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}
+button,input{line-height:normal}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;*overflow:visible;}
+button[disabled],input[disabled]{cursor:default}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+
+
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block;}
+
+.wordwrap{word-break:break-all;word-wrap:break-word;}
+pre.wordwrap{white-space:pre-wrap;}
+
+.fl{float:left;}
+.fr{float:right;}
+input{border:none;}
+
+.zIndex6{z-index:6;}
+.zIndex5{z-index:5;}
+.zIndex4{z-index:4;}
+.zIndex3{z-index:3;}
+.zIndex2{z-index:2;}
+.zIndex1{z-index:1;}
+
+
+.hidden{overflow:hidden;}
+
+.clearfix:after{ display:block;visibility:hidden;clear:both; height:0;content:".";}
+.clearfix{display:inline-block;}
+* html .clearfix{height:1%;}
+.clearfix{ display:block;}
+
+
+a {
+    color: #666;cursor:pointer;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+a:hover {text-decoration: none; color: #8de2d7;}
+.pr{position:relative;}
+.pa{position:absolute;}
+
+.org{color:#ffa000;}
+.red{color:#f00;}
+.blue{color:#0088b5;}
+.gray-8{color:#888;}
+.gray-9{color:#999;}
+.gray-6{color: #666;}
+.gray-a{color: #aaa;}
+.c_black{color: #000;}
+
+
+
+.fb{font-weight:bold;}
+.font_wr{font-weight:500; font-family:'Microsoft Yahei';}
+.en,.date{font-family:Arial, Helvetica, sans-serif;}
+
+.area{width:1200px; margin:0px auto; text-align:left;}
+.fs14{font-size:14px;}
+.fs16{font-size:16px;}
+.fs18{font-size:18px;}
+.fs20{font-size:20px;}
+.fs22{font-size:22px;}
+.fs24{font-size:24px;}
+.fs25{font-size:25px;}
+.fs30{font-size:30px;}
+
+
+
+
+.mt5{margin-top:5px;}
+.mt10{margin-top:10px;}
+.mt20{margin-top:20px;}
+.mt30{margin-top:30px;}
+.mb10{margin-bottom:10px;}
+.mb15{margin-bottom:15px;}
+.mb20{margin-bottom:20px;}
+.mb30{margin-bottom:30px;}
+.mb40{margin-bottom:40px;}
+.mb50{margin-bottom:50px;}
+.mr10{margin-right:10px;}
+.mr20{margin-right:20px;}
+.pb10{padding-bottom:10px;}
+.pl10{padding-left:10px;}
+.pl20{padding-left:20px;}
+
+
+
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+
+.ellipsis{width:100%; display:block; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.c4{color: #444;}
+.c6{color: #666;}
+.c9{color: #999;}
+
+.loadImg{opacity: 0;
+    -webkit-transition:opacity .5s ease-in;
+    -moz-transition:opacity .5s ease-in;
+    -o-transition:opacity .5s ease-in;
+    transition:opacity .5s ease-in; }
+    
+.loadImgShow{opacity: 1;}
+
+
+.header{height: 80px; background:url(../images/common/header.png) #fff; position: fixed; left: 0; top: 0; width: 100%; z-index: 100;box-shadow: 2px 0 5px rgba(0,0,0,0.1);}
+.logo {float: left;}
+.logo a{display: block; background:url(../images/common/logo.png) no-repeat center center; width: 160px; height:80px;}
+.header .txt_right{float: right; padding-top: 30px;}
+.header .txt_right li{float: left; margin-left: 40px; height: 50px;}
+.header .txt_right li.downLoad{position: relative; cursor: pointer; color: #666;}
+.header .txt_right li.downLoad span{position: absolute; left: 50%; top: 50px; margin-left: -45px; display: none;border: 1px solid #ddd;
+  background: #fff;z-index: 10;}
+.header .txt_right li.downLoad:hover{color: #7acec3}
+.header .txt_right li.downLoad:hover span{display: block;}
+.header .txt_right li.users a{padding: 0 10px;}
+.header .txt_right li.users i{position: relative; top: -1px;}
+.header .txt_right li.to a{background: #7acec3; color: #fff; border-radius: 2px; width: 120px; height: 40px; line-height: 40px;
+display: block; position: relative; top: -10px; text-align: center;}
+.header .txt_right li.to a:hover{background: #8de2d7;}
+
+.header .txt_right li.usersInfo{position: relative;}
+.header .txt_right li.usersInfo .c{position: absolute; left: 50%; border:solid 1px #d7d9da; top:60px; background:url(../images/common/header.png) #fff; width: 100px;
+margin-left: -50px; text-align: center; padding: 5px 0; display: none;z-index: 10;}
+.header .txt_right li.usersInfo .c a{display: block; font-size: 12px; line-height: 24px;}
+.header .txt_right li.usersInfo .c a.s{color: #999;}
+.header .txt_right li.usersInfo .c a.s:hover{color: #7acec3}
+.header .icon_down{background: url(../images/common/icon_down.png) no-repeat right center; padding-right: 15px;width: 100px;white-space: nowrap;text-overflow:ellipsis;-0-text-overflow:ellipsis;overflow: hidden;text-align:center}
+.header .txt_right li.usersInfo:hover .c{display: block; margin-top: -10px;}
+
+
+.footer{background:#efefef url(../images/common/footer.png) no-repeat center bottom; padding: 50px 0; font-size: 12px; color: #999;border-top: 1px solid #dddddd}
+.footer .area{text-align: center;max-width: 1200px;-webkit-max-width:1200px;width: 100%}
+.footer .topLinks a{padding: 0 15px; line-height: 20px; background:url(../images/common/footer_line.png) no-repeat right center;}
+.footer .topLinks a.last{background:none;}
+.footer .shares img{width: 100%;}
+.footer .shares{padding: 20px 0;}
+.footer .shares ul{width: 270px; text-align: center; margin: 0 auto}
+.footer .shares li{float: left; cursor: pointer; position: relative; width: 90px;}
+.footer .shares li span.weixin,
+.footer .shares li span.weibo,
+.footer .shares li span.app{width: 40px; height: 40px; display: block; margin: 0 auto;background-image: url(../images/common/f_logo.png);
+    opacity: 1;
+    filter:alpha(opacity:100);
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+    transition:all .4s;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#00FFFFFF, endColorStr=#00FFFFFF);
+}
+.footer .shares li span.weixin{background-position: 0 0;}
+.footer .shares li span.weibo{background-position: -40px 0;}
+.footer .shares li span.app{background-position: -80px 0;}
+.footer .shares li span.weixin:hover,
+.footer .shares li span.weibo:hover,
+.footer .shares li span.app:hover{opacity: 0.8;filter:alpha(opacity:80);filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#00FFFFFF, endColorStr=#00FFFFFF);}
+.footer .shares li .img{position: absolute; left: 50%; bottom: 30px; margin-left: -49px; width: 98px; background:url(../images/common/ewmbg.png) no-repeat center top;
+padding: 4px 4px 14px 4px; display: none}
+.footer .shares li .img img{border:1px solid #ddd;}
+.footer .shares li:hover .img{display: block;}
+
+
+/*搜索框*/
+.search_bar{width: 100%;height: 50px;padding-top: 30px;}
+.search_bar .search_bar_l{float: left;width: 839px;height: 48px;border: 1px solid #ddd;border-radius: 5px 0 0 5px;border-right: none;}
+.search_bar .search_bar_l_ul{width: 100%;padding: 10px 0;height: 38px;line-height: 30px;}
+
+.search_bar .search_bar_l_ul > li{float: left;width: 208px;height: 30px;line-height: 30px;border-right: 1px solid #eee;position: relative;}
+.search_bar .search_bar_l_ul > li .ipt_box{height: 30px;}
+.search_bar .search_bar_l_ul > li .icons{display:block;position:absolute;top: -10px;right:20px;z-index:1;width: 20px;height: 50px;background-repeat: no-repeat;background-image: url(../images/list/search_icons.png);}
+.search_bar .search_bar_l_ul > li .icons.icon_city{background-position: 0 0;}
+.search_bar .search_bar_l_ul > li .icons.icon_date{background-position: -20px 0;}
+.search_bar .search_bar_l_ul > li .icons.icon_person{background-position: -40px 0;}
+.search_bar .search_bar_l_ul > li:last-child{border-right: none;}
+.search_bar .search_bar_l_ul input{width: 148px;padding-left: 20px;color: #444;font-size: 14px;line-height: 30px;height: 30px;cursor: pointer;}
+input[placeholder], [placeholder], *[placeholder] { 
+color:#bbb; 
+} 
+input.placeholder{color: #bbb;}
+.search_bar .search_bar_l_ul .select_list{color: #444;font-size: 14px;width: 168px;padding: 0 20px;background: #fff;position: absolute;top: 38px;left: 0;z-index: 99;border: 1px solid #ddd;display: none;}
+.search_bar .search_bar_l_ul .select_list li{width: 100%;height: 40px;line-height: 40px;font-size: 14px;color: #bbb;cursor: pointer;}
+.search_bar .search_bar_l_ul .select_list li:hover,
+.search_bar .search_bar_l_ul .select_list li.current{color: #7acec3;}
+.search_bar .search_bar_r{float: left;width: 160px;height: 50px;line-height: 50px;}
+.search_bar .search_bar_r .search_btn{width: 100%;border:none;color: #fff;font-size: 16px;background: #7acec3;height: 50px;line-height: 50px;border-radius: 0 5px 5px 0;}
+.search_bar .search_bar_r .search_btn:hover{background: #8de2d7;}
+
+/*城市下拉框样式调整*/
+.city_list {height: 400px;overflow-y: auto;}
+
+/*日历插件*/
+/*! jQuery UI - v1.10.4 - 2014-01-17
+* http://jqueryui.com
+* Includes: jquery.ui.core.css, jquery.ui.accordion.css, jquery.ui.autocomplete.css, jquery.ui.button.css, jquery.ui.datepicker.css, jquery.ui.dialog.css, jquery.ui.menu.css, jquery.ui.progressbar.css, jquery.ui.resizable.css, jquery.ui.selectable.css, jquery.ui.slider.css, jquery.ui.spinner.css, jquery.ui.tabs.css, jquery.ui.tooltip.css, jquery.ui.theme.css
+* Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */ 
+
+#ui-datepicker-div{margin-top: 9px;z-index: 1000000!important;}
+.ui-datepicker {
+    width: 260px;
+    padding: 0 10px ;
+    /*top: 160px!important;*/
+    display: none; background: #fff;
+    border:solid 1px #ddd;
+    border-top: none;
+}
+
+.ui-datepicker .ui-datepicker-header {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+}
+
+.ui-datepicker .ui-datepicker-prev,.ui-datepicker .ui-datepicker-next {
+    position: absolute;
+    top: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.ui-datepicker .ui-datepicker-prev-hover,.ui-datepicker .ui-datepicker-next-hover {
+    top: 0px
+}
+
+.ui-datepicker .ui-datepicker-prev {
+    left: 2px
+}
+
+.ui-datepicker .ui-datepicker-next {
+    right: 2px
+}
+
+.ui-datepicker .ui-datepicker-prev-hover {
+    left: 1px
+}
+
+.ui-datepicker .ui-datepicker-next-hover {
+    right: 1px
+}
+
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+    display: block;
+    position: absolute;
+    margin-left: -8px;
+    top: 50%;
+    margin-top: -12px
+}
+.ui-datepicker .ui-datepicker-prev span{left: 50%;}
+.ui-datepicker .ui-datepicker-next span {right: 50%;}
+
+.ui-datepicker .ui-datepicker-title {
+    line-height: 40px;
+    font-size: 14px;
+    color: #7acec3;
+    text-align: center
+}
+
+.ui-datepicker .ui-datepicker-title select {
+    font-size: 1em;
+    margin: 1px 0
+}
+
+.ui-datepicker select.ui-datepicker-month,.ui-datepicker select.ui-datepicker-year {
+    width: 49%
+}
+
+.ui-datepicker table {
+    width: 100%;
+    font-size: 14px;
+    border-collapse: collapse;
+    margin: 5px 0;
+}
+
+.ui-datepicker th {
+    text-align: center;
+    color: #666;
+    border: 0
+}
+.ui-datepicker th:first-child,
+.ui-datepicker th:last-child{
+    color: #7acec3;
+}
+
+.ui-datepicker td {
+    border: 0;
+    padding: 1px
+}
+
+.ui-datepicker td span,.ui-datepicker td a {
+    display: block;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none
+}
+
+.ui-datepicker .ui-datepicker-buttonpane {
+    background-image: none;
+    margin: .7em 0 0;
+    padding: 0 .2em;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0
+}
+
+.ui-datepicker .ui-datepicker-buttonpane button {
+    float: left;
+    margin: 5px 2px 4px;
+    cursor: pointer;
+    width: auto;
+    overflow: visible;
+    background: #fff;
+    color: #999;
+    font-size: 14px;
+}
+.ui-datepicker .ui-datepicker-buttonpane button:hover {
+    color: #7acec3;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+    float: left
+}
+
+.ui-datepicker.ui-datepicker-multi {
+    width: auto
+}
+
+.ui-datepicker-multi .ui-datepicker-group {
+    float: left
+}
+
+.ui-datepicker-multi .ui-datepicker-group table {
+    width: 95%;
+    margin: 0 auto .4em
+}
+
+.ui-datepicker-multi-2 .ui-datepicker-group {
+    width: 50%
+}
+
+.ui-datepicker-multi-3 .ui-datepicker-group {
+    width: 33.3%
+}
+
+.ui-datepicker-multi-4 .ui-datepicker-group {
+    width: 25%
+}
+
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+    border-left-width: 0
+}
+
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+    clear: left
+}
+
+.ui-datepicker-row-break {
+    clear: both;
+    width: 100%;
+    font-size: 0
+}
+
+.ui-datepicker-rtl {
+    direction: rtl
+}
+
+.ui-datepicker-rtl .ui-datepicker-prev {
+    right: 2px;
+    left: auto
+}
+
+.ui-datepicker-rtl .ui-datepicker-next {
+    left: 2px;
+    right: auto
+}
+
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+    right: 1px;
+    left: auto
+}
+
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+    left: 1px;
+    right: auto
+}
+
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+    clear: right
+}
+
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+    float: left
+}
+
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,.ui-datepicker-rtl .ui-datepicker-group {
+    float: right
+}
+
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+    border-right-width: 0;
+    border-left-width: 1px
+}
+.ui-state-disabled{color: #999;}
+.ui-datepicker-current-day,
+.ui-state-active{background: #7acec3;color: #fff;}
+.ui-state-active:hover{color: #444;}
+
+/*tap层*/
+.layui-layer-tips .layui-layer-content{
+    position: absolute;
+    top: 60px;
+    color: #666;
+    font-size: 14px;
+    padding: 10px;
+    line-height: 20px;
+    border:1px solid #ddd!important; 
+    box-shadow: 0 0 1px #ddd;
+}
+.layui-layer-tips i.layui-layer-TipsT{
+    border:none; 
+    width: 16px;height: 16px;background: url(../images/list/jt.png) center center no-repeat;
+    display: block;
+    left: 5px;
+    top: -9px;
+    z-index: 999;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+color: #bbb; 
+} 
+input:-moz-input-placeholder, textarea:-moz-input-placeholder { 
+color: #bbb; 
+} 
+input::-moz-input-placeholder, textarea::-moz-input-placeholder { 
+color: #bbb; 
+} 
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+color: #bbb; 
+} 
+/*7ad2c5 active*/
+/*8de2d7 hover*/
+/*联系我们*/
+.contact_box{width: 1200px;border-top:1px solid #eee;margin:  30px auto;}
+.contact_box .contact_tt{font-size: 16px;color: #999;background: #fafafa;height: 60px;line-height: 60px;}
+.contact_box .contact_tt span{margin-left: 30px;}
+.contact_box .contact_main{width: 1000px;padding-left: 30px;}
+.contact_box .contact_main .contact_li{border-bottom: 1px solid #eee;font-size: 14px;padding: 15px 0;}
+.contact_box .contact_main .contact_li:last-child{border:none;}
+.contact_box .contact_main .contact_li .contact_li_tt{color: #7ad2c5;height: 40px;line-height: 40px;}
+.contact_box .contact_main .contact_li .contact_li_sub_tt{color: #444;font-size: 14px;height: 40px;line-height: 40px;}
+.contact_box .contact_main .contact_li .contact_li_txt span.sub_tt{display: block;float: left;width: 80px;color: #666;padding-left: 20px;height: 30px;line-height: 30px;}
+
+.contact_box .contact_main .contact_li .contact_li_txt .txt{line-height: 30px;margin-left: 100px;color: #999;}
+.contact_box .contact_main .contact_li .contact_code_ul{padding-left: 20px;}
+.contact_box .contact_main .contact_li .contact_code_ul li{width: 130px;float: left;}
+.contact_box .contact_main .contact_li .contact_code_ul li .img{width: 92px;height: 90px;overflow: hidden;}
+.contact_box .contact_main .contact_li .contact_code_ul li .img img{width: 100%;}
+.contact_box .contact_main .contact_li .contact_code_ul li span{height: 40px;line-height: 40px;font-size: 14px;color: #999;}
+
+.contact_box .contact_main .contact_li .contact_work_ul{padding-left: 20px;}
+.contact_box .contact_main .contact_li .contact_work_ul li{height: 40px;line-height: 40px;color: #999;font-size: 14px;}
+
+/*瀑布流*/
+#loadMore{width: 100%;height: 20px;background: transparent;}
+
+/*评星*/
+.star_box{height: 60px}
+.star_box span{float: left;font-size: 16px;color: #999;}
+.star_box .stars{float: left;margin: 0 5px;}
+.star_box .stars .star{float: left;width: 15px;height: 20px;background-image: url(../images/common/stars.png);background-position: -15px 2px;background-repeat: no-repeat;}
+.star_box .stars .star.active{background-position: 0 2px;}
+.star_box .stars .star.half{background-position: -30px 2px;}
+
+
+/*返回顶部*/
+#goTop{width: 40px;height: 40px;position: fixed; bottom: 10px;right: 10px;z-index: 888;display: none;cursor: pointer;line-height: 40px;text-align: center;background: #7ad2c5;color: #fff;}
+#goTop:hover{background-color: #8de2d7;}
+/*没有信息提示*/
+
+.noMessage{width: 100%;padding: 50px 0;text-align: center;color: #666;font-size: 16px;}
+/*错误提示*/
+.layui-layer-title {
+  padding: 0 30px 0 30px;
+  height: 40px;
+  line-height: 40px;
+  width: 300px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background-color: #fafafa;
+}
+.layui-layer-dialog .layui-layer-content {
+  position: relative;
+  padding: 30px;
+  line-height: 24px;
+  width: 300px;
+  color: #666;
+  word-break: break-all;
+  font-size: 14px;
+  overflow: auto;
+}
+.layui-layer-btn {
+  text-align: center;
+  padding-bottom: 30px;
+  pointer-events: auto;
+}
+.layui-layer-btn a {
+  height: 40px;
+  line-height: 40px;
+  margin: 0 8px;
+  width: 80px;
+  border-radius: 3px;
+  background: #7ad2c5;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+.layui-layer-btn .layui-layer-btn1 {
+  background:#fff;
+  color: #ddd;
+  border:1px solid #ddd;
+  
+}
+.layui-layer-btn .layui-layer-btn0:hover{
+   background: #8de2d7;
+}
+.layui-layer-setwin .layui-layer-close1,
+.layui-layer-setwin .layui-layer-close1:hover {
+  cursor: pointer;
+  display: block;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  background: url(../images/house/del.png) center center no-repeat;
+  background-position: 0 0;
+}
+/*服务协议*/
+.agreement_area{width: 1000px;margin: 0 auto;line-height: 25px;color: #666;font-size: 14px;}
+.agreement_tt{font-size: 18px;color: #666;text-align: center;}
+.agreement_sub_tt{font-size: 16px;color: #444;height: 40px;line-height: 40px;margin-bottom: 10px;}
+.tt1{text-indent: 15px;}
+.tt2{text-indent: 30px;}
+.n{float: left;width: 30px;text-align: center;}
+.t{margin-left: 30px;}
+.agreement_area a.link{color: #7acec3;}
+.agreement_area a.link:hover{color: #8de2d7;text-decoration: underline;}
+
+.protocol_rd{color: red;}
+.protocol_tip{background-color: yellow;}
+
+
+/*关于我们*/
+.about_main{margin-top: 85px;}
+.about_banner{height: 280px;width: 100%;background: url(../images/common/about_banner.jpg) center center no-repeat;}
+.about_area{width: 820px;margin: 30px auto;margin-bottom: 50px;}
+.about_tt{height: 47px;width: 100%;background: url(../images/common/about_tt.png) left center no-repeat;}
+.about_txt{padding:0 5px;line-height: 30px;font-size: 16px;color: #444;}
+
+/*IE8搜索框样式问题*/
+.search_bar .search_bar_l_ul > .end_date_li {
+    border-right: none;
+}
+.search_bar_fixed .search_bar_l_ul> .end_date_li {
+    border-right: none;
+}
+

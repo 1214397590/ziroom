@@ -1,0 +1,1945 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>企悦会-自如网</title>
+<meta name="keywords" content="企悦会,自如网"/>
+<meta name="description" content="企悦会-自如网"/>
+<link rel="stylesheet" type="text/css" href="http://www.ziroom.com/static/ziroom_2016/css/common.css?20160323" />
+<link href="http://www.ziroom.com/static/2016/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="http://www.ziroom.com/static/2016/css/qiyuehui.min.css?20170605">
+<script type="text/javascript" src="http://www.ziroom.com/static/2015/js/jquery.min.js"></script>
+<script src="http://www.ziroom.com/static/2016/js/jquery-ui-1.10.4.min.js"></script>
+<script src="http://www.ziroom.com/static/2015/js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="http://www.ziroom.com/static/2016/js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="http://www.ziroom.com/static/ziroom_2016/js/z-common.js?20160418"></script>
+<script src="http://www.ziroom.com/static/2016/js/jquery.mCustomScrollbar.min.js"></script>
+<script src="http://www.ziroom.com/static/2016/js/qiyuehui.min.js?201706051"></script>
+<script src="http://www.ziroom.com/static/2016/laydate-v1.1/laydate/laydate.js"></script>
+<script type="text/javascript" src="http://pic.ziroom.com/static/js/jquery.form.js"></script>
+</head>
+
+<body>
+<div id="select-didian">
+<!-- header -->
+<div id="sub-header">
+    <div class="area clearfix">
+
+        <h1 class="logo">
+            <a href="/">
+                <img src="http://www.ziroom.com/static/ziroom_2016/images/common/logo.png?20161018" width="150" height="43">
+            </a>
+        </h1>
+
+        <dl class="changeCityList" id="changeCityList">
+            <dt id="current_city">北京</dt>
+            <dd>
+                <div class="con" id="cityList">
+                    <a data-id="110000" href="javascript:void(0)" class="bor">北京</a>
+                    <a data-id="310000" href="javascript:void(0)" class="bor">上海</a>
+                    <a data-id="440300" href="javascript:void(0)" class="bor">深圳</a>
+                    <a data-id="330100" href="javascript:void(0)" class="bor">杭州</a>
+                    <a data-id="320100" href="javascript:void(0)">南京</a>
+                </div>
+            </dd>
+        </dl>
+        <div class="nav">
+            <ul class="clearfix">
+                <li><a href="/" title="首页" class=" s">首页</a></li>
+                <li><a href="http://www.ziroomapartment.com/" title="自如寓" class="s">自如寓</a></li>
+                <li><a href="http://z-inn.com" title="自如驿" class="s">自如驿</a></li>
+                <li><a href="http://www.ziroom.com/zhuanti/minsu/index.html" title="民宿" class="s">民宿</a>
+                </li>
+                <li><a href="/ziroomer/" title="生活" class=" s">生活</a></li>
+                                <li><a href="http://yezhu.ziroom.com/" title="业主" class="s">业主</a></li>
+                            </ul>
+        </div>
+
+        <ul class="fr" id="topRightList">
+            <li class="app" >
+                <a rel="nofollow" target="_blank" href="/static/201401/androidapp.html" ><b></b>移动自如</a>
+                <div class="box">
+                    <img src="http://www.ziroom.com/static/2015/images/common/app-qrcode.png">
+                    <p>下载自如app</p>
+                    <p>立即签约好房源</p>
+                </div>
+            <li>
+                <a rel="nofollow" class=" " target="_blank" href="/servicecentre/">在线服务</a>
+
+            </li>
+
+
+            <li>
+                <a rel="nofollow" class="active " href="/vip/">企悦会</a>
+            </li>
+               
+               
+                                                <input type="hidden" id="login_flag" value=""/>
+                                                                <li id="ziroom_login"><a href="http://passport.ziroom.com/login.html?return_url=http%3A%2F%2Fwww.ziroom.com%2Fvip%2Fcms%2F%2F2016%2F%2F09%2F%2Fcaeca4f87cc357f7ce1c9aac6d93bfe1.jpg" rel="nofollow" >登录</a></li>
+                <li id="ziroom_reg"><a href="http://passport.ziroom.com/register.html" rel="nofollow" >注册</a></li>
+                                </ul>
+    </div>
+</div><!--/sub-header-->
+
+<script  type="text/javascript" src="//static8.ziroom.com/phoenix/pc/js/citys.js?20170325"></script>
+    <!--header End-->
+    <input id="r_k" value="3bfd56ccd43b684654d2ff09765bd283" type="hidden" >
+    <input type="hidden" id="curCityCode" value="110000"/>
+    <input type="hidden" id="curCityName" value='北京'/>
+
+<!-- content 轮播图-->
+<div class="slideBox foucsSlide">
+<div class="bd">
+<ul class="clearfix"></ul>
+</div>
+
+<div class="hd">
+<ul class="clearfix"></ul>
+</div>
+
+<div class="btn">
+<a class="prev" href="javascript:void(0)"></a>
+<a class="next" href="javascript:void(0)"></a>
+</div>
+</div>
+
+<!-- content 加入-->
+<div class="join">
+<ul class="clearfix">
+<li class="l">
+<div class="die" id="zjdl_btn">
+                                                                                                                        <input type="hidden" value="" id="phone"/>
+                                                                                <p>员工激活特权</p>
+                                        <a href="" id="active_login">立即激活</a>
+                                        </div>
+<div class="live">
+<p>您已激活</p>
+<a href="/zt/qiyuehui/">去看看企业周边房源</a>
+</div>
+</li>
+<li class="r">
+<p>企业申请加入企悦会</p>
+<a href="javascript:void(0)" id="join">立即申请</a>
+</li>
+</ul>
+</div>
+
+<!-- content 福利-->
+<div class="welfare bj">
+<div class="tit">
+<p class="chinese">员工福利</p>
+<i></i>
+</div>
+<ul class="clearfix">
+<li>
+<i class="i1"></i>
+<h5>专属管家</h5>
+<p>企业专属管家为您服务</p>
+<p>随时接听您的咨询电话</p>
+</li>
+<li>
+<i class="i2"></i>
+<h5>免费换租</h5>
+<p>全北京200000间自如友家</p>
+<p>房源享受免费换租一次</p>
+</li>
+<li>
+<i class="i3"></i>
+<h5>服务费折扣</h5>
+<p>企悦会员工租房期间</p>
+<p>服务费享受88折优惠</p>
+</li>
+<li style="width: 300px; border:0 none;">
+<i class="i4"></i>
+<h5>公积金租房</h5>
+<p>帮助员工节省时间、精力</p>
+<p>快速开发票办理</p>
+</li>
+</ul>
+</div>
+
+<div class="welfare sh">
+<div class="tit">
+<p class="chinese">员工福利</p>
+<i></i>
+</div>
+<ul class="clearfix">
+<li>
+<i class="i1"></i>
+<h5>专属管家</h5>
+<p>企业专属管家为您服务</p>
+<p>随时接听您的咨询电话</p>
+</li>
+<li>
+<i class="i2"></i>
+<h5>免费换租</h5>
+<p>全上海30000间自如友家</p>
+<p>房源享受免费换租一次</p>
+</li>
+<li style="border:0 none;width: 400px;">
+<i class="i3"></i>
+<h5>服务费折扣</h5>
+<p>企悦会员工租房期间</p>
+<p>服务费享受88折优惠</p>
+</li>
+</ul>
+</div>
+
+<div class="welfare sz">
+<div class="tit">
+<p class="chinese">员工福利</p>
+<i></i>
+</div>
+<ul class="clearfix">
+<li>
+<i class="i1"></i>
+<h5>专属管家</h5>
+<p>企业专属管家为您服务</p>
+<p>随时接听您的咨询电话</p>
+</li>
+<li>
+<i class="i2"></i>
+<h5>免费换租</h5>
+<p>全深圳自如友家房源</p>
+<p>享受免费换租一次</p>
+</li>
+<li style="border:0 none;width: 400px;">
+<i class="i3"></i>
+<h5>服务费折扣</h5>
+<p>企悦会员工租房期间</p>
+<p>服务费享受88折优惠</p>
+</li>
+</ul>
+</div>
+
+<!-- content 流程-->
+<div class="process">
+<div class="tit">
+<p class="chinese">租房签约流程</p>
+<i></i>
+</div>
+<ul class="clearfix">
+<li style="width: 383px;">
+<i class="i1"></i>
+<h5>STEP 1</h5>
+<p>填写信息，立即激活优惠特权</p>
+</li>
+<li class="arrow"></li>
+<li style="width: 396px;">
+<i class="i2"></i>
+<h5>STEP 2</h5>
+<p>查找意向房源</p>
+</li>
+<li class="arrow"></li>
+<li style="width: 383px;">
+<i class="i3"></i>
+<h5>STEP 3</h5>
+<p>选择企悦会优惠，签约直减房间费用</p>
+</li>
+</ul>
+</div>
+
+<!-- content 产品展示-->
+<div class="product bj">
+<div class="tit">
+<p class="chinese">产品展示</p>
+<i></i>
+</div>
+<div class="tab">
+<div class="name">
+<a href="javascript:void(0)" class="on">自如友家</a>
+<a href="javascript:void(0)">自如寓</a>
+</div>
+<ul class="pic">
+<li class="on">
+<img src="http://www.ziroom.com/static/2016/image/bj1.jpg">
+<p>自如友家分布在整个北京的大街小巷，每个社区都有自如客的身影。自如为合租、整租、短租、中高端租住需求设计了多种产品形式，居住之外，我们希望为你提供尽可能多的居间服务，从保洁、维修、搬家多个角度关心你住的是否自如。</p>
+</li>
+<li>
+<img src="http://www.ziroom.com/static/2016/image/bj2.jpg">
+<p>自如寓是自如专为青年人设计的独栋青年公寓，这里不仅可以运动健身，还可以邀上三五好友来个屋顶barbecue。目前自如在北京已有六栋独立的自如寓可供入住，未来我们会在全北京每一个地标都盖上自如特有的标志。</p>
+</li>
+</ul>
+<div class="pbtn">
+<a href="javascript:void(0)" class="pprev"></a>
+<a href="javascript:void(0)" class="pnext"></a>
+</div>
+</div>
+</div>
+
+<div class="product sh">
+<div class="tit">
+<p class="chinese">产品展示</p>
+<i></i>
+</div>
+<div class="tab">
+<div class="name">
+<a href="javascript:void(0)" class="on">自如友家</a>
+<a href="javascript:void(0)">自如寓</a>
+</div>
+<ul class="pic">
+<li class="on">
+<img src="http://www.ziroom.com/static/2016/image/sh1.jpg">
+<p>自如友家分布在整个上海的大街小巷，每个社区都有自如客的身影。这里我们为您专业设计了舒适安逸的友家2.0；也有定制配置的友家3.0。全面满足您对高品质租住生活的需要。</p>
+</li>
+<li>
+<img src="http://www.ziroom.com/static/2016/image/sh2.jpg">
+<p>自如寓是自如专为青年人设计的独栋青年公寓，这里不仅可以运动健身，还可以邀上三五好友来个屋顶barbecue。目前自如在上海的七宝国际，已有星空自如寓可供入住，未来我们会在全上海每一个地标都盖上自如特有的标志。</p>
+</li>
+</ul>
+<div class="pbtn">
+<a href="javascript:void(0)" class="pprev"></a>
+<a href="javascript:void(0)" class="pnext"></a>
+</div>
+</div>
+</div>
+
+<div class="product sz">
+<div class="tit">
+<p class="chinese">产品展示</p>
+<i></i>
+</div>
+<div class="tab">
+<div class="name">
+<a href="javascript:void(0)" class="on">自如友家</a>
+</div>
+<ul class="pic">
+<li class="on">
+<img src="http://www.ziroom.com/static/2016/image/sz1.jpg">
+<p>自如友家分布在整个深圳的大街小巷，每个社区都有自如客的身影，四种风格任你选择，时尚装修、品牌家电、双周保洁、WiFi覆盖，全面满足您及您的员工对高品质租住生活的需要。</p>
+</li>
+</ul>
+</div>
+</div>
+
+<!-- content 会员动态-->
+<div class="news">
+<div class="tit">
+<p class="chinese">会员动态</p>
+<i></i>
+</div>
+<ul class="clearfix">
+                        <li>
+                            <p class="time">2017-01-17</p>
+                            <h5>欢迎【美团】加入企悦会</h5>
+                            <p class="text">【美团】吃喝玩乐全都有，关心员工的职业发展，更关心员工的起居安乐。</p>
+</li>
+<li>
+                            <p class="time">2016-11-18</p>
+                            <h5>欢迎【滴滴】加入企悦会</h5>
+                            <p class="text">【滴滴】让出行更美好，【自如】让品质租住更安全更省心！让员工的“住”和“行”简单、安全、美好。</p>
+</li>
+<li>
+                            <p class="time">2016-11-18</p>
+                            <h5>欢迎【网易】加入企悦会</h5>
+                            <p class="text">【网易】 为员工提供安居计划，关心员工的职业发展，更关心员工的起居安乐！</p>
+</li>
+<li>
+                            <p class="time">2016-08-16</p>
+                            <h5>走进#百度#</h5>
+                            <p class="text">在企业中努力奔跑的你，值得更好的生活~  8月9日，自如商务拓展部走进【百度】，为百度员工解答房屋资产管理及租房产品知识讲座，为员工提供满意的租房产品，我们一直在努力！</p>
+</li>
+</ul>
+<a class="more" id="moreNewsBtn" href="javascript:void(0)">查看更多</a>
+</div>
+
+<!-- content 合作伙伴-->
+<div class="partner">
+<div class="box">
+<div class="tit">
+<p class="chinese">合作伙伴</p>
+<i></i>
+</div>
+<ul class="clearfix bj">
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/sprite.png) no-repeat 0 -550px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/sprite.png) no-repeat -190px -550px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/sprite.png) no-repeat -380px -550px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/sprite.png) no-repeat -570px -550px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/sprite.png) no-repeat 0 -630px;"></b>
+</li>
+<li style="margin: 0;">
+<b style="background: url(http://www.ziroom.com/static/2016/image/sprite.png) no-repeat -190px -630px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/sprite.png) no-repeat -380px -630px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/sprite.png) no-repeat -570px -630px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/sprite.png) no-repeat 0 -710px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/sprite.png) no-repeat -190px -710px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/sprite.png) no-repeat -380px -710px;"></b>
+</li>
+<li style="margin: 0;">
+<b style="background: url(http://www.ziroom.com/static/2016/image/sprite.png) no-repeat -570px -710px;"></b>
+</li>
+</ul>
+<ul class="clearfix sh">
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/shLogo.png) no-repeat 0 0;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/shLogo.png) no-repeat -190px 0;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/shLogo.png) no-repeat -380px 0;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/shLogo.png) no-repeat -570px 0;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/shLogo.png) no-repeat 0 -80px;"></b>
+</li>
+<li style="margin: 0;">
+<b style="background: url(http://www.ziroom.com/static/2016/image/shLogo.png) no-repeat -190px -80px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/shLogo.png) no-repeat -380px -80px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/shLogo.png) no-repeat -570px -80px;"></b>
+</li> 
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/shLogo.png) no-repeat 0 -160px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/shLogo.png) no-repeat -190px -160px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/shLogo.png) no-repeat -380px -160px;"></b>
+</li>
+<li style="margin: 0;">
+<b style="background: url(http://www.ziroom.com/static/2016/image/shLogo.png) no-repeat -570px -160px;"></b>
+</li>  
+</ul> 
+
+<ul class="clearfix sz">
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/szLogo.png) no-repeat 0 0;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/szLogo.png) no-repeat -190px 0;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/szLogo.png) no-repeat -380px 0;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/szLogo.png) no-repeat -570px 0;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/szLogo.png) no-repeat 0 -80px;"></b>
+</li>
+<li style="margin: 0;">
+<b style="background: url(http://www.ziroom.com/static/2016/image/szLogo.png) no-repeat -190px -80px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/szLogo.png) no-repeat -380px -80px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/szLogo.png) no-repeat -570px -80px;"></b>
+</li> 
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/szLogo.png) no-repeat 0 -160px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/szLogo.png) no-repeat -190px -160px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/szLogo.png) no-repeat -380px -160px;"></b>
+</li>
+<li style="margin: 0;">
+<b style="background: url(http://www.ziroom.com/static/2016/image/szLogo.png) no-repeat -570px -160px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/szLogo.png) no-repeat 0 -240px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/szLogo.png) no-repeat -190px -240px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/szLogo.png) no-repeat -380px -240px;"></b>
+</li>
+<li>
+<b style="background: url(http://www.ziroom.com/static/2016/image/szLogo.png) no-repeat -570px -240px;"></b>
+</li>    
+</ul> 
+<a class="add" href="javascript:void(0)">申请加入企悦会</a>
+</div>
+</div>
+
+<!-- 右侧浮窗-->
+<div class="r_fc bj">
+<div class="r_close">
+<a href="javascript:void(0)">
+<p>联系商务拓展部</p>
+<i></i>
+</a>
+</div>
+<div class="r_open clearfix">
+<a class="left" href="javascript:void(0)">
+<p>联系商务拓展部</p>
+<i></i>
+</a>
+<div class="right">
+<p>陈芳</p>
+<p>010-59328956</p>
+<p>Mail:</p>
+<p style="margin-bottom: 14px;">chenf26@ziroom.com</p>
+<p>李新宝</p>
+<p>010-59328885</p>
+<p>Mail:</p>
+<p>lixb42@ziroom.com</p>
+</div>
+</div>
+</div>
+
+<div class="r_fc sh">
+<div class="r_close">
+<a href="javascript:void(0)">
+<p>联系商务拓展部</p>
+<i></i>
+</a>
+</div>
+<div class="r_open clearfix">
+<a class="left" href="javascript:void(0)">
+<p>联系商务拓展部</p>
+<i></i>
+</a>
+<div class="right">
+<p>饶黎旋  </p>
+<p>13611600114</p>
+<p>Mail:</p>
+<p>raolx@ziroom.com  </p>
+</div>
+</div>
+</div>
+
+<div class="r_fc sz">
+<div class="r_close">
+<a href="javascript:void(0)">
+<p>联系商务拓展部</p>
+<i></i>
+</a>
+</div>
+<div class="r_open clearfix">
+<a class="left" href="javascript:void(0)">
+<p>联系商务拓展部</p>
+<i></i>
+</a>
+<div class="right">
+<p>蒋铭怡</p>
+<p>0755-36834210</p>
+<p>Mail:</p>
+<p>jiangmy3@ziroom.com</p>
+</div>
+</div>
+</div>
+
+<div class="r_fc hz">
+<div class="r_close">
+<a href="javascript:void(0)">
+<p>联系商务拓展部</p>
+<i></i>
+</a>
+</div>
+<div class="r_open clearfix">
+<a class="left" href="javascript:void(0)">
+<p>联系商务拓展部</p>
+<i></i>
+</a>
+<div class="right">
+<p>韩先生</p>
+<p>18518917237</p>
+<p>Mail:</p>
+<p>hanjz4@ziroom.com</p>
+</div>
+</div>
+</div>
+
+<!-- 提示激活成功弹框 -->
+    <div class="t-jhsuccess tt">
+        <div class="box">
+            <p class="p1">恭喜您成功激活企悦会员工特权</p>	
+            <p>
+            	您可直接享受优惠特权，特权30天内有效<br />
+            	抓紧签约您心仪的房源吧
+            </p>
+            <input type="button" value="确认" class="btn" />
+        </div>
+    </div>
+
+    <!-- 登陆后激活弹框 -->
+<div class="t-active tt">
+        <div class="box">
+            <div class="tit">
+<p class="chinese">激活</p>
+<i></i>
+</div>
+<div class="info">
+<p>亲爱的自如客，您好：</p>
+<p style="text-indent: 26px;">您还不是企悦会用户，请输入以下内容完成激活。</p>
+</div>
+<ul>
+<li class="clearfix">
+<input id="w_captcha" type="text" style="width: 204px;float: left;" placeholder="验证码" onblur="checkcaptcha(this.value)" />
+<input type="hidden" value="" id="wh_captcha"/>
+<i class="i1"></i>
+<img width="120" height="40" id="captcha_img" src="/captcha/" style="float: right;" onclick="this.src='/captcha/?'+Math.random();" />
+</li>
+
+<li id="company">
+<input id="t_myCompanyIpt" data-id='0' type="text" disabled placeholder="公司名称" />
+<i class="i2"></i>
+<a href="javascript:void(0)" class="select"></a>
+<div class="company content">
+<dl>
+                                                        <dt>A</dt>
+                                                                                                                        <dd data-id="290">阿里巴巴集团（优酷土豆，高德地图，蚂蚁金服，阿里音乐，菜鸟，UC等）</dd>
+                                                                                                                        <dd data-id="35">安永(安永华明会计师事务所，安永企业咨询北京分公司)</dd>
+                                                                                                                        <dd data-id="307">安邦保险集团</dd>
+                                                                                                                        <dd data-id="53">爱奇艺</dd>
+                                                                                                                        <dd data-id="442">APUS</dd>
+                                                                                                                    <dt>B</dt>
+                                                                                                                        <dd data-id="31">百度</dd>
+                                                                                                                        <dd data-id="367">北京赢销通软件技术有限公司</dd>
+                                                                                                                        <dd data-id="368">北京荣之联科技股份有限公司及其成员企业</dd>
+                                                                                                                        <dd data-id="399">北京协力筑成金融信息服务股份有限公司（36氪）</dd>
+                                                                                                                        <dd data-id="149">北森云计算</dd>
+                                                                                                                        <dd data-id="411">北京值得买科技股份有限公司</dd>
+                                                                                                                        <dd data-id="413">北京值得买科技股份有限公司（青岛无忧）</dd>
+                                                                                                                        <dd data-id="414">北京值得买科技股份有限公司 (青岛星罗）</dd>
+                                                                                                                        <dd data-id="437">百邦科技</dd>
+                                                                                                                        <dd data-id="441">便利蜂及其关联企业</dd>
+                                                                                                                        <dd data-id="444">北京电信</dd>
+                                                                                                                        <dd data-id="196">百分点（千分点）公司</dd>
+                                                                                                                        <dd data-id="203">百利天下教育</dd>
+                                                                                                                        <dd data-id="485">邦帮堂</dd>
+                                                                                                                        <dd data-id="235">博洛尼</dd>
+                                                                                                                    <dt>C</dt>
+                                                                                                                        <dd data-id="343">车来车往</dd>
+                                                                                                                        <dd data-id="421">出门问问（墨百意科技）</dd>
+                                                                                                                        <dd data-id="446">传智播客</dd>
+                                                                                                                        <dd data-id="193">锤子数码科技有限公司</dd>
+                                                                                                                        <dd data-id="238">长城宽带</dd>
+                                                                                                                    <dt>D</dt>
+                                                                                                                        <dd data-id="432">斗鱼TV</dd>
+                                                                                                                        <dd data-id="197">达飞云贷</dd>
+                                                                                                                        <dd data-id="459">第一资产</dd>
+                                                                                                                        <dd data-id="228">滴滴</dd>
+                                                                                                                    <dt>E</dt>
+                                                                                                                        <dd data-id="339">饿了么</dd>
+                                                                                                                                                                            <dt>F</dt>
+                                                                                                                        <dd data-id="280">方正信息技术有限公司</dd>
+                                                                                                                        <dd data-id="346">丰瑞祥信息技术股份有限公司</dd>
+                                                                                                                    <dt>G</dt>
+                                                                                                                        <dd data-id="347">GrowinglO</dd>
+                                                                                                                        <dd data-id="350">跟谁学</dd>
+                                                                                                                        <dd data-id="169">广联达</dd>
+                                                                                                                        <dd data-id="429">瓜子二手车直卖网</dd>
+                                                                                                                    <dt>H</dt>
+                                                                                                                        <dd data-id="78">航天信息股份有限公司</dd>
+                                                                                                                        <dd data-id="349">华尔街英语</dd>
+                                                                                                                        <dd data-id="355">华为</dd>
+                                                                                                                        <dd data-id="370">惠赢天下</dd>
+                                                                                                                        <dd data-id="134">好未来教育</dd>
+                                                                                                                        <dd data-id="396">华硕</dd>
+                                                                                                                        <dd data-id="423">恒华科技</dd>
+                                                                                                                        <dd data-id="443">狐狸金服</dd>
+                                                                                                                        <dd data-id="449">汇丰银行（北京分行）</dd>
+                                                                                                                        <dd data-id="467">海康威视</dd>
+                                                                                                                        <dd data-id="221">华成燃气</dd>
+                                                                                                                        <dd data-id="481">华图教育</dd>
+                                                                                                                    <dt>I</dt>
+                                                                                                                        <dd data-id="308">IBM</dd>
+                                                                                                                    <dt>J</dt>
+                                                                                                                        <dd data-id="15">金山软件</dd>
+                                                                                                                        <dd data-id="272">吉威时代软件</dd>
+                                                                                                                        <dd data-id="104">京东（商城、金融）</dd>
+                                                                                                                        <dd data-id="165">今日头条（字节跳动）</dd>
+                                                                                                                        <dd data-id="182">JJ比赛(竞技世界)</dd>
+                                                                                                                        <dd data-id="455">京东方科技集团</dd>
+                                                                                                                        <dd data-id="457">交控科技</dd>
+                                                                                                                        <dd data-id="472">江河机电</dd>
+                                                                                                                                                                            <dt>K</dt>
+                                                                                                                        <dd data-id="436">酷我音乐</dd>
+                                                                                                                    <dt>L</dt>
+                                                                                                                        <dd data-id="289">零点集团（零点有数及其所有子公司）</dd>
+                                                                                                                        <dd data-id="298">乐富支付</dd>
+                                                                                                                        <dd data-id="329">猎豹移动</dd>
+                                                                                                                        <dd data-id="80">蓝色光标（多盟等旗下北京所有子公司）</dd>
+                                                                                                                        <dd data-id="137">洛可可设计集团</dd>
+                                                                                                                        <dd data-id="140">拉卡拉支付股份有限公司</dd>
+                                                                                                                        <dd data-id="142">联想集团</dd>
+                                                                                                                        <dd data-id="147">乐元素（乐元互动）</dd>
+                                                                                                                        <dd data-id="431">雷尚科技</dd>
+                                                                                                                        <dd data-id="439">六趣网络</dd>
+                                                                                                                        <dd data-id="452">龙湖</dd>
+                                                                                                                        <dd data-id="227">乐视</dd>
+                                                                                                                    <dt>M</dt>
+                                                                                                                        <dd data-id="273">美菜网（云杉世界）</dd>
+                                                                                                                        <dd data-id="293">蚂蚁金服</dd>
+                                                                                                                        <dd data-id="309">美团网（包含大众点评，北京三快科技等）</dd>
+                                                                                                                        <dd data-id="360">脉脉（淘友天下）</dd>
+                                                                                                                        <dd data-id="438">蚂蜂窝</dd>
+                                                                                                                        <dd data-id="458">马上消费金融</dd>
+                                                                                                                        <dd data-id="223">美利金融</dd>
+                                                                                                                    <dt>N</dt>
+                                                                                                                        <dd data-id="36">农业银行</dd>
+                                                                                                                                                                            <dt>P</dt>
+                                                                                                                        <dd data-id="412">平安银行</dd>
+                                                                                                                        <dd data-id="415">派瑞威行广告有限公司</dd>
+                                                                                                                        <dd data-id="469">谱尼测试</dd>
+                                                                                                                    <dt>Q</dt>
+                                                                                                                        <dd data-id="314">前程无忧</dd>
+                                                                                                                        <dd data-id="62">清大世纪教育</dd>
+                                                                                                                        <dd data-id="69">去哪儿网</dd>
+                                                                                                                        <dd data-id="93">奇虎360</dd>
+                                                                                                                        <dd data-id="205">汽车之家</dd>
+                                                                                                                        <dd data-id="479">清控资管</dd>
+                                                                                                                        <dd data-id="486">清华同衡</dd>
+                                                                                                                    <dt>R</dt>
+                                                                                                                        <dd data-id="92">瑞华会计师事务所（特殊普通合伙）</dd>
+                                                                                                                        <dd data-id="405">融360</dd>
+                                                                                                                        <dd data-id="418">瑞思学科英语</dd>
+                                                                                                                    <dt>S</dt>
+                                                                                                                        <dd data-id="3">畅游</dd>
+                                                                                                                        <dd data-id="263">盛景网联</dd>
+                                                                                                                        <dd data-id="274">神雾环保</dd>
+                                                                                                                        <dd data-id="34">上海汉得信息技术股份有限公司</dd>
+                                                                                                                        <dd data-id="102">神州泰岳</dd>
+                                                                                                                        <dd data-id="112">石油化工工程有限公司</dd>
+                                                                                                                        <dd data-id="115">顺丰速运</dd>
+                                                                                                                        <dd data-id="382">神州优车</dd>
+                                                                                                                        <dd data-id="398">36氪</dd>
+                                                                                                                        <dd data-id="151">搜狐视频</dd>
+                                                                                                                        <dd data-id="407">数码视讯（博汇科技，完美星空）</dd>
+                                                                                                                        <dd data-id="156">搜狗</dd>
+                                                                                                                        <dd data-id="428">搜狐</dd>
+                                                                                                                        <dd data-id="453">神州信息</dd>
+                                                                                                                        <dd data-id="209">水晶石数字科技</dd>
+                                                                                                                        <dd data-id="210">搜狐焦点</dd>
+                                                                                                                    <dt>T</dt>
+                                                                                                                        <dd data-id="4">腾讯</dd>
+                                                                                                                        <dd data-id="128">天道恒信培训学校</dd>
+                                                                                                                        <dd data-id="422">土巴兔</dd>
+                                                                                                                        <dd data-id="207">途家网</dd>
+                                                                                                                        <dd data-id="217">天职国际会计师事务所</dd>
+                                                                                                                        <dd data-id="248">腾讯众创空间（北京）</dd>
+                                                                                                                                                                            <dt>W</dt>
+                                                                                                                        <dd data-id="21">58赶集集团</dd>
+                                                                                                                        <dd data-id="345">51Talk无忧英语</dd>
+                                                                                                                        <dd data-id="129">文思海辉</dd>
+                                                                                                                        <dd data-id="447">玩蟹科技</dd>
+                                                                                                                        <dd data-id="211">韦博国际英语（韦博教育）</dd>
+                                                                                                                        <dd data-id="220">网易</dd>
+                                                                                                                    <dt>X</dt>
+                                                                                                                        <dd data-id="265">信威通信</dd>
+                                                                                                                        <dd data-id="271">新东方</dd>
+                                                                                                                        <dd data-id="278">新奥集团（新智泛能网络科技）</dd>
+                                                                                                                        <dd data-id="49">小米</dd>
+                                                                                                                        <dd data-id="352">新东方前途出国</dd>
+                                                                                                                        <dd data-id="403">杏树林信息技术（北京）有限公司</dd>
+                                                                                                                        <dd data-id="176">新七天电子商务科技有限公司</dd>
+                                                                                                                        <dd data-id="200">信永中和（会计师/税务师事务所、信永方略、国际工程管理、普信管理）</dd>
+                                                                                                                    <dt>Y</dt>
+                                                                                                                        <dd data-id="5">易车网及其成员企业</dd>
+                                                                                                                        <dd data-id="9">宇信科技(宇信数据/宇信易诚/优迪信息)</dd>
+                                                                                                                        <dd data-id="285">云纵（北京）</dd>
+                                                                                                                        <dd data-id="310">阳光保险集团</dd>
+                                                                                                                        <dd data-id="74">艺龙网信息技术（北京）有限公司</dd>
+                                                                                                                        <dd data-id="113">伊利</dd>
+                                                                                                                        <dd data-id="121">宜信</dd>
+                                                                                                                        <dd data-id="390">一点资讯</dd>
+                                                                                                                        <dd data-id="143">一汽丰田汽车销售有限公司</dd>
+                                                                                                                        <dd data-id="144">亚信科技（中国）有限公司</dd>
+                                                                                                                        <dd data-id="187">优信</dd>
+                                                                                                                        <dd data-id="234">优胜教育</dd>
+                                                                                                                        <dd data-id="249">友信</dd>
+                                                                                                                    <dt>Z</dt>
+                                                                                                                        <dd data-id="268">中盈安信</dd>
+                                                                                                                        <dd data-id="270">折800</dd>
+                                                                                                                        <dd data-id="330">智明星通</dd>
+                                                                                                                        <dd data-id="357">知乎</dd>
+                                                                                                                        <dd data-id="363">中公教育集团</dd>
+                                                                                                                        <dd data-id="114">正邦顾问</dd>
+                                                                                                                        <dd data-id="124">中油瑞飞</dd>
+                                                                                                                        <dd data-id="395">中搜</dd>
+                                                                                                                        <dd data-id="445">中国旅游集团</dd>
+                                                                                                                        <dd data-id="473">中国新兴建筑工程总公司</dd>
+                                                                                                                        <dd data-id="219">字节跳动</dd>
+                                                                                                                        <dd data-id="232">中建六局铁路公司</dd>
+                                                                                                                        <dd data-id="254">中化集团</dd>
+                                                                                                                    </dl>
+</div>
+</li>
+<li>
+<input id="date" value="2017-07-18" type="text" placeholder="预约入住日期" onclick="laydate({min: laydate.now(+1)})"/>
+<i class="i3"></i>
+</li>
+
+<li class="clearfix" style="margin-bottom: 0;">
+                                        <form enctype="multipart/form-data" class="form_validator" method="post"
+                                          id="uploadpic" name="upform"
+                                          dotype="ajax" callback="uploadpic" target="upload_target"
+                                          action="/?_p=guest&_a=img">
+                                        <input type="hidden" id="work_card_pic"/>
+<input class="file" type="text" placeholder="请上传工作证件照片"/>
+<input type="file" id="file" name="img" onChange="changeImgVal(this)" />
+<i class="i4"></i>
+<span class="succ">
+<span></span>
+<p>图片上传成功</p>
+</span>
+                                        <span class="fail">
+<span></span>
+<p>图片上传失败</p>
+</span>
+<span class="tishi">请上传真实证件照，否则视为无效</span>
+                                        </form>
+</li>
+<li style="margin-bottom: 8px;">
+<input type="button" class="jihuo" id="ljjh_btn" value="立即激活" />
+</li>
+</ul>
+<a href="javascript:void(0)" class="close"></a>
+        </div>
+    </div>
+
+<script type="text/javascript">
+//弹框显示
+function tShow(name)
+{
+    $('.tt input').each(function(){
+            var p=$(this).attr('placeholder');
+            if(p)
+            {
+                $(this).placeholder();
+            }
+        });
+    
+    //先清空信息
+    var time=$('#date').val();
+    $(name).find('input[type=text]').val('').removeClass('err').removeClass('right');
+    $(this).find('input[type=file]').val('').removeClass('err').removeClass('right');
+    $(this).find('input[type=password]').val('').removeClass('err').removeClass('right');
+    $(this).find('input[type=hidden]').val('');
+    $('span.succ').hide();
+    $('span.fail').hide();
+    $('#date').val(time);
+    
+    //再显示弹框
+    $(name).show();
+    $('body').addClass('hidden');
+    countModalHeight();
+}
+
+//计算弹层的高度
+function countModalHeight() {
+    $('.tt .box').each(function(){
+        if($(this).is(':visible')){
+            var t = ($(window).height()-$(this).outerHeight())/2;
+            t = t < 0 ? 0 : t;
+            $(this).css({'margin-top':t+'px'});
+        }
+    });
+}
+
+    $("#ljjh_btn").click(function(){
+        var loginPhone = $.trim($("#phone").val());
+        var ruzhu      = $.trim($("#date").val());
+        var company    = $.trim($("#t_myCompanyIpt").attr('data-id'));
+        var w_captcha = $('#w_captcha').val();
+        var work_card_pic = $('#work_card_pic').val();
+
+        if(w_captcha == '' || w_captcha == 0)
+        {
+           return false;
+        }
+        
+        if(company==0 || company=='')
+        {
+           return false;
+        }
+        
+        if(ruzhu=='' || ruzhu=='填写预计入住时间')
+        {
+           return false;
+        }
+        if(work_card_pic==''){
+        	return false;
+        }
+       
+        addCustomer(loginPhone,ruzhu,company,work_card_pic);
+        $('.t-active').hide();
+        tShow('.t-jhsuccess');
+        return false;
+        
+    });
+</script>
+
+    <!-- 企业申请弹框 -->
+<div class="t-join tt">
+        <div class="box">
+            <div class="tit">
+                            <p class="chinese">企业申请</p>
+                            <i></i>
+</div>
+<ul class="list">
+<li class="classify">集团客户信息</li>
+<li>
+<input type="text" placeholder="公司名称" id="company_name" />
+<i class="i1"></i>
+</li>
+                                <li id="number">
+<input type="text" placeholder="公司人数" disabled />
+<i class="i2"></i>
+<a href="javascript:void(0)" class="select"></a>
+<ul class="num">
+<li>100人以下</li>
+<li>100-500人</li>
+<li>500-1000人</li>
+<li class="end">1000人以上</li>
+</ul>
+<input id="company_people" type="hidden" value="">
+</li>
+
+<li>
+<input type="text" placeholder="公司网址" id="company_web" />
+<i class="i3"></i>
+</li>
+<li class="classify" style="margin-top: 20px;">申请人资料</li>
+<li>
+<input type="text" placeholder="姓名" id="user_name_new" />
+<i class="i4"></i>
+</li>
+<li>
+<input type="text" placeholder="所属部门" id="department" />
+<i class="i5"></i>
+</li>
+<li>
+<input type="text" placeholder="联系电话" id="tel" />
+<i class="i6"></i>
+</li>
+<li style="margin:0;">
+<input type="text" placeholder="电子邮箱" id="email" />
+<i class="i7"></i>
+</li>
+<li>
+<input type="button" class="tijiao" value="提交申请" id="t_submitbtn" />
+</li>
+</ul>
+<a href="javascript:void(0)" class="close"></a>
+        </div>
+    </div>
+    <!-- 企业重复申请弹框 -->
+<div class="t-repeat tt">
+        <div class="box">
+            <p>您已经申请过，请勿重复申请。</p>
+            <input type="button" value="确认" class="btn" />
+        </div>
+    </div>
+
+    <!-- 企业申请成功弹框 -->
+<div class="t-success tt">
+        <div class="box">
+        	<i></i>
+            <p>感谢您对企悦会的信任，工作人员将在24小时内与贵公司联系，请耐心等待。</p>
+            <input type="button" value="确认" class="btn" />
+        </div>
+    </div>
+
+    <!-- 会员动态弹框 -->
+<div id="moreNewsBtnBox" class="t-news tt">
+<div class="box">
+<div class="tit">会员动态</div>
+<ul id="showMores" class="cont">
+                                
+</ul>
+
+<div class="page" id="page">
+
+</div>
+
+<a href="javascript:void(0)" class="close"></a>
+</div>
+</div>
+
+<style>
+.S_customerService{
+    display: none;
+    position: fixed;
+    right: 10px;
+    top: 35%;
+    background-color: #fff;
+    width: 250px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
+    z-index: 999;
+}
+.S_customerTit{
+    height: 40px;
+    background-color: #ffa000;
+    padding: 0 15px;
+}
+.S_customerTit>h3{
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.S_customerTit>b{
+    float: right;
+    height: 20px;
+    width: 20px;
+    line-height: 17px;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 9px;
+    border: 1px solid #ffddcc;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+.S_customerList{
+    padding: 20px;
+    background-color: #fbfbfb;
+}
+.S_customerListUl{
+    color: #444;
+    padding-left: 15px;
+}
+.S_customerListUl>li{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.S_customerListUl>li>a{
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+}
+.S_customerListUl>li>a:hover{
+    color: #ffa000;
+    text-decoration: underline;
+}
+.S_customerListUl>li>a.S_customerListBack{
+    font-size: 12px;
+    color: #ffa000;
+}
+</style>
+
+<!-- 客服dom -->
+<div class="S_customerService" id="J_serviceBox">
+
+    <div class="S_customerTit clearfix">
+        <h3 id="J_serviceTit">请选择要咨询的业务</h3>
+        <b id="J_closeService">×</b>
+    </div>
+
+    <div class="S_customerList">
+        <ul class="S_customerListUl" id="J_serviceUl"></ul>
+    </div>
+
+</div>
+
+<div id="slideBar">
+    <ul>
+                <li class="u first">
+            <a href="http://passport.ziroom.com/login.html?return_url=http%3A%2F%2Fwww.ziroom.com%2F">
+                <i class="tab-tip"></i>
+                <i class="tab-ico"></i>
+                <em class="tab-text">登录注册</em>
+            </a>
+        </li><!--/登录注册-->
+        <li class="w">
+            <a href="http://passport.ziroom.com/login.html?return_url=http%3A%2F%2Fwww.ziroom.com%2Fservicecentre">
+                <i class="tab-tip"></i>
+                <i class="tab-ico"></i>
+                <em class="tab-text">在线报修</em>
+            </a>
+        </li><!--/维修-->
+                
+        <li class="k" id="slideKefu">
+            <a href="javascript:;" id="J_openService">
+                <i class="tab-tip"></i>
+                <i class="tab-ico"></i>
+                <em class="tab-text">在线客服</em>
+            </a>
+        </li><!--/客服-->
+      <!--  <script>
+            window.easemobim = window.easemobim || {};
+            easemobim.config = {
+                //租户id 
+                tenantId: '3902',   
+                //环信移动客服域，固定值，请按照示例配置
+                domain: '//kefu.easemob.com',                    
+                //自己服务器上im.html文件的路径
+                path: '//static8.ziroom.com/phoenix/kefu',       
+                //访客插件static的路径
+                staticPath: '//static8.ziroom.com/phoenix/kefu/static',
+                hide:true ,
+                emgroup: "北京技能组", 
+                //自动连接
+                autoConnect: true,   
+                //启用收消息同步
+                resources: true 
+            };
+        </script> -->
+<!-- <script src='//static8.ziroom.com/phoenix/kefu/easemob.js'></script>   --> 
+        <script src='http://kefu.easemob.com/webim/easemob.js' async='async'></script>
+        <script>
+
+        var SER_URL='http://zmcapi.ziroom.com';
+        var FIRST_MENU=null;
+        var nowId='';
+
+        //页面加载完进行请求获取一级菜单
+        (function(){
+
+            $.ajax({
+                url:SER_URL+'/base/customer-service/getBusinessType',
+                type:'GET',
+                dataType:'jsonp',
+                success:function(data){
+                    if(data.status=='1'){
+                        FIRST_MENU=data.data;
+                        forMenuDom(FIRST_MENU,true);
+                    }
+                    else{
+                        console.log(data);
+                    }
+                }
+            });
+
+        })();
+
+        //打开关闭交互
+        (function(){
+
+            $('#J_openService').click(function(){
+                if(getCookie('emGroup')){
+                    openEaseMobim(getCookie('emGroup'));
+                }
+                else{
+                    $('#J_serviceBox').show();
+                }
+            });
+
+            $('#J_closeService').click(function(){
+                $('#J_serviceBox').hide();
+            });
+
+        })();
+
+        function setCookie(c_name,value,expiredays) {
+            var exdate=new Date();
+            exdate.setDate(exdate.getDate()+expiredays);
+            document.cookie=c_name+ "=" +escape(value)+
+                    ((expiredays==null) ? "" : ";expires="+exdate.toGMTString())
+        }
+
+        function getCookie(c_name) {
+            if (document.cookie.length>0)
+            {
+                var c_start=document.cookie.indexOf(c_name + "=");
+                if (c_start!=-1)
+                {
+                    c_start=c_start + c_name.length+1;
+                    var c_end=document.cookie.indexOf(";",c_start);
+                    if (c_end==-1) c_end=document.cookie.length;
+                    return unescape(document.cookie.substring(c_start,c_end));
+                }
+            }
+            return "";
+        }
+
+        //渲染菜单
+        function forMenuDom(aData,isFirst){
+            $('#J_serviceUl').html('');
+
+            if(isFirst){
+                for(var i=0;i<aData.length;i++){
+                    $('<li><a href="javascript:;" data-id="'+aData[i].id+'" data-hasSub="'+aData[i].hasSubType+'" onclick="clickItem(this)">'+aData[i].value+'</a></li>').appendTo('#J_serviceUl');
+                }
+                $('#J_serviceTit').html('请选择要咨询的业务类型');
+            }
+            else{
+                for(var j=0;j<aData.length;j++){
+                    $('<li><a href="javascript:;" data-id2="'+aData[j].id+'" data-id="'+nowId+'" onclick="clickItem(this)">'+aData[j].value+'</a></li>').appendTo('#J_serviceUl');
+                }
+                $('<li><a href="javascript:;" class="S_customerListBack" data-type="return" onclick="clickItem(this)">返回上一级</a></li>').appendTo('#J_serviceUl');
+                $('#J_serviceTit').html('请选择要咨询的问题类型');
+            }
+
+        }
+
+        //打开easemobim
+        function openEaseMobim(emgroup){
+            easemobim.bind({
+                //请使用自己的租户ID
+                tenantId: "3902",
+                //是否隐藏小的悬浮按钮
+                hide: true,
+                emgroup:emgroup,
+                to:'ziroomerPro',//环信客服中心渠道管理查看
+                appKey:'ziroom#ziroom',
+                onsessionclosed:function(){
+                    setCookie('emGroup','',-1);//清除cookie
+                    forMenuDom(FIRST_MENU,true);//重置菜单
+                }
+            })
+        }
+
+        //点击菜单选项
+        function clickItem(obj){
+            if($(obj).attr('data-type')=='return'){
+                //返回上一级
+                nowId='';
+                forMenuDom(FIRST_MENU,true);
+            }
+            else if($(obj).attr('data-hasSub')=='1'){
+                //一级菜单切有二级
+                nowId=$(obj).attr('data-id');
+                $.ajax({
+                    url:SER_URL+'/base/customer-service/getQuestionType',
+                    type:'GET',
+                    dataType:'jsonp',
+                    data:{param:'{"businessTypeId":"'+nowId+'"}'},
+                    success:function(data){
+                        if(data.status=='1'){
+                            forMenuDom(data.data,false);
+                        }
+                        else{
+                            console.log(data);
+                        }
+                    }
+                });
+            }
+            else if($(obj).attr('data-hasSub')=='0'){
+                //一级菜单直接请求技能组
+                $.ajax({
+                    url:SER_URL+'/base/customer-service/1/getSkillGroup',
+                    type:'GET',
+                    dataType:'jsonp',
+                    data:{param:'{"businessTypeId":"'+$(obj).attr('data-id')+'"}'},
+                    success:function(data){
+                        if(data.status=='1'){
+                            openEaseMobim(data.data.skillGroup);
+                            setCookie('emGroup',data.data.skillGroup,3);
+                            $('#J_serviceBox').hide();
+                        }
+                        else{
+                            console.log(data);
+                        }
+                    }
+                });
+            }
+            else{
+                //二级菜单请求技能组
+                $.ajax({
+                    url:SER_URL+'/base/customer-service/1/getSkillGroup',
+                    type:'GET',
+                    dataType:'jsonp',
+                    data:{param:'{"businessTypeId":"'+$(obj).attr('data-id')+'","questionTypeId":"'+$(obj).attr('data-id2')+'"}'},
+                    success:function(data){
+                        if(data.status=='1'){
+                            openEaseMobim(data.data.skillGroup);
+                            setCookie('emGroup',data.data.skillGroup,3);
+                            $('#J_serviceBox').hide();
+                        }
+                        else{
+                            console.log(data);
+                        }
+                    }
+                });
+            }
+        }
+
+    </script>
+        
+                <li class="y" id="slidePay">
+            <a href="http://passport.ziroom.com/login.html?return_url=http://i.ziroom.com/?uri=contract/pay">
+                <i class="tab-tip"></i>
+                <i class="tab-ico"></i>
+                <em class="tab-text">在线交租</em>
+            </a>
+        </li><!--/交租-->
+                        
+        <li class="x" id="fankui">       
+            <a href="javascript:;">
+                <i class="tab-tip"></i>
+                <i class="tab-ico"></i>
+                <em class="tab-text">意见反馈</em>
+            </a>
+        </li><!--/反馈-->
+        <li class="m">
+             <a href="javascript:;">
+                <i class="tab-tip"></i>
+                <i class="tab-ico"></i>
+                <em class="tab-text"><img src="http://www.ziroom.com/static/2015/images/common/ewm.png?20160426"></em>
+            </a>
+           
+        </li><!--/二维码-->
+        <li class="t" id="goTop">
+            <a href="javascript:;">
+                <i class="tab-tip"></i>
+                <i class="tab-ico"></i>
+                <em class="tab-text">返回顶部</em>
+            </a>
+        </li><!--/top-->
+    </ul>
+</div>
+
+<div class="hide">
+
+    <div class="feedbackBox" id="feedbackBox">
+        
+        <textarea id="feedbackTextatea" placeholder="请输入您要发送的内容"  maxlength="200"></textarea>
+        <p class="invalid" id="feedTips">反馈意见不能为空！</p>
+        <div class="tc mb10">
+            <input type="button" onclick="sub_feedback(this);" class="org_btn" value="提 交">
+        </div>
+
+    </div>
+
+
+    <div id="feedbackBox2" class="feedbackBox tc">
+
+        <p class='org mt10'>感谢对自如的建议和意见，我们会认真听取</p>
+        <p class='org mt10'>也请您继续关注我们。</p>
+        <p class='org mt10'>为您提供优质的服务我们责无旁贷。</p>
+        
+
+    </div>
+
+
+</div>
+
+
+
+
+
+<div id="footer">
+    <div class="area">
+        <div class="clearfix">
+            <div class="glbLeft">
+                <dl class="fList">
+                    <dt>关于我们</dt>
+                    <dd>
+                        <a href="http://www.ziroom.com/zhaopin/index.php?r=site/about">关于自如</a>
+                        <a href="http://www.ziroom.com/about/lianxi.html">联系自如</a>
+                        <a href="http://www.ziroom.com/zhaopin/">加入自如</a>
+                    </dd>
+                </dl>
+                <dl class="fList">
+                    <dt>自如业务</dt>
+                    <dd>
+                        <a href="http://www.ziroom.com/about/fuwu.html">业务体系</a>
+                        <a href="http://www.ziroom.com/about/fuwu.html">自如产品</a>
+                        <a href="http://www.ziroom.com/servicecentre/">自如服务</a>
+                    </dd>
+                </dl>
+                <dl class="fList">
+                    <dt>关注自如</dt>
+                    <dd>
+                        <a>自如客微信</a>
+                        <a>下载app</a>
+                    </dd>
+                </dl>
+            </div>
+
+            <div class="glbRight">
+
+                <div class="img">
+                    <img src="http://www.ziroom.com/static/ziroom_2016/images/zrk_ewm.png">
+                    <p>关注自如客微信</p>
+                </div>
+                <div class="img">
+                    <img src="http://www.ziroom.com/static/2015/images/common/app-min-qrcode.png">
+                    <p>下载自如app</p>
+                </div><!--/img-->
+            </div><!--/glbRight-->
+        </div><!--/clearfix-->
+
+        <div class="linksFooter">
+            <dl class="clearfix">
+                <dt>友情链接</dt>
+                <dd>
+                    <div class="box" id="linksFooterList">
+                        <p>
+                            <a target="_blank" href="http://bj.loupan.com">北京房产网</a>
+                            <a target="_blank" href="http://www.landzestate.com">豪宅别墅</a>
+                            <a target="_blank" href="http://bj.xkhouse.com">星空地产网</a>
+                            <a target="_blank" href="http://www.wenchangfc.com">文昌房产网</a>
+                            <a target="_blank" href="http://www.zhuna.cn/ditie">地铁线路图</a>
+                            <a target="_blank" href="http://bj.offcn.com">北京人事考试网</a>
+                            <a target="_blank" href="http://chongqing.anjuke.com/sale">重庆二手房</a>
+                            <a target="_blank" href="http://bj.lanfw.com">北京蓝房网</a>
+                            <a target="_blank" href="http://dali.focus.cn">大理房产</a>
+                            <a target="_blank" href="http://www.0731jiaju.com">家居网</a>
+                            <a target="_blank" href="http://tj.lianjia.com">天津二手房</a>
+                            <a target="_blank" href="http://m.ziroom.com">北京租房</a>
+                            <a target="_blank" href="http://bt.focus.cn">包头房产网</a>
+                            <a target="_blank" href="http://house.365jia.cn">合肥房产网</a>
+                            <a target="_blank" href="http://chaozhou.ganji.com">潮州赶集网</a>
+                            <a target="_blank" href="http://datong.focus.cn">大同房地产</a>
+                            <a target="_blank" href="http://beijing.qd8.com.cn">北京分类信息网</a>
+                            <a target="_blank" href="http://xf.fccs.com">襄阳房产</a>
+                            <a target="_blank" href="http://www.lianjia.com">房产网</a>
+                            <a target="_blank" href="http://zufangzi.com">丁丁租房</a>
+                            <a target="_blank" href="http://www.517best.com">旅游百事通</a>
+                            <a target="_blank" href="http://www.shangceng.com.cn">别墅装修</a>
+                            <a target="_blank" href="http://bj.house.163.com">网易北京房产</a>
+                        </p>
+                        <p>
+                            <a target="_blank" href="http://bj.loupan.com">北京房产网</a>
+                            <a target="_blank" href="http://www.landzestate.com">豪宅别墅</a>
+                            <a target="_blank" href="http://bj.xkhouse.com">星空地产网</a>
+                            <a target="_blank" href="http://www.wenchangfc.com">文昌房产网</a>
+                            <a target="_blank" href="http://www.zhuna.cn/ditie">地铁线路图</a>
+                            <a target="_blank" href="http://bj.offcn.com">北京人事考试网</a>
+                            <a target="_blank" href="http://chongqing.anjuke.com/sale">重庆二手房</a>
+                            <a target="_blank" href="http://bj.lanfw.com">北京蓝房网</a>
+                            <a target="_blank" href="http://dali.focus.cn">大理房产</a>
+                            <a target="_blank" href="http://www.0731jiaju.com">家居网</a>
+                            <a target="_blank" href="http://tj.lianjia.com">天津二手房</a>
+                            <a target="_blank" href="http://m.ziroom.com">北京租房</a>
+                            <a target="_blank" href="http://bt.focus.cn">包头房产网</a>
+                            <a target="_blank" href="http://house.365jia.cn">合肥房产网</a>
+                            <a target="_blank" href="http://chaozhou.ganji.com">潮州赶集网</a>
+                            <a target="_blank" href="http://datong.focus.cn">大同房地产</a>
+                            <a target="_blank" href="http://beijing.qd8.com.cn">北京分类信息网</a>
+                            <a target="_blank" href="http://xf.fccs.com">襄阳房产</a>
+                            <a target="_blank" href="http://www.lianjia.com">房产网</a>
+                            <a target="_blank" href="http://zufangzi.com">丁丁租房</a>
+                            <a target="_blank" href="http://www.517best.com">旅游百事通</a>
+                            <a target="_blank" href="http://www.shangceng.com.cn">别墅装修</a>
+                            <a target="_blank" href="http://bj.house.163.com">网易北京房产</a>
+                        </p>
+                    </div>
+                </dd>
+            </dl>
+        </div>
+
+        <div class="footerBottom pr">
+            <p>北京自如信息科技有限公司 Copyright@2017 ziroom.com  版权所有  </p>
+            <p>本网站所有页面的数据统计均来源于自如数据库 &nbsp;&nbsp;联系客服：自如客微信  周一至周日09:00-22:00</p>
+            <a key ="553dfddf58725379d18ae6b4" style="position: absolute; right: 0; top: 0;"  logo_size="124x47"  logo_type="business"  href="http://www.anquan.org" ><script src="http://static.anquan.org/static/outer/js/aq_auth.js"></script></a>
+        </div>
+
+    </div><!--/area-->
+</div><!--/footer-->
+<script type="text/javascript">
+    var oLinksList=$('#linksFooterList');
+    var iLinksHeight=oLinksList.outerHeight();
+    var iNum = iLinksHeight/47;
+    var iN=0;
+
+
+    setInterval(function(){
+        iN++;
+        iN = iN%iNum;
+        var top = iN*47;
+        if(top >= iLinksHeight/2+47){
+            oLinksList.css({'margin-top':'0px'});
+            iN=0;
+        }else{
+            oLinksList.animate({'margin-top':-iN*47+'px'},1000);
+        }
+
+
+
+    },3000);
+</script>
+    <span class="hide">
+
+
+    <script type="text/javascript">
+
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F038002b56790c097b74c818a80e3a68e' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-26597311-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    </span>
+
+
+</div>
+</body>
+
+
+<!--是注册用户但非企业用户提示弹框-->
+<script>
+function check_phone()
+{
+var loginPhone = $.trim($("#phone").val());
+var myreg = /(^1[3|4|5|7|8][0-9]{9}$)/;
+
+if (loginPhone == "") {
+                alert('手机号不能为空');
+return false;
+} else if (!myreg.test(loginPhone)) {
+                alert('手机号格式错误');
+return false;
+}
+else {
+var flag = 0;//手机号不存在
+                var r_k = $("#r_k").val();
+$.ajax({
+url: '/?_p=sign&_a=register_check_email',
+dataType: 'html',
+type: 'POST',
+async: false,
+data: {email: loginPhone,r_k:r_k},
+success: function (z) {
+if (z == 'has_in') {
+                                        alert('手机号已存在，请直接登录');
+flag = 1;
+} else if (z == 'ok') {
+                                        alert('验证成功');
+}else if (z == 'error') {
+                                        alert('验证失败');
+flag = 1;
+}
+}
+});
+}
+return flag == 0 ? true : false;
+}
+
+var reg2  = /([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)/; //匹配邮箱
+var reg3  = /^(\d{4}|\d{3})-(\d{8}|\d{7})$/;   //匹配固定电话
+var reg4  = /(^1[3|5|8][0-9]{9}$)/;
+
+function IsPC()
+    {
+        var userAgentInfo = navigator.userAgent;
+        var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");
+        var flag = true;
+        for (var v = 0; v < Agents.length; v++) {
+            if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }
+        }
+        return flag;
+    }
+
+$(function(){
+$("#moreNewsBtn").click(function(){
+   showTips(1);
+});
+
+        $("#t_submitbtn").click(function(){
+            submitApply();
+});
+
+
+$(".prdt_mytanboxclosebtn,.t_mybtn07").click(function(){
+var fatherBoxId=$(this).parents(".prdt_mytanbox").attr("id");
+$("#"+fatherBoxId).hide();
+hideZhezhao();
+});
+$("#qukanBtn").click(function(){
+var fatherBoxId=$(this).parents(".prdt_mytanbox").attr("id");
+$("#"+fatherBoxId).hide();
+hideZhezhao();
+});
+$("#falseMemberConfirmBtn").click(function(){
+var fatherBoxId=$(this).parents(".prdt_mytanbox").attr("id");
+$("#"+fatherBoxId).hide();
+hideZhezhao();
+});
+
+
+if(!IsPC()){
+    $('#active_login').attr('href','http://passport.account.ziroom.com?return_url=http%3A%2F%2Fwww.ziroom.com%2Fvip%2F');
+    $('#ziroom_login a').attr('href','http://passport.account.ziroom.com?return_url=http%3A%2F%2Fwww.ziroom.com%2Fvip%2F');
+    }
+ else{
+ 	$('#active_login').attr('href',$('#ziroom_login a').eq(0).attr('href'));
+ }
+
+function showTips(pg)
+{
+               $.ajax({
+               type:'POST',
+               dataType:"json",
+               url:"/?_p=guest&_a=news",
+               data:{pg:pg},
+               success:function(data)
+               {
+                   if(!data) return false;
+                   var str = "";
+                   var json = data['list'];
+                   $("#page").find('span').find('a').unbind("click");
+                   $("#showMores").html(str);
+                   $("#page").html('');
+                   for(var k in json)
+                   {
+                           str+='<li><div class="clearfix"><p class="text">'+json[k].title+'</p><p class="time">'+json[k].add_time+'</p></div><div class="detail">'+json[k].content+'</div></li>';
+                   }
+                   $("#showMores").html(str);
+                   $("#page").html(data['pager']);
+                   $("#page").find('span').find('a').bind('click',function(){
+                       showTips(parseInt(($(this).html())));
+                   });
+                   $("#pre").unbind("click");
+                   $("#nex").unbind("click");
+                   $("#pre").bind('click',function(){
+                      showTips(data['pre']);
+                   });
+                   $("#nex").bind('click',function(){
+                      showTips(data['nex']);
+                   });
+                   //showBox("#moreNewsBtnBox");
+               //showZhezhao();
+           }
+        });
+    }
+});
+
+
+function submitApply()
+{
+var company_name   = $("#company_name").val();
+var company_people = $("#company_people").val();
+var company_web    = $("#company_web").val();
+var user_name_new      = $("#user_name_new").val();
+var department     = $("#department").val();
+var tel            = $("#tel").val();
+var email          = $("#email").val();
+
+if($.trim(company_name)=='')
+{
+return false;
+}
+else if($.trim(company_people)=='')
+{
+return false;
+}
+else if($.trim(company_web)=='')
+{
+return false;
+}
+else if($.trim(user_name_new)=='')
+{
+return false;
+}
+else if($.trim(department)=='')
+{
+return false;
+}
+else if($.trim(tel)=='')
+{
+return false;
+}
+
+var json = {'company_name':$.trim(company_name),'company_people':$.trim(company_people),'company_web':$.trim(company_web),'user_name':$.trim(user_name_new),'department':$.trim(department),'tel':$.trim(tel),'email':$.trim(email)};
+$.getJSON('/?_p=guest&_a=addGuestApply',json,function(data){
+if(data.msg=='incomplete')
+{
+alert('请认真填写您的资料');
+return false;
+}
+if(data.msg=='a_tel')
+{
+return false;
+}
+if(data.msg=='a_email')
+{
+return false;
+}
+if(data.msg=='already_exists')
+{
+//alert('您已申请过了');
+$(".t-join").hide();
+$('.t-repeat').show();
+$('body').addClass('hidden');
+countModalHeight();
+return false;
+}
+if(data.msg=='fail')
+{
+alert('申请失败,请重试!');
+return false;
+}
+if(data.msg=='success')
+{
+   $(".t-join").hide();
+   $('.t-success').show();
+   $('body').addClass('hidden');
+   countModalHeight();
+}
+});
+}
+
+</script>
+<script>
+function countModalHeight() {
+    $('.tt .box').each(function(){
+        if($(this).is(':visible')){
+            var t = ($(window).height()-$(this).outerHeight())/2;
+            t = t < 0 ? 0 : t;
+            $(this).css({'margin-top':t+'px'});
+        }
+    });
+}
+
+function addCustomer(loginPhone,ruzhu,company,work_card_pic)
+{
+$.ajax({
+   type:'POST',
+   url:"/?_p=guest&_a=customer",
+   data:'tel='+loginPhone+"&ruzhu="+ruzhu+"&company="+company+"&work_card_pic="+work_card_pic,
+   success:function(msg)
+   {
+   var n = msg.indexOf('|');
+                   if(n<0 && msg=='tel')
+   {
+   return false;
+   }
+   if(n<0 && msg=='tel_error')
+   {
+   return false;
+   }
+   if(n<0 && msg=='empty_ruzhu')
+   {
+   return false;
+   }
+   if(n<0 && msg=='empty_id')
+   {
+   return false;
+   }
+                   if(n<0 && msg=='empty_pic')
+   {
+   return false;
+   }
+   else if(n<0 && msg=='login_name_exits')
+   {
+   return false;
+   }
+   else if(n<0 && msg=='fail')
+   {
+   return false;
+   }
+   else if(n>0 && (msg.substring(0,n)=='activation' || msg.substring(0,n)=='already_exists'))
+   {
+                           var m = msg.lastIndexOf('|');
+                           var page_url = msg.substring(n+1,m);
+   var user_str = msg.substring(m+1);
+   var arr = user_str.split('-');
+   var txt = $("#company").find("option:selected").text();
+   var url = '';
+   if(page_url)
+ url = '/zt/qiyuehui/'+page_url;
+   else
+ url = '/z/nl/';
+   $("#qukanBtn").attr('href',url);
+   $(".join .die").hide();
+                           $(".join .live").show();
+                           $(".t-active").hide();
+   $("#t_num").html(arr[1]);
+   $("#t_qkk_btn").attr('href',url);
+                           window.open(url,'_self');
+   }
+   }
+  });
+}
+$(function()
+{
+//$('#box01').youhui();
+//$('#box02').youhui();
+//$('.t_hzhbbox_box').youhui({auto:false});
+var customer = function()
+{
+$.ajax({
+type:'POST',
+dataType:"json",
+url:"/?_p=guest&_a=ziroomer",
+success: function(data)
+     {
+ var user_info = '';
+ if(data['error_msg']=='no_activation')
+ {
+//未激活用户
+user_info+='<tr><td class="lh30" colspan="2">';
+user_info+='<p class="pl10">亲爱的自如客，您好。</p>';
+user_info+='<p class="pl10">您还不是企悦会用户，输入以下内容完成注册。</p>';
+user_info+='</td></tr>';
+var phone = '';
+$("#users").before(user_info);
+if(!data['tel'])
+{
+  $("#phone").val('');
+  $("#login_pwd").remove();
+                                                }
+else
+{
+   phone = data['tel'];
+   $("#phoneCode").remove();
+   $("#login_pwd").remove();
+   $("#users").remove();
+                                                }
+//$("#ljjh_btn").unbind("click");
+$("#ljjh_btn").live('click',function(){
+alert('2点击了');
+  if(phone=='')
+  {
+    phone = $.trim($("#phone").val());
+
+if(!check_phone())
+{
+  return false;
+}
+  }
+
+  var ruzhu      = $.trim($("#date").val());
+  var company    = $.trim($("#t_myCompanyIpt").attr('data-id'));
+  var reg4  = /(^1[3|4|5|7|8][0-9]{9}$)/;
+                                                          var work_card_pic=$('#work_card_pic').val();
+  if(ruzhu=='')
+  {
+return false;
+                                                          }
+  else if(company==0 || company=='')
+  {
+return false;
+                                                          }
+  else
+  {
+ //$("#zjdl_btn").html('');
+ addCustomer(phone,ruzhu,company,work_card_pic);
+ return false;
+  }
+});
+$("#zjdl_btn").html('');
+     }
+ else
+ {
+   $("#showHide").show();
+   $(".loginDiv").hide();
+   $("#userTitle").html("尊敬的"+data.user_name+"，欢迎来到企悦会！");
+   $("#t_num").html(data.total);
+   var url = '';
+   if(data['json'].page_url)
+     url = '/zt/qiyuehui/'+data['json'].page_url+'/';
+   else
+     url = '/z/nl/';
+   $("#t_qkk_btn").attr('href',url);
+   $("#zjdl_btn").html('');
+     }
+ }
+});
+}
+
+})
+</script>
+<script>
+$(function(){
+var dataJson = [{"id":"486","company_name":"\u6e05\u534e\u540c\u8861","bg_logo":"cms\/2017\/07\/5691b760d21eba553ea4cfe2f1994188.jpg"},{"id":"485","company_name":"\u90a6\u5e2e\u5802","bg_logo":"cms\/2017\/07\/8f9c69529c50eceed6811a84df1ff67a.jpg"},{"id":"481","company_name":"\u534e\u56fe\u6559\u80b2","bg_logo":"cms\/2017\/07\/2a26def2a72b0f9cccf03d944855db5c.png"},{"id":"479","company_name":"\u6e05\u63a7\u8d44\u7ba1","bg_logo":"cms\/2017\/07\/0a2f09b2ddb4134d943137bfd8463b25.png"},{"id":"473","company_name":"\u4e2d\u56fd\u65b0\u5174\u5efa\u7b51\u5de5\u7a0b\u603b\u516c\u53f8","bg_logo":"cms\/2017\/07\/5e776fc564377edfbe7ccb47b8c6e723.jpg"},{"id":"472","company_name":"\u6c5f\u6cb3\u673a\u7535","bg_logo":"cms\/2017\/07\/45547f15b73cc83bae73915fa2bb9bb4.jpg"},{"id":"469","company_name":"\u8c31\u5c3c\u6d4b\u8bd5","bg_logo":"cms\/2017\/07\/df7262c91e9d0a48bbd620d2b193447e.jpg"},{"id":"467","company_name":"\u6d77\u5eb7\u5a01\u89c6","bg_logo":"cms\/2017\/07\/ff84f4323975aebde264407632773f66.jpg"},{"id":"459","company_name":"\u7b2c\u4e00\u8d44\u4ea7","bg_logo":"cms\/2017\/07\/3bba922fbb9dceb37c8a2477d75c105e.png"},{"id":"458","company_name":"\u9a6c\u4e0a\u6d88\u8d39\u91d1\u878d","bg_logo":"cms\/2017\/07\/13903c0aceb105e188bbc3e28bc4b2bd.jpg"},{"id":"457","company_name":"\u4ea4\u63a7\u79d1\u6280","bg_logo":"cms\/2017\/07\/1ae22ce198d8f5f9832753f5da57bbdc.jpg"},{"id":"455","company_name":"\u4eac\u4e1c\u65b9\u79d1\u6280\u96c6\u56e2","bg_logo":"cms\/2017\/06\/b8b2607bfd41e4cca625294e0dc967a2.png"},{"id":"453","company_name":"\u795e\u5dde\u4fe1\u606f","bg_logo":"cms\/2017\/06\/803e6e1229079b888ace0ba43fc150eb.jpg"},{"id":"452","company_name":"\u9f99\u6e56","bg_logo":"cms\/2017\/06\/e8225e79ad7233fe51bc377395c3a921.png"},{"id":"449","company_name":"\u6c47\u4e30\u94f6\u884c\uff08\u5317\u4eac\u5206\u884c\uff09","bg_logo":"cms\/2017\/06\/e9a5970b8afac9dc4f9036e2f68c1297.jpg"},{"id":"447","company_name":"\u73a9\u87f9\u79d1\u6280","bg_logo":"cms\/2017\/06\/bcccc643eab4073cf45f065e8d03c1a3.jpg"},{"id":"446","company_name":"\u4f20\u667a\u64ad\u5ba2","bg_logo":"cms\/2017\/06\/a553d626621cfdb11854477fbdee756e.png"},{"id":"445","company_name":"\u4e2d\u56fd\u65c5\u6e38\u96c6\u56e2","bg_logo":"cms\/2017\/07\/ea7f85ddeb1f41f9afb1ee59936f4263.png"},{"id":"444","company_name":"\u5317\u4eac\u7535\u4fe1","bg_logo":"cms\/2017\/06\/291b903bf6ef91de7de0c4ea50fd589f.jpg"},{"id":"443","company_name":"\u72d0\u72f8\u91d1\u670d","bg_logo":"cms\/2017\/07\/63e2125846bf15c2522711d99d366333.png"},{"id":"442","company_name":"APUS","bg_logo":"cms\/2017\/06\/1d1f0693d66653fda7db4a5cd4e13e0a.jpg"},{"id":"441","company_name":"\u4fbf\u5229\u8702\u53ca\u5176\u5173\u8054\u4f01\u4e1a","bg_logo":"cms\/2017\/06\/829be1f0fb9c3acff87489579a61bacf.png"},{"id":"439","company_name":"\u516d\u8da3\u7f51\u7edc","bg_logo":"cms\/2017\/06\/8ca2c8c7bc0a0b7b6e244a9d17fbca46.png"},{"id":"438","company_name":"\u8682\u8702\u7a9d","bg_logo":"cms\/2017\/06\/b23a8a1f741b52b100380a4c2a112110.png"},{"id":"437","company_name":"\u767e\u90a6\u79d1\u6280","bg_logo":"cms\/2017\/06\/87c21b3db27173114a7303c57647ab77.png"},{"id":"436","company_name":"\u9177\u6211\u97f3\u4e50","bg_logo":"cms\/2017\/06\/7738281d1750ce54e384661a77f2412d.jpg"},{"id":"432","company_name":"\u6597\u9c7cTV","bg_logo":"cms\/2017\/06\/169ad4e008fc0b07c1fe1baa7b4f8dc3.png"},{"id":"431","company_name":"\u96f7\u5c1a\u79d1\u6280","bg_logo":"cms\/2017\/06\/71edebc0a601e3e2ffd43ce69505dfcf.png"},{"id":"429","company_name":"\u74dc\u5b50\u4e8c\u624b\u8f66\u76f4\u5356\u7f51","bg_logo":"cms\/2017\/06\/1e8a211337a686451b3336ae1d261e98.jpg"},{"id":"428","company_name":"\u641c\u72d0","bg_logo":"cms\/2017\/06\/a7803b7a8256d91660ee0217e07daa76.jpg"},{"id":"423","company_name":"\u6052\u534e\u79d1\u6280","bg_logo":"cms\/2017\/05\/36676bde4aefc4f34181f708ed7deb78.jpg"},{"id":"422","company_name":"\u571f\u5df4\u5154","bg_logo":"cms\/2017\/05\/6bb82798924001261778e2a61eeb437e.jpg"},{"id":"421","company_name":"\u51fa\u95e8\u95ee\u95ee\uff08\u58a8\u767e\u610f\u79d1\u6280\uff09","bg_logo":"cms\/2017\/05\/f690d75ac3e4730fad3a42972a07b8f4.png"},{"id":"418","company_name":"\u745e\u601d\u5b66\u79d1\u82f1\u8bed","bg_logo":"cms\/2017\/05\/543da40834f66528ef415350cc9da611.jpg"},{"id":"415","company_name":"\u6d3e\u745e\u5a01\u884c\u5e7f\u544a\u6709\u9650\u516c\u53f8","bg_logo":"cms\/2017\/05\/1953855ead73c17415887208c6bee772.png"},{"id":"414","company_name":"\u5317\u4eac\u503c\u5f97\u4e70\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8 (\u9752\u5c9b\u661f\u7f57\uff09","bg_logo":"cms\/2017\/05\/70cb031d781e173e963dbff4aa52ca03.jpg"},{"id":"413","company_name":"\u5317\u4eac\u503c\u5f97\u4e70\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8\uff08\u9752\u5c9b\u65e0\u5fe7\uff09","bg_logo":"cms\/2017\/05\/d9d6e3d854bd41f0b10d85ced02f9ad1.jpg"},{"id":"412","company_name":"\u5e73\u5b89\u94f6\u884c","bg_logo":"cms\/2017\/05\/d805edf423a6b6de1978dc4985e8bf5b.jpg"},{"id":"411","company_name":"\u5317\u4eac\u503c\u5f97\u4e70\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8","bg_logo":"cms\/2017\/05\/0df24944a39fb4857d25e928e90a1d05.jpg"},{"id":"407","company_name":"\u6570\u7801\u89c6\u8baf\uff08\u535a\u6c47\u79d1\u6280\uff0c\u5b8c\u7f8e\u661f\u7a7a\uff09","bg_logo":"cms\/2017\/04\/f3561476d16a2579c5d1add33eac8641.png"},{"id":"405","company_name":"\u878d360","bg_logo":"cms\/2017\/04\/afed0f72fdc57cb6e061d244d8227bb1.jpg"},{"id":"403","company_name":"\u674f\u6811\u6797\u4fe1\u606f\u6280\u672f\uff08\u5317\u4eac\uff09\u6709\u9650\u516c\u53f8","bg_logo":"cms\/2017\/04\/65da1483b15bb0f0800354b8b9302f78.jpg"},{"id":"399","company_name":"\u5317\u4eac\u534f\u529b\u7b51\u6210\u91d1\u878d\u4fe1\u606f\u670d\u52a1\u80a1\u4efd\u6709\u9650\u516c\u53f8\uff0836\u6c2a\uff09","bg_logo":"cms\/2017\/04\/9c51191b5d48a94bfd3550fdb04ae80a.jpg"},{"id":"398","company_name":"36\u6c2a","bg_logo":"cms\/2017\/04\/5223434d314594efad8e6b0703c28612.png"},{"id":"396","company_name":"\u534e\u7855","bg_logo":"cms\/2017\/04\/89d8936cc231ace90598d6a9006a5996.jpg"},{"id":"395","company_name":"\u4e2d\u641c","bg_logo":"cms\/2017\/04\/b788693a668dc97acc6c1cc292b5fd84.png"},{"id":"390","company_name":"\u4e00\u70b9\u8d44\u8baf","bg_logo":"cms\/2017\/04\/40aebe969fb424eaaea4c66e78fb1e05.jpg"},{"id":"382","company_name":"\u795e\u5dde\u4f18\u8f66","bg_logo":"cms\/2017\/03\/256cd598028cf954ab0a70205de106b4.png"},{"id":"370","company_name":"\u60e0\u8d62\u5929\u4e0b","bg_logo":"cms\/2017\/03\/079fbfe4ec987721ca8d1004c7749a05.png"},{"id":"368","company_name":"\u5317\u4eac\u8363\u4e4b\u8054\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8\u53ca\u5176\u6210\u5458\u4f01\u4e1a","bg_logo":"cms\/2017\/03\/c104031e6917639087b2fbe7f2a0686e.png"},{"id":"367","company_name":"\u5317\u4eac\u8d62\u9500\u901a\u8f6f\u4ef6\u6280\u672f\u6709\u9650\u516c\u53f8","bg_logo":"cms\/2017\/03\/daecbf58a4b393c456557ec6283282d6.png"},{"id":"363","company_name":"\u4e2d\u516c\u6559\u80b2\u96c6\u56e2","bg_logo":"cms\/2017\/03\/1bf6fbd56ce94914bdf59412880cf392.jpg"},{"id":"360","company_name":"\u8109\u8109\uff08\u6dd8\u53cb\u5929\u4e0b\uff09","bg_logo":"cms\/2017\/03\/87570321d1b35778ec4634a79285ed9a.jpg"},{"id":"357","company_name":"\u77e5\u4e4e","bg_logo":"cms\/2017\/02\/881e2f92dec7a959025e8527dd5c50d9.jpg"},{"id":"355","company_name":"\u534e\u4e3a","bg_logo":"cms\/2017\/02\/4a540b5e1a9a406214fe14d71a661d19.jpg"},{"id":"352","company_name":"\u65b0\u4e1c\u65b9\u524d\u9014\u51fa\u56fd","bg_logo":"cms\/2017\/02\/a1016943f4c6030f86e0a395be6eb77f.jpg"},{"id":"350","company_name":"\u8ddf\u8c01\u5b66","bg_logo":"cms\/2017\/02\/9bcba9dbac38cda0383fd1b2b6ba647b.jpg"},{"id":"349","company_name":"\u534e\u5c14\u8857\u82f1\u8bed","bg_logo":"cms\/2017\/02\/6b24ad7adefe9b886c8895245f33a075.jpg"},{"id":"347","company_name":"GrowinglO","bg_logo":"cms\/2017\/02\/12dcd1c3cff9b70c269e833d6ce81217.jpg"},{"id":"346","company_name":"\u4e30\u745e\u7965\u4fe1\u606f\u6280\u672f\u80a1\u4efd\u6709\u9650\u516c\u53f8","bg_logo":"cms\/2017\/01\/d782779084b30d35d6db51d5be3761fa.jpg"},{"id":"345","company_name":"51Talk\u65e0\u5fe7\u82f1\u8bed","bg_logo":"cms\/2017\/01\/433fcdd9b3d30f98e81b194dc737371c.jpg"},{"id":"343","company_name":"\u8f66\u6765\u8f66\u5f80","bg_logo":"cms\/2017\/01\/46d3f92a1182e76f2abd06ff985d4b5f.jpg"},{"id":"339","company_name":"\u997f\u4e86\u4e48","bg_logo":"cms\/2017\/01\/185e628a6e7d98403a04249013ea1774.jpg"},{"id":"330","company_name":"\u667a\u660e\u661f\u901a","bg_logo":"cms\/2016\/12\/770f992c051ad9d037f535d1d51ef14e.jpg"},{"id":"329","company_name":"\u730e\u8c79\u79fb\u52a8","bg_logo":"cms\/2016\/12\/a85bb8ad992827a07edcad29e1d6d326.jpg"},{"id":"314","company_name":"\u524d\u7a0b\u65e0\u5fe7","bg_logo":"cms\/2016\/11\/b87f96f7335ab842e0014fc5647e49f9.jpg"},{"id":"310","company_name":"\u9633\u5149\u4fdd\u9669\u96c6\u56e2","bg_logo":"cms\/2016\/10\/290c211569ce527b169484a9e9e22aaa.jpg"},{"id":"309","company_name":"\u7f8e\u56e2\u7f51\uff08\u5305\u542b\u5927\u4f17\u70b9\u8bc4\uff0c\u5317\u4eac\u4e09\u5feb\u79d1\u6280\u7b49\uff09","bg_logo":"cms\/2016\/11\/79ad273689f1a7e62073731ed5d05757.png"},{"id":"308","company_name":"IBM","bg_logo":"cms\/2016\/10\/6d71ec9506b5924655abc4f7a95d6651.jpg"},{"id":"307","company_name":"\u5b89\u90a6\u4fdd\u9669\u96c6\u56e2","bg_logo":"cms\/2016\/10\/79d79e69846ef995b5171dc0a8fa50fa.png"},{"id":"298","company_name":"\u4e50\u5bcc\u652f\u4ed8","bg_logo":"cms\/2016\/09\/82e09e3406656a0a960d5b0cc301eb7f.jpg"},{"id":"293","company_name":"\u8682\u8681\u91d1\u670d","bg_logo":"cms\/2016\/09\/caeca4f87cc357f7ce1c9aac6d93bfe1.jpg"},{"id":"290","company_name":"\u963f\u91cc\u5df4\u5df4\u96c6\u56e2\uff08\u4f18\u9177\u571f\u8c46\uff0c\u9ad8\u5fb7\u5730\u56fe\uff0c\u8682\u8681\u91d1\u670d\uff0c\u963f\u91cc\u97f3\u4e50\uff0c\u83dc\u9e1f\uff0cUC\u7b49\uff09","bg_logo":"cms\/2017\/01\/46e177bb24faa249ded56e7833fa11be.jpg"},{"id":"289","company_name":"\u96f6\u70b9\u96c6\u56e2\uff08\u96f6\u70b9\u6709\u6570\u53ca\u5176\u6240\u6709\u5b50\u516c\u53f8\uff09","bg_logo":"cms\/2016\/09\/03daeb26052a3645c8427b152af2fc81.png"},{"id":"285","company_name":"\u4e91\u7eb5\uff08\u5317\u4eac\uff09","bg_logo":"cms\/2016\/09\/d1eff3e9aa3a372e51a5cc07191e72e5.png"},{"id":"280","company_name":"\u65b9\u6b63\u4fe1\u606f\u6280\u672f\u6709\u9650\u516c\u53f8","bg_logo":"cms\/2016\/08\/6826c3dc35fbc21dc9231070feae5806.jpg"},{"id":"278","company_name":"\u65b0\u5965\u96c6\u56e2\uff08\u65b0\u667a\u6cdb\u80fd\u7f51\u7edc\u79d1\u6280\uff09","bg_logo":"cms\/2016\/08\/5b60ee6cdce9a0b038f629a2494f609f.jpg"},{"id":"274","company_name":"\u795e\u96fe\u73af\u4fdd","bg_logo":"cms\/2016\/08\/fb880b3ffe63754c9ee53b2e5e067483.gif"},{"id":"273","company_name":"\u7f8e\u83dc\u7f51\uff08\u4e91\u6749\u4e16\u754c\uff09","bg_logo":"cms\/2016\/08\/b1da093b6b2f189d842a3ea9e080ae9d.jpg"},{"id":"272","company_name":"\u5409\u5a01\u65f6\u4ee3\u8f6f\u4ef6","bg_logo":"cms\/2016\/08\/aa818e4c5bf7aee8a424f365e3f281df.gif"},{"id":"271","company_name":"\u65b0\u4e1c\u65b9","bg_logo":"cms\/2016\/08\/b941fb1ab470710a27a1af5860d12fa7.png"},{"id":"270","company_name":"\u6298800","bg_logo":"cms\/2016\/08\/df01b2633655a8fe8310fb2d0fcac1fe.jpg"},{"id":"268","company_name":"\u4e2d\u76c8\u5b89\u4fe1","bg_logo":"cms\/2016\/08\/ec777d508684b3cefc0297d2bee33528.png"},{"id":"265","company_name":"\u4fe1\u5a01\u901a\u4fe1","bg_logo":"cms\/2016\/07\/69b97a0958b4b80e39a09db508713ba8.jpg"},{"id":"263","company_name":"\u76db\u666f\u7f51\u8054","bg_logo":"cms\/2016\/07\/d20e4d1250a7e3cc0f398f2924d7f24f.jpg"},{"id":"254","company_name":"\u4e2d\u5316\u96c6\u56e2","bg_logo":"cms\/2016\/06\/ea6c10a7f9df84d09e18e865352cdeb9.jpg"},{"id":"249","company_name":"\u53cb\u4fe1","bg_logo":"cms\/2016\/07\/56ef7a1dc4872f6233a110d7da336c96.jpg"},{"id":"248","company_name":"\u817e\u8baf\u4f17\u521b\u7a7a\u95f4\uff08\u5317\u4eac\uff09","bg_logo":"cms\/2016\/06\/8a6b7ba7b1908acc52bf3cc6c9733946.jpg"},{"id":"238","company_name":"\u957f\u57ce\u5bbd\u5e26","bg_logo":"cms\/2016\/09\/9c1e0291b51029b637f5de3ea482ee71.jpg"},{"id":"235","company_name":"\u535a\u6d1b\u5c3c","bg_logo":"cms\/2016\/05\/3a978926714b8a6b6bf52ce980a39daf.jpg"},{"id":"234","company_name":"\u4f18\u80dc\u6559\u80b2","bg_logo":"cms\/2016\/05\/fc0ca0b35e05b85502486d519606396e.jpg"},{"id":"232","company_name":"\u4e2d\u5efa\u516d\u5c40\u94c1\u8def\u516c\u53f8","bg_logo":"cms\/2016\/05\/6ff13574c8aff76891636fb044a937ae.jpg"},{"id":"228","company_name":"\u6ef4\u6ef4","bg_logo":"cms\/2016\/04\/0c4da0afaa49abd262f1d88892e049cc.png"},{"id":"227","company_name":"\u4e50\u89c6","bg_logo":"cms\/2016\/04\/fece0e2d962baf91d2a2fb477f8be69b.jpg"},{"id":"223","company_name":"\u7f8e\u5229\u91d1\u878d","bg_logo":"cms\/2016\/04\/1f2e156ea04f8c49f12825c0924aff61.png"},{"id":"221","company_name":"\u534e\u6210\u71c3\u6c14","bg_logo":"cms\/2016\/03\/93e3d78a604a41a33cdb3e900bfa937b.png"},{"id":"220","company_name":"\u7f51\u6613","bg_logo":"cms\/2016\/03\/a96142e3610ed7257eba142168936e4d.jpg"},{"id":"219","company_name":"\u5b57\u8282\u8df3\u52a8","bg_logo":"cms\/2016\/03\/dda4db4c83b5cee5f74354425ad99597.jpg"},{"id":"217","company_name":"\u5929\u804c\u56fd\u9645\u4f1a\u8ba1\u5e08\u4e8b\u52a1\u6240","bg_logo":"cms\/2016\/03\/eb0a4f6eb1d5fa0472e698dec682fc97.jpg"},{"id":"211","company_name":"\u97e6\u535a\u56fd\u9645\u82f1\u8bed\uff08\u97e6\u535a\u6559\u80b2\uff09","bg_logo":"cms\/2016\/01\/f314765bd2aa82b00efbfd2732b1c8de.jpg"},{"id":"210","company_name":"\u641c\u72d0\u7126\u70b9","bg_logo":"cms\/2016\/01\/15e7b55bc3a87bf7a8de23819093eea1.jpg"},{"id":"209","company_name":"\u6c34\u6676\u77f3\u6570\u5b57\u79d1\u6280","bg_logo":"cms\/2016\/01\/b5e1e09a9cd1a422589d06dbdf94e416.jpg"},{"id":"207","company_name":"\u9014\u5bb6\u7f51","bg_logo":"cms\/2016\/01\/d52f75ddbb7be4d4db78450dc7db8f01.jpg"},{"id":"205","company_name":"\u6c7d\u8f66\u4e4b\u5bb6","bg_logo":"cms\/2016\/01\/fc74c855e2acd6732230e75dda62c72e.jpg"},{"id":"203","company_name":"\u767e\u5229\u5929\u4e0b\u6559\u80b2","bg_logo":"cms\/2016\/01\/d287a56b87b16bde2c74ab982292eeec.jpg"},{"id":"200","company_name":"\u4fe1\u6c38\u4e2d\u548c\uff08\u4f1a\u8ba1\u5e08\/\u7a0e\u52a1\u5e08\u4e8b\u52a1\u6240\u3001\u4fe1\u6c38\u65b9\u7565\u3001\u56fd\u9645\u5de5\u7a0b\u7ba1\u7406\u3001\u666e\u4fe1\u7ba1\u7406\uff09","bg_logo":"cms\/2015\/12\/bb0d158e6d4eeb10bd2911041445c8af.jpg"},{"id":"197","company_name":"\u8fbe\u98de\u4e91\u8d37","bg_logo":"cms\/2015\/12\/bae92358c3fdadc1153b0a4d12318acc.png"},{"id":"196","company_name":"\u767e\u5206\u70b9\uff08\u5343\u5206\u70b9\uff09\u516c\u53f8","bg_logo":"cms\/2015\/12\/e549a6353eb68146cb3a4d706e37556f.jpg"},{"id":"193","company_name":"\u9524\u5b50\u6570\u7801\u79d1\u6280\u6709\u9650\u516c\u53f8","bg_logo":"cms\/2015\/11\/2a9abd1c1fdf867674146fbd607934c1.jpg"},{"id":"187","company_name":"\u4f18\u4fe1","bg_logo":"cms\/2015\/07\/687f848dfd40a1afedd45bd43126c619.jpg"},{"id":"182","company_name":"JJ\u6bd4\u8d5b(\u7ade\u6280\u4e16\u754c)","bg_logo":"cms\/2015\/04\/33ce82ca4437f0de34059a1429122c8c.jpg"},{"id":"176","company_name":"\u65b0\u4e03\u5929\u7535\u5b50\u5546\u52a1\u79d1\u6280\u6709\u9650\u516c\u53f8","bg_logo":"cms\/2015\/02\/251ca648272356ba4682e02424a02f53.jpg"},{"id":"169","company_name":"\u5e7f\u8054\u8fbe","bg_logo":"cms\/2014\/11\/bbe6833c76bdc7695632ca1719b65e2e.jpg"},{"id":"165","company_name":"\u4eca\u65e5\u5934\u6761\uff08\u5b57\u8282\u8df3\u52a8\uff09","bg_logo":"cms\/2014\/11\/131a7846cdb7665b09563cebf4b64c5b.jpg"},{"id":"156","company_name":"\u641c\u72d7","bg_logo":"cms\/2016\/10\/0f93cdc84c6ae5fe321b6d1b6c7a5386.png"},{"id":"151","company_name":"\u641c\u72d0\u89c6\u9891","bg_logo":"cms\/2014\/09\/3dbdcb1e7b82f973f0c9dc21371844ec.jpg"},{"id":"149","company_name":"\u5317\u68ee\u4e91\u8ba1\u7b97","bg_logo":"cms\/2014\/08\/2d4336e417b57cecd183fc84c8ecbc42.jpg"},{"id":"147","company_name":"\u4e50\u5143\u7d20\uff08\u4e50\u5143\u4e92\u52a8\uff09","bg_logo":"cms\/2014\/08\/e0139de77bc3132dc907d12920efd109.jpg"},{"id":"144","company_name":"\u4e9a\u4fe1\u79d1\u6280\uff08\u4e2d\u56fd\uff09\u6709\u9650\u516c\u53f8","bg_logo":"cms\/2014\/08\/7220840aa56f8ddd1b6f11eaaea8b747.jpg"},{"id":"143","company_name":"\u4e00\u6c7d\u4e30\u7530\u6c7d\u8f66\u9500\u552e\u6709\u9650\u516c\u53f8","bg_logo":"cms\/2014\/08\/a03c03300e858b8f2294cfbe04025b56.jpg"},{"id":"142","company_name":"\u8054\u60f3\u96c6\u56e2","bg_logo":"cms\/2016\/07\/5ce51c30c4ff5d73bd58a2f3747da4dc.jpg"},{"id":"140","company_name":"\u62c9\u5361\u62c9\u652f\u4ed8\u80a1\u4efd\u6709\u9650\u516c\u53f8","bg_logo":"cms\/2014\/07\/3d544c3e4056fd76c37d06a92412e194.jpg"},{"id":"137","company_name":"\u6d1b\u53ef\u53ef\u8bbe\u8ba1\u96c6\u56e2","bg_logo":"cms\/2014\/07\/e44d58f5ac0c98a05ff8bbe93532e9f4.jpg"},{"id":"134","company_name":"\u597d\u672a\u6765\u6559\u80b2","bg_logo":"cms\/2014\/07\/76c98e9c43e09df81a029e2c48cea02b.jpg"},{"id":"129","company_name":"\u6587\u601d\u6d77\u8f89","bg_logo":"cms\/2014\/06\/6f4e12a3bd943266ec2063b60ddab53a.jpg"},{"id":"128","company_name":"\u5929\u9053\u6052\u4fe1\u57f9\u8bad\u5b66\u6821","bg_logo":"cms\/2014\/06\/bfa76badaf6178eeb3f7500c57a163a0.jpg"},{"id":"124","company_name":"\u4e2d\u6cb9\u745e\u98de","bg_logo":"cms\/2014\/05\/b9feff2438f67529751772615d3bfc3f.jpg"},{"id":"121","company_name":"\u5b9c\u4fe1","bg_logo":"cms\/2017\/07\/903d36af247d0b179d029ac6c10bd753.jpg"},{"id":"115","company_name":"\u987a\u4e30\u901f\u8fd0","bg_logo":"cms\/2014\/04\/c4ce2c8652292a77f60d9d0eb62b1424.jpg"},{"id":"114","company_name":"\u6b63\u90a6\u987e\u95ee","bg_logo":"cms\/2014\/04\/c846009cc4ffd925d0237b4215a5c4f8.jpg"},{"id":"113","company_name":"\u4f0a\u5229","bg_logo":"cms\/2014\/04\/35caba3cd89fd7ad4785982d22a45d3a.jpg"},{"id":"112","company_name":"\u77f3\u6cb9\u5316\u5de5\u5de5\u7a0b\u6709\u9650\u516c\u53f8","bg_logo":"cms\/2014\/04\/8fc054f94553adf5ad23dd69c91cc494.jpg"},{"id":"104","company_name":"\u4eac\u4e1c\uff08\u5546\u57ce\u3001\u91d1\u878d\uff09","bg_logo":"cms\/2014\/01\/09a0e4091b3b9154eb87dff29f6b1de0.jpg"},{"id":"102","company_name":"\u795e\u5dde\u6cf0\u5cb3","bg_logo":"cms\/2014\/01\/106005aea435477562c0bdefdbde1efb.jpg"},{"id":"93","company_name":"\u5947\u864e360","bg_logo":"cms\/2013\/11\/ed0bff4fce72c569a1f7c82de5bec17d.png"},{"id":"92","company_name":"\u745e\u534e\u4f1a\u8ba1\u5e08\u4e8b\u52a1\u6240\uff08\u7279\u6b8a\u666e\u901a\u5408\u4f19\uff09","bg_logo":"cms\/2013\/11\/5f0097c90f1552ef7861c5194f4dbe83.jpg"},{"id":"80","company_name":"\u84dd\u8272\u5149\u6807\uff08\u591a\u76df\u7b49\u65d7\u4e0b\u5317\u4eac\u6240\u6709\u5b50\u516c\u53f8\uff09","bg_logo":"cms\/2013\/11\/a77ca1cd933829aeed0be6236276de24.jpg"},{"id":"78","company_name":"\u822a\u5929\u4fe1\u606f\u80a1\u4efd\u6709\u9650\u516c\u53f8","bg_logo":"cms\/2013\/11\/d2a6f3cadd8bfd788b1090ad2f8176a5.png"},{"id":"74","company_name":"\u827a\u9f99\u7f51\u4fe1\u606f\u6280\u672f\uff08\u5317\u4eac\uff09\u6709\u9650\u516c\u53f8","bg_logo":"cms\/2016\/10\/346021eda01959aa0ca6ef351e0d89e0.jpg"},{"id":"69","company_name":"\u53bb\u54ea\u513f\u7f51","bg_logo":"cms\/2013\/11\/4724ff0bedb834c2197f6bd0c847d912.jpg"},{"id":"62","company_name":"\u6e05\u5927\u4e16\u7eaa\u6559\u80b2","bg_logo":"cms\/2013\/11\/d8566752e9cc116f26a606024a8815cb.jpg"},{"id":"53","company_name":"\u7231\u5947\u827a","bg_logo":"cms\/2013\/11\/7c71ca590b7f6bce19ee8af36d2297be.png"},{"id":"49","company_name":"\u5c0f\u7c73","bg_logo":"cms\/2013\/11\/fb00c318005b4b31d1b8d6c06143fecb.png"},{"id":"36","company_name":"\u519c\u4e1a\u94f6\u884c","bg_logo":"cms\/2013\/11\/d2ec3b4683ca0de3bb1fc684217149c9.jpg"},{"id":"35","company_name":"\u5b89\u6c38(\u5b89\u6c38\u534e\u660e\u4f1a\u8ba1\u5e08\u4e8b\u52a1\u6240\uff0c\u5b89\u6c38\u4f01\u4e1a\u54a8\u8be2\u5317\u4eac\u5206\u516c\u53f8)","bg_logo":"cms\/2016\/02\/b1923c65aa1537fa330322ff84a6938a.jpg"},{"id":"34","company_name":"\u4e0a\u6d77\u6c49\u5f97\u4fe1\u606f\u6280\u672f\u80a1\u4efd\u6709\u9650\u516c\u53f8","bg_logo":"cms\/2013\/11\/fe8e3b57fbb65362ef4e61116eb5d577.jpg"},{"id":"31","company_name":"\u767e\u5ea6","bg_logo":"cms\/2013\/11\/891975eb1c7199e51293edb71e36b486.jpg"},{"id":"21","company_name":"58\u8d76\u96c6\u96c6\u56e2","bg_logo":"cms\/2013\/11\/814e2b4c40e3e8956af900f662f9580c.jpg"},{"id":"15","company_name":"\u91d1\u5c71\u8f6f\u4ef6","bg_logo":"cms\/2013\/11\/5fabcd13aeae474aca2ccf9433a8ffce.jpg"},{"id":"9","company_name":"\u5b87\u4fe1\u79d1\u6280(\u5b87\u4fe1\u6570\u636e\/\u5b87\u4fe1\u6613\u8bda\/\u4f18\u8fea\u4fe1\u606f)","bg_logo":"cms\/2016\/07\/c85cb02b4786a935b67ee5a5eec371e5.jpg"},{"id":"5","company_name":"\u6613\u8f66\u7f51\u53ca\u5176\u6210\u5458\u4f01\u4e1a","bg_logo":"cms\/2013\/11\/00d84390e5574f7fd91704d11079cbc6.jpg"},{"id":"4","company_name":"\u817e\u8baf","bg_logo":"cms\/2013\/11\/56ea9fa6f437fdab6c97574a08cb2866.jpg"},{"id":"3","company_name":"\u7545\u6e38","bg_logo":"cms\/2013\/11\/a4ea61faf19baec289b5488c47a54494.png"}] || '';
+        var partern = "http://www.ziroom.com/static/upload/";
+var totle = dataJson.length;
+var zhengshu=Math.floor(totle/9);
+var yushu=totle%9;
+var myHtml="";
+
+for(var i=0;i<zhengshu;i++){
+myHtml=myHtml+"<li>";
+myHtml=myHtml+"<dl>";
+for(var j=0;j<9;j++){
+myHtml=myHtml+'<dd><img src='+partern+dataJson[i*9+j].bg_logo+' alt="'+dataJson[i*9+j].company_name+'" ></dd>';
+}
+myHtml=myHtml+"</dl>";
+myHtml=myHtml+"</li>";
+}
+
+myHtml=myHtml+"<li>";
+myHtml=myHtml+"<dl>";
+for(var k=0;k<yushu;k++){
+myHtml=myHtml+'<dd><img src='+partern+dataJson[i*9+k].bg_logo+' alt="'+dataJson[i*9+k].company_name+'" ></dd>';
+}
+myHtml=myHtml+"</dl>";
+myHtml=myHtml+"</li>";
+
+$("#myUlBox").html(myHtml);
+});
+
+//验证码
+function checkcaptcha(captcha){
+    var znum=0;
+    $.ajax({
+        url:'/index.php?_p=sign&_a=captcha',
+        data:'captcha='+captcha,
+        type:'post',
+        dataType:'json',
+        success:function(msg){
+             if(msg==1){
+                 $("#w_captcha").removeClass('right');
+                 $("#w_captcha").addClass('err');
+              }else{
+                 $("#w_captcha").removeClass('err');
+                 $("#w_captcha").addClass('right');
+              }
+          }
+    });
+}
+
+
+//上传证件照
+function changeImgVal(obj){
+    var f=$(obj).val();
+    if(!/\.(jpg|jpeg|png|JPG|PNG)$/.test(f))
+    {
+        $(".upimg_success").html("");
+        $('.login_error').html("<b></b>图片格式不正确");
+
+    }else{
+    	//$('#work_card_pic').val('');
+
+        var options = {
+        success: function (txt) {
+            var txt = eval('(' + txt + ')');
+            if(txt.img!=""){
+            	
+                //如果图片上传成功
+                $('.t-active span.fail').hide();
+                $('.t-active span.succ').show();
+                $('#work_card_pic').val(txt.img);
+
+            }else{
+                $('.t-active span.succ').hide();
+                $('.t-active span.fail').show();
+            }
+        }
+    };
+    $('#uploadpic').ajaxSubmit(options);
+        return false;
+    }
+}
+</script>
+</div>
+
+</html>

@@ -1,0 +1,89 @@
+(function($){
+		var ms = {};
+		ms.loginOut = function(){
+			var currentUrl = window.location.href;
+			$.ajax({
+				url : "/user/loginOut",
+				dataType : "json",
+				type : "post",
+				success : function(data){
+					var _outHtml = '<li class="users">'
+						+'<a href="'+SSO_USER_LOGIN_URL+currentUrl+'">登录</a>'
+						+'<i>|</i>'
+						+'<a href="'+SSO_USER_REGISTER_URL+currentUrl+'">注册</a>'
+						+'</li>';
+					
+					$("li").remove(".usersInfo");
+					$("li.downLoad").after(_outHtml);
+				}
+			});
+		}
+		//登陆
+		ms.checkLogin = function(){
+			$.ajax({
+				url : "/user/login?"+Math.random(),
+				dataType : "json",
+				type : "GET",
+				success : function(data){
+					if(data.code == 0){
+						var username = data.data.name;
+						var loginHtml = "<li class='usersInfo'>"+
+											"<p class='icon_down'>"+
+												"<a href=''>HI,"+username+"</a>"+
+											"</p>"+
+											"<div class='c'>"+
+												"<a href='"+PORTAL_FD_URL+"/house/lanHouseList' class='s'>我的房源</a>"+
+												"<a href='"+PORTAL_FD_URL+"/customer/initPersonData' class='s'>个人资料</a>"+
+												"<a id='doLoginOut' href='javascript:;'>退出登录</a>"+
+											"</div>"+
+										"</li>";
+						$("li").remove(".users");
+						$("li.downLoad").after(loginHtml);
+						
+						
+						$(".usersInfo").delegate('#doLoginOut','click',function(){
+							ms.loginOut();
+						})
+					}
+				}
+			});
+			
+		}
+		
+		//查询
+		ms.search = function(){
+			var cityCode = $("#cityIpt").attr("data-cityCode");
+			if(!$.trim(cityCode)){
+				return;
+			}
+			var start = $("#start").val();
+			var end = $("#end").val();
+			
+			var url = PORTAL_SEARCH_URL+"/search/rooms?cityCode="+cityCode;
+			if(start != "" && start!="入住日期" && end != "" && end != "离开日期"){
+				url += "&startTime="+start+"&endTime="+end;
+			}
+			window.location.href = url;
+		}
+		//获取城市列表
+		ms.getCityList = function(){
+			$.getJSON("/base/cityList",{},function(data){
+				if(data.code == 0){
+					var list = data.data.list;
+					var liStr = "";
+					$.each(list,function(i,n){
+						liStr += '<li data-cityCode="'+n.code+'">'+n.name+'</li>';
+					});
+					$("#cityList").append(liStr);
+				}
+			});
+		}
+		
+		ms.getCityList();
+		// 查看是否已经登录，如果已经登录查询登录信息
+		ms.checkLogin();
+		//查询
+		$("#search_btn").click(function(){
+			ms.search();
+		});
+}(jQuery))
